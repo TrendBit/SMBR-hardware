@@ -1,0 +1,27 @@
+[submodule "fw/library/embedded-cli"]
+	path = fw/library/embedded-cli
+	url = git@github.com:funbiscuit/embedded-cli.git
+[submodule "fw/library/emio"]
+	path = fw/library/emio
+	url = git@github.com:Viatorus/emio.git
+[submodule "fw/library/etl"]
+	path = fw/library/etl
+	url = https://github.com/ETLCPP/etl
+[submodule "fw/library/freertos-addons"]
+	path = fw/library/freertos-addons
+	url = https://github.com/michaelbecker/freertos-addons
+[submodule "fw/library/pico-lib"]
+	path = fw/library/pico-lib
+	url = git@github.com:TheColonelYoung/pico-lib.git
+[submodule "fw/library/iir"]
+	path = fw/library/iir
+	url = git@github.com:berndporr/iir1.git
+[submodule "fw/library/can2040"]
+	path = fw/library/can2040
+	url = git@github.com:KevinOConnor/can2040.git
+[submodule "fw/bootloader"]
+	path = fw/bootloader
+	url = git@github.com:Arksine/katapult.git
+[submodule "fw/library/freertos"]
+	path = fw/library/freertos
+	url = git@github.com:FreeRTOS/FreeRTOS-Kernel.git
