@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "08603169-c55e-4e2f-ac55-d59f373d91a8")
+	(paper "A4")
+	(title_block
+		(title "Interface module")
+		(date "2024-06-04")
+		(rev "${VERSION}")
+		(company "TrendBit s.r.o.")
+		(comment 1 "Designed by: Petr Malaník")
+	)
+	(lib_symbols)
+)
