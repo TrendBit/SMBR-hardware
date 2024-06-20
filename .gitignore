@@ -1,1 +1,8 @@
 .vscode/
+*-backups/
+*_autosave-*
+*\.kicad_sch_old
+*\.kicad_pcb.lck
+*\.kicad_sch.lck
+replicate_layout.log
+jlcpcb/
