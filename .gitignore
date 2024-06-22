@@ -4,5 +4,8 @@
 *\.kicad_sch_old
 *\.kicad_pcb.lck
 *\.kicad_sch.lck
+*\.kicad_sch-bak
+*\.kicad_pcb-bak
 replicate_layout.log
+*#auto_saved_files#
 jlcpcb/
