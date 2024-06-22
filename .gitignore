@@ -8,4 +8,5 @@
 *\.kicad_pcb-bak
 replicate_layout.log
 *#auto_saved_files#
+*\~lock*
 jlcpcb/

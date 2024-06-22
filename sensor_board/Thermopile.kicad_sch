@@ -12,108 +12,6 @@
 		(comment 1 "Designed by: Petr Malaník")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1193,12 +1091,6 @@
 		(uuid "1a59d449-0344-4b04-8d1d-c4d09cff0eee")
 	)
 	(junction
-		(at 190.5 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "587a9e03-ba53-4f88-ae03-ff91eee137e0")
-	)
-	(junction
 		(at 101.6 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1245,16 +1137,6 @@
 			(type default)
 		)
 		(uuid "07c9fd4f-f82a-4b91-a02e-9f370cb41b83")
-	)
-	(wire
-		(pts
-			(xy 190.5 101.6) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a550abc-382f-46c4-ac07-0bfc34671ca2")
 	)
 	(wire
 		(pts
@@ -1378,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 195.58 106.68)
+			(xy 185.42 106.68) (xy 191.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1558,16 +1440,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de63751d-ca90-46be-ba2f-5040da9e3a16")
-	)
-	(wire
-		(pts
 			(xy 87.63 76.2) (xy 87.63 101.6)
 		)
 		(stroke
@@ -1730,7 +1602,7 @@
 	)
 	(hierarchical_label "THP_TEMP"
 		(shape output)
-		(at 195.58 106.68 0)
+		(at 191.77 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3407,77 +3279,6 @@
 				)
 				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/f3de6778-193e-4873-b277-8b7a6f2e09dd/542c716b-7896-49ff-8414-9bfd59fbb1ea"
 					(reference "R1101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbb1694c-d1c8-4c06-8051-041d50574ee0")
-		(property "Reference" "TP1002"
-			(at 191.897 97.4633 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "THP_TEMP"
-			(at 191.897 100.0002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TCY_connectors:TestPoint_Pad_D0.5mm"
-			(at 195.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c421fad-4c05-44d5-8834-2153a9b8fb20")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/f3de6778-193e-4873-b277-8b7a6f2e09dd/1bac98cf-fe7b-4195-aedb-039f3e470d82"
-					(reference "TP1002")
-					(unit 1)
-				)
-				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/f3de6778-193e-4873-b277-8b7a6f2e09dd/542c716b-7896-49ff-8414-9bfd59fbb1ea"
-					(reference "TP1102")
 					(unit 1)
 				)
 			)

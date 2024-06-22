@@ -677,12 +677,16 @@
 		)
 	)
 	(no_connect
-		(at 175.26 88.9)
+		(at 171.45 129.54)
+		(uuid "5b044662-6ca8-4c80-9384-d9de03fcb048")
+	)
+	(no_connect
+		(at 171.45 73.66)
 		(uuid "adebed28-e57a-4118-8d28-46616a0d4969")
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 125.73 85.09)
+			(xy 121.92 71.12) (xy 121.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +696,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 151.13 96.52)
+			(xy 146.05 129.54) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3037c071-fa8a-49c2-be25-d17200693e29")
+	)
+	(wire
+		(pts
+			(xy 151.13 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 125.73 77.47)
+			(xy 121.92 60.96) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 91.44) (xy 154.94 91.44)
+			(xy 143.51 76.2) (xy 151.13 76.2)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 154.94 88.9)
+			(xy 143.51 73.66) (xy 151.13 73.66)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 151.13 104.14)
+			(xy 147.32 81.28) (xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
@@ -740,9 +754,49 @@
 		)
 		(uuid "640ac570-9d01-4cc1-be42-5f43fc2d4997")
 	)
+	(wire
+		(pts
+			(xy 146.05 132.08) (xy 151.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8502df18-9a47-486c-830c-6c74a9a3964a")
+	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86d22f8-a745-4a6c-867d-e5ba892f981d")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd0d801-d356-427f-ba8f-92b4768548aa")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e307042e-cb97-438a-99c7-d2c5127bbe27")
+	)
 	(text "Decoupling\n"
 		(exclude_from_sim no)
-		(at 120.65 69.215 0)
+		(at 116.84 53.975 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -753,7 +807,7 @@
 	)
 	(text "I2C address (7-bit):\nADDR = LOW -> 0b1001000 (0x48)"
 		(exclude_from_sim no)
-		(at 145.415 118.11 0)
+		(at 141.605 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -761,6 +815,17 @@
 			(justify left bottom)
 		)
 		(uuid "2fcc2c5b-5ed4-4291-b81f-b5e16e154516")
+	)
+	(text "Decoupling\n"
+		(exclude_from_sim no)
+		(at 116.84 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a116d55-3718-43f0-9eba-47a4d983cb15")
 	)
 	(text "Thermometer"
 		(exclude_from_sim no)
@@ -775,9 +840,75 @@
 		)
 		(uuid "3dcf385a-d234-4351-bd0a-1c945c5cc9e9")
 	)
+	(text "I2C address (7-bit):\nADDR = LOW -> 0b1001010 (0x4a)"
+		(exclude_from_sim no)
+		(at 141.605 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daab816f-86ff-435e-b760-8e6c19a432ae")
+	)
+	(label "SDA"
+		(at 146.05 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a73db0c-23e6-4adb-a824-de36a45f2e8c")
+	)
+	(label "SDA"
+		(at 146.05 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22242b87-9ead-489c-bdde-86cd68f1dbef")
+	)
+	(label "SCL"
+		(at 146.05 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b98dd34-aa1d-43f7-ac16-18d24df579b7")
+	)
+	(label "SCL"
+		(at 146.05 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5cfc75-a25a-4c3a-a9e7-e699f78017c3")
+	)
+	(label "SDA"
+		(at 146.05 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b2d5e1-a4f3-4e4b-8361-e1d0b24ca337")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape tri_state)
-		(at 147.32 88.9 180)
+		(at 143.51 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -789,7 +920,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
-		(at 147.32 91.44 180)
+		(at 143.51 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -800,16 +931,17 @@
 		(uuid "b5924d06-576a-4c40-b5f8-9d131bc4777e")
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 165.1 83.82 0)
+		(lib_id "power:GND")
+		(at 161.29 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "224671c2-30be-43d1-aaf4-03e57c9e73c4")
-		(property "Reference" "#PWR01704"
-			(at 165.1 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "108f334a-1267-40ba-9f0a-521513baad31")
+		(property "Reference" "#PWR01710"
+			(at 161.29 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,8 +949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_{SM2}"
-			(at 165.1 79.375 0)
+		(property "Value" "GND_{SM2}"
+			(at 161.29 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 83.82 0)
+			(at 161.29 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +967,171 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 83.82 0)
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d324cdb1-d26a-476e-a28b-9eef22c1db4c")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/b19b5676-7048-4e42-9090-21882691cc8a/deabaa7a-2b4a-4da1-a51d-f1506d3499ff"
+					(reference "#PWR01710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:TMP102xxDRL")
+		(at 161.29 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e216a44-f672-4941-8026-819ee292284b")
+		(property "Reference" "U1702"
+			(at 171.45 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMP102xxDRL"
+			(at 171.45 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp102.pdf"
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Temperature Sensor, +/- 3 °C, low-Power, SMBus, 12 bit, Two-Wire Serial Interface, SOT-563"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99269"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMP102AIDRLR"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6b0dd97-e53c-477e-ae9b-75b2bcd57202")
+		)
+		(pin "4"
+			(uuid "bf263836-6da1-4bc3-94b3-a7174d207766")
+		)
+		(pin "5"
+			(uuid "89803b23-eaca-496f-82ac-39b92e2813d5")
+		)
+		(pin "3"
+			(uuid "fa0de9c2-b78b-4f15-9571-29ae6f7bb7ea")
+		)
+		(pin "6"
+			(uuid "92a76242-17fd-4c7f-b60e-48b5067d745e")
+		)
+		(pin "2"
+			(uuid "9d0db667-26e4-4a8f-aef7-a62a98e842e1")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/b19b5676-7048-4e42-9090-21882691cc8a/deabaa7a-2b4a-4da1-a51d-f1506d3499ff"
+					(reference "U1702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "224671c2-30be-43d1-aaf4-03e57c9e73c4")
+		(property "Reference" "#PWR01704"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_{SM2}"
+			(at 161.29 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +1140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 165.1 83.82 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,17 +1161,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 86.36 0)
+		(lib_id "Device:C")
+		(at 121.92 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1a2b4de-c4b6-48cb-92eb-d9bfe4c79124")
-		(property "Reference" "#PWR01702"
-			(at 125.73 92.71 0)
+		(uuid "300b0ffb-6514-4575-b3a9-13dc04c0d994")
+		(property "Reference" "C1702"
+			(at 125.73 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 125.73 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 122.8852 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,8 +1197,77 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_{SM2}"
-			(at 125.73 91.44 0)
+		(property "Datasheet" "~"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 125.73 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b36337f-748e-404a-b1b4-6d351cd2afcb")
+		)
+		(pin "1"
+			(uuid "66b2adf5-04bb-435e-81bd-c4b8daf41bad")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/b19b5676-7048-4e42-9090-21882691cc8a/deabaa7a-2b4a-4da1-a51d-f1506d3499ff"
+					(reference "C1702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665af933-01fd-4384-a471-f9811ed1a70e")
+		(property "Reference" "#PWR01709"
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_{SM2}"
+			(at 161.29 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +1275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 86.36 0)
+			(at 161.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +1284,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 86.36 0)
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d01d99-bc65-4682-aad6-562d498864f8")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/b19b5676-7048-4e42-9090-21882691cc8a/deabaa7a-2b4a-4da1-a51d-f1506d3499ff"
+					(reference "#PWR01709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90f0d77f-059b-4880-a210-9d1e7beaa822")
+		(property "Reference" "#PWR01707"
+			(at 121.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{SM2}"
+			(at 121.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,7 +1359,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 86.36 0)
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf5e7a10-a42b-4e1f-9cc9-201072fe2639")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/b19b5676-7048-4e42-9090-21882691cc8a/deabaa7a-2b4a-4da1-a51d-f1506d3499ff"
+					(reference "#PWR01707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a2b4de-c4b6-48cb-92eb-d9bfe4c79124")
+		(property "Reference" "#PWR01702"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{SM2}"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +1447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 104.14 0)
+		(at 161.29 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -941,7 +1456,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba551fbd-d5f0-4b4d-a60c-6acac41cbf65")
 		(property "Reference" "#PWR01705"
-			(at 165.1 110.49 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +1465,7 @@
 			)
 		)
 		(property "Value" "GND_{SM2}"
-			(at 165.1 109.22 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +1473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 104.14 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +1482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 104.14 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +1491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 104.14 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,8 +1512,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 121.92 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5cc0c58-cdf6-4471-862e-2873c061bf52")
+		(property "Reference" "#PWR01706"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_{SM2}"
+			(at 121.92 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc4d3fb-62bd-4413-bea0-64c72a3b6205")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/b19b5676-7048-4e42-9090-21882691cc8a/deabaa7a-2b4a-4da1-a51d-f1506d3499ff"
+					(reference "#PWR01706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Temperature:TMP102xxDRL")
-		(at 165.1 93.98 0)
+		(at 161.29 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1006,7 +1586,7 @@
 		(dnp no)
 		(uuid "c7573be1-1f01-4130-ac12-712d2e2e20fb")
 		(property "Reference" "U1701"
-			(at 175.26 80.645 0)
+			(at 171.45 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1594,7 @@
 			)
 		)
 		(property "Value" "TMP102xxDRL"
-			(at 175.26 83.185 0)
+			(at 171.45 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1602,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 166.37 102.87 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1612,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp102.pdf"
-			(at 166.37 105.41 0)
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1622,7 @@
 			)
 		)
 		(property "Description" "Digital Temperature Sensor, +/- 3 °C, low-Power, SMBus, 12 bit, Two-Wire Serial Interface, SOT-563"
-			(at 165.1 93.98 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1631,7 @@
 			)
 		)
 		(property "LCSC" "C99269"
-			(at 165.1 93.98 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1640,7 @@
 			)
 		)
 		(property "MPN" "TMP102AIDRLR"
-			(at 165.1 93.98 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 104.14 0)
+		(at 147.32 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1106,7 +1686,7 @@
 		(fields_autoplaced yes)
 		(uuid "d15d6129-6564-4179-a2f9-eae648287e7b")
 		(property "Reference" "#PWR01703"
-			(at 151.13 110.49 0)
+			(at 147.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1695,7 @@
 			)
 		)
 		(property "Value" "GND_{SM2}"
-			(at 151.13 109.22 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 104.14 0)
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 104.14 0)
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 104.14 0)
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1743,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 125.73 76.2 0)
+		(at 121.92 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1171,7 +1751,7 @@
 		(dnp no)
 		(uuid "e1bc506b-9962-4219-9724-9415a6c4cf81")
 		(property "Reference" "#PWR01701"
-			(at 125.73 80.01 0)
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1760,7 @@
 			)
 		)
 		(property "Value" "+3.3V_{SM2}"
-			(at 125.73 71.755 0)
+			(at 121.92 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 76.2 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 76.2 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 125.73 76.2 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1808,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 81.28 0)
+		(at 121.92 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1237,7 +1817,7 @@
 		(fields_autoplaced yes)
 		(uuid "f13aac6b-1bfd-4ef2-9004-f36f9f4d40ff")
 		(property "Reference" "C1701"
-			(at 129.54 80.0099 0)
+			(at 125.73 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1826,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 129.54 82.5499 0)
+			(at 125.73 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1835,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 126.6952 85.09 0)
+			(at 122.8852 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 81.28 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1853,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 81.28 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1862,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 129.54 80.0099 0)
+			(at 125.73 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1871,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 125.73 81.28 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
