@@ -549,7 +549,18 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "MPN",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -599,7 +610,6 @@
     ]
   ],
   "text_variables": {
-    "LCSC": "",
-    "MPN": ""
+    "VERSION": "1.0"
   }
 }
