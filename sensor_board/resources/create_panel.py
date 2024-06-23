@@ -88,18 +88,23 @@ refRenamer = lambda x, y: "Board_{n}-{orig}".format(n=x, orig=y)
 # Place two boards above each other
 panelOrigin = VECTOR2I(0,0)
 
-board1_voffset = 0
-board2_voffset = 49
-board3_voffset = 71
+board1_voffset = 0*mm
+board2_voffset = 49*mm
+board3_voffset = 71*mm
 
-hoffset = 45
+set_hoffset = 45*mm
 
-h_boards_count = 1
+board1_hoffset = int(0*mm)
+board2_hoffset = int(0*mm)
+board3_hoffset = int(7.35*mm)
+
+h_boards_count = 6
 
 for i in range (0, h_boards_count):
-	panel.appendBoard(board1_path, panelOrigin + VECTOR2I(i*hoffset*mm, board1_voffset*mm) , origin=Origin.Center, sourceArea=sourceArea1, netRenamer=netRenamer, refRenamer=refRenamer)
-	panel.appendBoard(board2_path, panelOrigin + VECTOR2I(i*hoffset*mm, board2_voffset*mm), origin=Origin.Center, sourceArea=sourceArea2, netRenamer=netRenamer, refRenamer=refRenamer,  inheritDrc=False, rotationAngle=90*deg)
-	panel.appendBoard(board3_path, panelOrigin + VECTOR2I(i*hoffset*mm, board3_voffset*mm), origin=Origin.Center, sourceArea=sourceArea3, netRenamer=netRenamer, refRenamer=refRenamer,  inheritDrc=False)
+	current_set_hoffset = i*set_hoffset
+	panel.appendBoard(board1_path, panelOrigin + VECTOR2I(current_set_hoffset + board1_hoffset, board1_voffset), origin=Origin.Center, sourceArea=sourceArea1, netRenamer=netRenamer, refRenamer=refRenamer)
+	panel.appendBoard(board2_path, panelOrigin + VECTOR2I(current_set_hoffset + board2_hoffset, board2_voffset), origin=Origin.Center, sourceArea=sourceArea2, netRenamer=netRenamer, refRenamer=refRenamer,  inheritDrc=False, rotationAngle=90*deg)
+	panel.appendBoard(board3_path, panelOrigin + VECTOR2I(current_set_hoffset + board3_hoffset, board3_voffset), origin=Origin.Center, sourceArea=sourceArea3, netRenamer=netRenamer, refRenamer=refRenamer,  inheritDrc=False)
 
 
 substrates = panel.substrates[substrateCount:] # Collect set of newly added boards

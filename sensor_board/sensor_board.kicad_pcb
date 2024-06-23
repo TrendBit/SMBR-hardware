@@ -9379,6 +9379,123 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "60dee1c9-8d3c-43c9-96dc-de9f3d8b6d30")
+		(at 104.5 83.25 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at 0 -2 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f7b9b632-312f-48fe-a306-34ee343d1aa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -2.75 -1 360)
+			(layer "Dwgs.User")
+			(uuid "31fab7f8-55f3-4cc8-b95e-520d7a2936e3")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b01b9e42-2a83-447e-84e5-5b9ee4e6dadf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a282d61-fc35-4843-97bd-b1249c9fdee9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76449cc6-b95f-4cbc-ad56-746f7b8b096b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 0.25 1)
+			(end 0.25 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "750ed59b-0dc7-4a68-b347-59545c7a46b8")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "4d96c68f-17f1-4fb7-95a1-597dc90f5e0c")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -0.75 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "68fadea8-5730-4db8-ba0a-0f36d3514d3e")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end -2.75 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f85e4005-9918-42e1-8ecd-7e28382bcc1d")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "dc3bfcb3-37dd-4b59-aed2-be9f7705e819")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "TCY_connectors:Hirose_DF3A-02P-2DSA_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "635fa782-327d-4755-a3a3-e081789f99ab")
@@ -19698,7 +19815,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "d962befd-9da2-43c8-ad1b-61da066e8267")
-		(at 132.75 103.5)
+		(at 132.75 110.85)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
 			(at 0 -2 0)
@@ -22567,7 +22684,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "fe32abf8-97a9-4c2f-a912-6a5e74644780")
-		(at 132.75 87.5)
+		(at 132.75 94.85)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
 			(at 0 -2 0)
