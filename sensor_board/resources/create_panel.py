@@ -7,10 +7,10 @@ from itertools import chain
 
 
 ############### Custom config
-board1_path = "boards/SM1.kicad_pcb"
-board2_path = "boards/SM2.kicad_pcb"
-board3_path = "boards/SM3.kicad_pcb"
-output_path = "boards/panel.kicad_pcb"
+board1_path = "../boards/SM1.kicad_pcb"
+board2_path = "../boards/SM2.kicad_pcb"
+board3_path = "../boards/SM3.kicad_pcb"
+output_path = "../boards/panel.kicad_pcb"
 
 board_spacing = 3*mm
 
