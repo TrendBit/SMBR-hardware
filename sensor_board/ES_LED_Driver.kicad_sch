@@ -2236,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2974120 "
+		(property "LCSC" "C2843710"
 			(at 173.99 88.9 0)
 			(effects
 				(font
@@ -3906,6 +3906,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C497861"
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 168.91 58.42 0)
 			(effects
 				(font

@@ -918,7 +918,7 @@
 		(dnp no)
 		(uuid "cb32be73-b5ea-4e5b-8c75-03f40dcc0972")
 		(property "Reference" "C501"
-			(at 172.72 111.76 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,10 +1069,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef7850fa-dbd3-48eb-a2b6-07c3e8f7a84d")
 		(property "Reference" "J501"
-			(at 145.542 112.1953 0)
+			(at 146.05 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)

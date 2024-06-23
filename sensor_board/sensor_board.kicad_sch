@@ -2424,7 +2424,7 @@
 		(dnp no)
 		(uuid "20e5cacd-e6ea-4e1a-99f4-3e831df877c8")
 		(property "Reference" "J102"
-			(at 106.045 73.66 0)
+			(at 105.41 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2527,7 @@
 		(dnp no)
 		(uuid "650ee959-2c0f-4d7d-aa07-2147fe7408dd")
 		(property "Reference" "J101"
-			(at 90.805 73.66 0)
+			(at 90.17 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2571,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C492407"
 			(at 95.25 93.98 0)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2691448"
 			(at 196.85 93.98 0)
 			(effects
 				(font

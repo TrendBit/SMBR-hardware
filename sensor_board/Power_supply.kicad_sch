@@ -4571,7 +4571,7 @@
 		(dnp no)
 		(uuid "1ed20747-af60-47cc-b4e0-8e43333efbb7")
 		(property "Reference" "C704"
-			(at 93.345 105.41 0)
+			(at 92.075 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4580,7 @@
 			)
 		)
 		(property "Value" "10uF/25V"
-			(at 87.63 108.585 0)
+			(at 87.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7006,7 @@
 		(dnp no)
 		(uuid "671bff2e-4be3-48da-a7ea-f2b73bee1b12")
 		(property "Reference" "U704"
-			(at 207.01 97.79 0)
+			(at 207.645 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7015,7 @@
 			)
 		)
 		(property "Value" "REF3012"
-			(at 207.01 100.33 0)
+			(at 207.645 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7460,7 @@
 		(dnp no)
 		(uuid "78ea4ba9-fd61-42de-a4e1-a4a53e56805d")
 		(property "Reference" "C705"
-			(at 106.045 106.68 0)
+			(at 105.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
