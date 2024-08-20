@@ -1167,6 +1167,10 @@
 		(color 0 0 0 0)
 		(uuid "8f9b8918-b596-4af3-8795-5c20d6d4f2fd")
 	)
+	(no_connect
+		(at 182.88 114.3)
+		(uuid "417c1158-3881-4efe-9772-b3ed802231fd")
+	)
 	(wire
 		(pts
 			(xy 179.07 100.33) (xy 179.07 96.52)
@@ -1436,6 +1440,16 @@
 			(type default)
 		)
 		(uuid "ff7b0828-fcff-42f8-b330-5fdae6d07e4d")
+	)
+	(text "TODO: Update sense resistors"
+		(exclude_from_sim no)
+		(at 198.755 114.935 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0504776d-5ff5-4999-9ce9-d511b61a98cb")
 	)
 	(text "Input filter:\nCTRL PWM frequency = 10 kHz\nSettling time (10->90%) = ~4 ms\nPeak to peak (Duty = 50%) = 0.07 V\nDefault max current = 3.3 A"
 		(exclude_from_sim no)

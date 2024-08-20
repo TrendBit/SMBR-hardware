@@ -466,6 +466,10 @@
 		(color 0 0 0 0)
 		(uuid "599fe41c-a553-4dd8-8d37-82a98a36fefb")
 	)
+	(no_connect
+		(at 156.21 148.59)
+		(uuid "0626fe0e-99fb-44ae-a246-a41311614fbb")
+	)
 	(wire
 		(pts
 			(xy 177.8 90.17) (xy 166.37 90.17)
@@ -796,9 +800,30 @@
 		)
 		(uuid "fdd2ca9b-b754-473d-8ee7-634495067cee")
 	)
+	(text "TODO: update real value, 68uH"
+		(exclude_from_sim no)
+		(at 173.355 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13c26ede-417b-4834-a1e7-ab16fbafdceb")
+	)
+	(text "TEC: ATS-TEC30-33-020\nMaximum voltage: 15.4 V\nMaximum current: 4 A\nCurrent draw at 12V: initial 3A, stable 2.5 A\nExperiment:\n	- Hot side: Heatsink with 60mm full-speed fan\n	- Cold side: Heatsink\n	- Ambient temperature: 24°C\n	-  3V, 0.65A,  2.0W -> Hot: 28°C, Cold: 15°C\n	-  4V, 0.85A,  3.5W -> Hot: 30°C, Cold: 13°C\n	-  6V, 1.35A,  8.1W -> Hot: 34°C, Cold: 11°C\n	-  8V, 1.80A, 12.8W -> Hot: 39°C, Cold:  9°C\n	- 10V, 2.20A, 22.0W -> Hot: 45°C, Cold:  9°C\n	- 12V, 2.50A, 30.0W -> Hot: 51°C, Cold: 11°C"
+		(exclude_from_sim no)
+		(at 213.995 122.555 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5efa779e-9d37-483b-99e0-6b73487ce990")
+	)
 	(text "The driver IC uses motor inductance\nto create a buck converter, making\nit possible to regulate current.\nA motor typically has a few mH.\nA TEC with a 220uH choke in series\nworked well in tests."
 		(exclude_from_sim no)
-		(at 205.74 130.175 0)
+		(at 213.36 153.035 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -807,9 +832,20 @@
 		)
 		(uuid "686d5ee8-43d8-4f42-abb2-590aa45fd9d7")
 	)
+	(text "Pump: WMC pumps 101-150-012-030/4\nMotor: 12V 5600RPM\nCurrent draw: stable 250mA, peak 600mA\nReduction: 30:1 -> 150-180 RPM\nFlow rate: up to 25 ml/min"
+		(exclude_from_sim no)
+		(at 214.63 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72eb0245-54bf-43cb-8b4a-22cfcf2374a3")
+	)
 	(text "TVS works as discharging in case\nof sudden load disconnect."
 		(exclude_from_sim no)
-		(at 205.74 142.24 0)
+		(at 213.36 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -817,6 +853,17 @@
 			(justify left bottom)
 		)
 		(uuid "958a6b3e-4864-4415-bec2-cc1c5d06448f")
+	)
+	(text "Motor: 12V\nCurrent draw: stable 100mA, peak 300mA\nAir flow: up to 3 l/min"
+		(exclude_from_sim no)
+		(at 214.63 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6ec6535-f080-4acc-b020-b453eec0bc34")
 	)
 	(hierarchical_label "MOT_2_IN1"
 		(shape input)

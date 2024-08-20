@@ -2379,6 +2379,10 @@
 		(color 0 0 0 0)
 		(uuid "fe13e579-cc5a-4362-8560-7eae609b0a6f")
 	)
+	(no_connect
+		(at 214.63 76.2)
+		(uuid "fb38ed53-e4e4-4e70-b8cd-b2f38138e6e7")
+	)
 	(bus_entry
 		(at 219.71 57.15)
 		(size -2.54 2.54)
@@ -3352,6 +3356,16 @@
 			(justify bottom)
 		)
 		(uuid "21303bf8-dcd8-4eda-9e50-73a21d38bbfc")
+	)
+	(text "TODO: high speed 1k"
+		(exclude_from_sim no)
+		(at 226.695 76.835 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "624a64bd-ea68-4b89-b820-cb02034b6a56")
 	)
 	(text "Stack-up connector"
 		(exclude_from_sim no)

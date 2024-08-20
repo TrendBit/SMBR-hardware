@@ -1220,6 +1220,10 @@
 		(color 0 0 0 0)
 		(uuid "d8fd0cc2-43ac-4169-af94-e5f83f2187a3")
 	)
+	(no_connect
+		(at 60.96 44.45)
+		(uuid "6454f824-ee5f-4cf7-bf25-05f9e729667c")
+	)
 	(wire
 		(pts
 			(xy 115.57 129.54) (xy 115.57 133.35)
@@ -1659,6 +1663,16 @@
 			(type default)
 		)
 		(uuid "fef0b808-2757-4c56-8d32-e4245e465acb")
+	)
+	(text "TODO: Update termistor from sensor board"
+		(exclude_from_sim no)
+		(at 61.595 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41527b8d-5ef9-47a0-952d-7d8c044b08fa")
 	)
 	(hierarchical_label "BOARD_TEMP"
 		(shape input)

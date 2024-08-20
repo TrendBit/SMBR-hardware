@@ -1501,6 +1501,18 @@
 		(color 0 0 0 0)
 		(uuid "cf578d87-0eb2-4106-b6d8-96dde5fb69e6")
 	)
+	(no_connect
+		(at 217.17 96.52)
+		(uuid "4f4977f7-569c-41fd-986a-d79f7ac93871")
+	)
+	(no_connect
+		(at 41.91 77.47)
+		(uuid "93413146-47bc-4ae7-8a07-f5efdb835c06")
+	)
+	(no_connect
+		(at 220.98 77.47)
+		(uuid "dab354ba-63f6-463b-bc56-c1c44738bb76")
+	)
 	(wire
 		(pts
 			(xy 72.39 77.47) (xy 77.47 77.47)
@@ -1851,7 +1863,7 @@
 		)
 		(uuid "ff1a3911-9bdb-4b88-bdf0-5bad742147d3")
 	)
-	(text "Output tachometric signal is modulated by input PWM due to VCC of FAN being disconnected.\nThis results in low frequency tachometric signal which has high frequency noise from input PWM.\nIf input PWM has high enough frequency then it could be filtered out from TACHO signal.\n\nControl PWM frequency = 10 kHz\nMaximal fan RPM = up to 10000"
+	(text "Output tachometric signal is modulated by input PWM due to VCC of FAN being disconnected.\nThis results in low frequency tachometric signal which has high frequency noise from input PWM.\nIf input PWM has high enough frequency then it could be filtered out from TACHO signal.\n\nBut due to indictance of motor is not possible set low speed with high frequency PWM.\nAbove 1 kHz, real duty cycle of fan does not correspond to PWM duty cycle.\nWith signal lower then 1kHz modulation of Tacho distorts signal that cannot be reconstructed.\n	- Conditions: 12V 6000RPM Fan, 1k tacho pull, up 1kR/1uF filter\nAlso with PWM control there will be audible noise coresponding to frequency of PWM.\nSolution:\n	- PWM with frequency around 2kHz, minimal speed around 1500 RPM. Non-linear control.\n	- PWM with low frequency (100 Hz) and Tacho stretching. Slow response, complicated FW, low-speeds.\n\nTacho stretching will set high frequency PWM with enough duty cycle that tacho signal is non distorted.\nThis must signal must be applied for at least for one period of signal to determine current RPM.\n	Fan could speed up a bit during stretching."
 		(exclude_from_sim no)
 		(at 140.335 140.335 0)
 		(effects
@@ -1860,6 +1872,36 @@
 			)
 		)
 		(uuid "3f6d7efe-dffc-44e1-aec8-9f5a9d3eb980")
+	)
+	(text "TODO: 1k"
+		(exclude_from_sim no)
+		(at 221.615 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67b0e3ee-fdde-449c-b38d-23f0dcafd5e7")
+	)
+	(text "TODO: 2k2"
+		(exclude_from_sim no)
+		(at 223.52 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5e9fd4f-ddd8-4e8c-b612-451365ff3240")
+	)
+	(text "TODO: fix swapped units"
+		(exclude_from_sim no)
+		(at 55.245 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9f60d95-ebc1-4ef3-866e-7b1cd20d0049")
 	)
 	(label "FAN_PWR"
 		(at 113.03 77.47 180)
@@ -2629,7 +2671,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMC3071LVT")
-		(at 82.55 77.47 90)
+		(at 72.39 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2638,23 +2680,25 @@
 		(fields_autoplaced yes)
 		(uuid "5893614e-5135-4918-842a-9711130f50a0")
 		(property "Reference" "Q3"
-			(at 82.55 71.12 90)
+			(at 76.2 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "DMC2700"
-			(at 82.55 73.66 90)
+			(at 76.2 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 84.455 74.93 0)
+			(at 74.93 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2708,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC3071LVT.pdf"
-			(at 86.36 74.93 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2718,7 @@
 			)
 		)
 		(property "Description" "3.4A/-2.7A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
-			(at 82.55 77.47 0)
+			(at 72.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2727,7 @@
 			)
 		)
 		(property "LCSC" "C444426"
-			(at 82.55 77.47 0)
+			(at 72.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2736,7 @@
 			)
 		)
 		(property "MPN" "DMC2700UDM-7"
-			(at 82.55 77.47 0)
+			(at 72.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,34 +3484,32 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMC3071LVT")
-		(at 72.39 100.33 0)
+		(at 82.55 77.47 270)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e782c311-8b76-4717-b4b3-f501014e391f")
 		(property "Reference" "Q3"
-			(at 76.2 99.0599 0)
+			(at 82.55 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "DMC2700"
-			(at 76.2 101.5999 0)
+			(at 82.55 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 74.93 102.235 0)
+			(at 80.645 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3519,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC3071LVT.pdf"
-			(at 74.93 104.14 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3529,7 @@
 			)
 		)
 		(property "Description" "3.4A/-2.7A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
-			(at 72.39 100.33 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3538,7 @@
 			)
 		)
 		(property "LCSC" "C444426"
-			(at 72.39 100.33 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3547,7 @@
 			)
 		)
 		(property "MPN" "DMC2700UDM-7"
-			(at 72.39 100.33 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
