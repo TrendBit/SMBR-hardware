@@ -1263,7 +1263,7 @@
 		)
 		(uuid "11e1b7c7-4084-452a-b6de-bcf8c5e612c5")
 	)
-	(text "0805\n0603\n0805\n0603\n0803\n0603"
+	(text "0805\n0603\n0603\n0603\n0803\n0603"
 		(exclude_from_sim no)
 		(at 87.63 182.88 0)
 		(effects
@@ -1362,7 +1362,7 @@
 		)
 		(uuid "82c27c84-5bfa-4b2c-8519-91508da73609")
 	)
-	(text "KP-2012MBC\nLTST-C191TBKT-5A\n150080M153000\nLTST-C190KRKT\nOIS-170 675\nTDN1111C-TR"
+	(text "KP-2012MBC\nLTST-C191TBKT-5A\nSML-D12P8WT86\nLTST-C190KRKT\nOIS-170 675\nTDN1111C-TR"
 		(exclude_from_sim no)
 		(at 60.96 182.88 0)
 		(effects
@@ -1442,7 +1442,7 @@
 		)
 		(uuid "f3ad2cb8-e70a-49ca-af4c-345f786042f0")
 	)
-	(text "430 (440)\n480\n550 (545)\n630\n675 (680)\n870"
+	(text "430 (440)\n480\n560 (545)\n630\n675 (680)\n870"
 		(exclude_from_sim no)
 		(at 45.72 182.88 0)
 		(effects
@@ -2371,7 +2371,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150080M153000"
+		(property "Value" "SML-D12P8WT86"
 			(at 209.55 73.66 90)
 			(effects
 				(font
@@ -2380,7 +2380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 205.74 69.85 0)
 			(effects
 				(font
@@ -2399,6 +2399,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C510026"
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SML-D12P8WT86"
 			(at 205.74 69.85 0)
 			(effects
 				(font

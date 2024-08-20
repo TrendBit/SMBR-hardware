@@ -3155,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23345"
+		(property "LCSC" "C122969"
 			(at 92.075 113.03 0)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 		(dnp no)
 		(uuid "464bdb65-5b9d-4fad-8856-150cc2b45ad2")
 		(property "Reference" "TH1501"
-			(at 86.995 125.095 0)
+			(at 81.915 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4406,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C122538"
 			(at 212.09 133.3499 0)
 			(effects
 				(font
@@ -5447,7 +5447,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23345"
+		(property "LCSC" "C122969"
 			(at 92.075 161.29 0)
 			(effects
 				(font
