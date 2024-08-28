@@ -1220,10 +1220,6 @@
 		(color 0 0 0 0)
 		(uuid "d8fd0cc2-43ac-4169-af94-e5f83f2187a3")
 	)
-	(no_connect
-		(at 60.96 44.45)
-		(uuid "6454f824-ee5f-4cf7-bf25-05f9e729667c")
-	)
 	(wire
 		(pts
 			(xy 115.57 129.54) (xy 115.57 133.35)
@@ -1663,16 +1659,6 @@
 			(type default)
 		)
 		(uuid "fef0b808-2757-4c56-8d32-e4245e465acb")
-	)
-	(text "TODO: Update termistor from sensor board"
-		(exclude_from_sim no)
-		(at 61.595 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "41527b8d-5ef9-47a0-952d-7d8c044b08fa")
 	)
 	(hierarchical_label "BOARD_TEMP"
 		(shape input)
@@ -2249,93 +2235,6 @@
 			(project "control_board"
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/65c60999-ec06-45a5-ab11-cb4c31334c06"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 100.33 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f68e55b-d63d-492a-b6f6-a21e6812c439")
-		(property "Reference" "TH1"
-			(at 92.075 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47.3k, 4050b"
-			(at 83.185 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 100.33 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2991699"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMFD473F4050HANT"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36d523ca-4007-4a3e-ae9c-2e44b4f6a13d")
-		)
-		(pin "2"
-			(uuid "90716cf6-31c9-46d6-ab36-18fbc4130cf3")
-		)
-		(instances
-			(project ""
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/65c60999-ec06-45a5-ab11-cb4c31334c06"
-					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3800,6 +3699,93 @@
 			(project "control_board"
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/65c60999-ec06-45a5-ab11-cb4c31334c06"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 100.33 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9e990d0-4fac-4da2-bf97-8f3e5d261758")
+		(property "Reference" "TH1"
+			(at 86.995 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k, 3950b"
+			(at 83.185 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C279936"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SDNT1608X103F3950FTF"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79067eed-34c4-4317-bdd7-7d5b0b6f89e0")
+		)
+		(pin "2"
+			(uuid "49bbe1ee-ceec-4c16-9682-057e263c6a8d")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/65c60999-ec06-45a5-ab11-cb4c31334c06"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
