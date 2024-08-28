@@ -1270,8 +1270,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 213.36 133.35 0)
-		(mirror y)
+		(at 210.82 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1295,7 +1294,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
-			(at 213.36 133.35 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 133.35 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1312,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 133.35 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1330,7 @@
 			)
 		)
 		(property "MPN" " 2.54-2*5P"
-			(at 213.36 133.35 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,8 +1379,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 213.36 57.15 0)
-		(mirror y)
+		(at 210.82 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1405,7 +1403,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
-			(at 213.36 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1421,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1439,7 @@
 			)
 		)
 		(property "MPN" " 2.54-2*5P"
-			(at 213.36 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,144 +1635,6 @@
 		)
 	)
 	(sheet
-		(at 101.6 139.7)
-		(size 38.1 25.4)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "073fed00-ca79-491a-b3e2-4568b4130c31")
-		(property "Sheetname" "LED Driver 3"
-			(at 108.585 144.145 0)
-			(effects
-				(font
-					(size 2.5 2.5)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led_driver.kicad_sch"
-			(at 101.6 165.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "CTRL" input
-			(at 101.6 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "48cb7bb1-2799-4a28-971a-b2c7c6347a35")
-		)
-		(pin "LED+" input
-			(at 139.7 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "aa6f5fdc-2149-435c-be23-738b4d82998d")
-		)
-		(pin "LED-" input
-			(at 139.7 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5a552439-10d2-4453-90a5-c01f0b493a12")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/37e8ee28-7b98-4fd8-9637-ba1753173463"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 101.6 101.6)
-		(size 38.1 25.4)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2288a3a9-dfba-4953-bd6e-9127793728c2")
-		(property "Sheetname" "LED Driver 2"
-			(at 108.585 106.68 0)
-			(effects
-				(font
-					(size 2.5 2.5)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led_driver.kicad_sch"
-			(at 101.6 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "CTRL" input
-			(at 101.6 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c671a32f-89bb-4cad-af41-d8ea21a7d718")
-		)
-		(pin "LED+" input
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3c3daf55-b293-4139-9f41-8b1fed634c5b")
-		)
-		(pin "LED-" input
-			(at 139.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3b51af9e-92b0-4d56-9c65-1be9719dc9b5")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/37e8ee28-7b98-4fd8-9637-ba1753173463"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 101.6 25.4)
 		(size 38.1 25.4)
 		(stroke
@@ -1784,9 +1644,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5336cbda-7a44-4ea4-9ec5-0fbf8f0544e5")
+		(uuid "073fed00-ca79-491a-b3e2-4568b4130c31")
 		(property "Sheetname" "LED Driver 0"
-			(at 109.22 30.48 0)
+			(at 108.585 29.845 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -1813,7 +1673,7 @@
 				)
 				(justify left)
 			)
-			(uuid "bd42433c-ed32-4692-a0fc-5b554d710b72")
+			(uuid "48cb7bb1-2799-4a28-971a-b2c7c6347a35")
 		)
 		(pin "LED+" input
 			(at 139.7 33.02 0)
@@ -1823,7 +1683,7 @@
 				)
 				(justify right)
 			)
-			(uuid "7f7cd984-9b78-43e3-832a-c6bc5912a5c2")
+			(uuid "aa6f5fdc-2149-435c-be23-738b4d82998d")
 		)
 		(pin "LED-" input
 			(at 139.7 43.18 0)
@@ -1833,12 +1693,12 @@
 				)
 				(justify right)
 			)
-			(uuid "47526758-11b4-4ac5-9b0c-cfd18b5da69e")
+			(uuid "5a552439-10d2-4453-90a5-c01f0b493a12")
 		)
 		(instances
 			(project "control_board"
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/37e8ee28-7b98-4fd8-9637-ba1753173463"
-					(page "11")
+					(page "13")
 				)
 			)
 		)
@@ -1853,9 +1713,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6e4c35f0-cd64-4634-aa86-e3c5e7c2676a")
+		(uuid "2288a3a9-dfba-4953-bd6e-9127793728c2")
 		(property "Sheetname" "LED Driver 1"
-			(at 107.95 68.58 0)
+			(at 108.585 68.58 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -1882,7 +1742,7 @@
 				)
 				(justify left)
 			)
-			(uuid "b0017317-571c-47e8-b19a-a1294e575b2e")
+			(uuid "c671a32f-89bb-4cad-af41-d8ea21a7d718")
 		)
 		(pin "LED+" input
 			(at 139.7 71.12 0)
@@ -1892,10 +1752,148 @@
 				)
 				(justify right)
 			)
-			(uuid "2fb67e6a-e154-4bba-a604-9d85bd97333e")
+			(uuid "3c3daf55-b293-4139-9f41-8b1fed634c5b")
 		)
 		(pin "LED-" input
 			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b51af9e-92b0-4d56-9c65-1be9719dc9b5")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/37e8ee28-7b98-4fd8-9637-ba1753173463"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 139.7)
+		(size 38.1 25.4)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5336cbda-7a44-4ea4-9ec5-0fbf8f0544e5")
+		(property "Sheetname" "LED Driver 3"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver.kicad_sch"
+			(at 101.6 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CTRL" input
+			(at 101.6 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd42433c-ed32-4692-a0fc-5b554d710b72")
+		)
+		(pin "LED+" input
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f7cd984-9b78-43e3-832a-c6bc5912a5c2")
+		)
+		(pin "LED-" input
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47526758-11b4-4ac5-9b0c-cfd18b5da69e")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/37e8ee28-7b98-4fd8-9637-ba1753173463"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 38.1 25.4)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e4c35f0-cd64-4634-aa86-e3c5e7c2676a")
+		(property "Sheetname" "LED Driver 2"
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver.kicad_sch"
+			(at 101.6 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CTRL" input
+			(at 101.6 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0017317-571c-47e8-b19a-a1294e575b2e")
+		)
+		(pin "LED+" input
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2fb67e6a-e154-4bba-a604-9d85bd97333e")
+		)
+		(pin "LED-" input
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

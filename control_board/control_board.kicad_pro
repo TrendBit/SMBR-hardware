@@ -703,19 +703,19 @@
     ],
     [
       "6e4c35f0-cd64-4634-aa86-e3c5e7c2676a",
-      "LED Driver 1"
-    ],
-    [
-      "5336cbda-7a44-4ea4-9ec5-0fbf8f0544e5",
-      "LED Driver 0"
-    ],
-    [
-      "2288a3a9-dfba-4953-bd6e-9127793728c2",
       "LED Driver 2"
     ],
     [
-      "073fed00-ca79-491a-b3e2-4568b4130c31",
+      "5336cbda-7a44-4ea4-9ec5-0fbf8f0544e5",
       "LED Driver 3"
+    ],
+    [
+      "2288a3a9-dfba-4953-bd6e-9127793728c2",
+      "LED Driver 1"
+    ],
+    [
+      "073fed00-ca79-491a-b3e2-4568b4130c31",
+      "LED Driver 0"
     ],
     [
       "f9e92fba-2fc3-4ec9-a809-54d813f00c57",

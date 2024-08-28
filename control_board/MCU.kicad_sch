@@ -3727,10 +3727,6 @@
 		(color 0 0 0 0)
 		(uuid "fc745769-8bb7-4442-9c83-55af34d51c1f")
 	)
-	(no_connect
-		(at 36.83 204.47)
-		(uuid "a944a2d9-c187-4304-b904-51fa9478c086")
-	)
 	(bus_entry
 		(at 113.03 146.05)
 		(size 2.54 -2.54)
@@ -5663,16 +5659,6 @@
 		)
 		(uuid "ffddfbc3-a9f0-4274-9ae2-78618f9a4339")
 	)
-	(text "TODO: update values based on sensor board"
-		(exclude_from_sim no)
-		(at 60.325 205.105 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "006a490e-e2d0-47ac-a553-4ffeeb69a721")
-	)
 	(text "VREG_OUT(45)"
 		(exclude_from_sim no)
 		(at 113.03 41.91 0)
@@ -6411,7 +6397,7 @@
 	)
 	(hierarchical_label "LED_1_CTRL"
 		(shape input)
-		(at 201.93 110.49 0)
+		(at 201.93 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6423,7 +6409,7 @@
 	)
 	(hierarchical_label "LED_2_CTRL"
 		(shape input)
-		(at 201.93 115.57 0)
+		(at 201.93 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6471,7 +6457,7 @@
 	)
 	(hierarchical_label "LED_3_CTRL"
 		(shape input)
-		(at 201.93 118.11 0)
+		(at 201.93 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6591,7 +6577,7 @@
 	)
 	(hierarchical_label "LED_0_CTRL"
 		(shape input)
-		(at 201.93 113.03 0)
+		(at 201.93 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
