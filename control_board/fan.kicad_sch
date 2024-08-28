@@ -1502,16 +1502,8 @@
 		(uuid "cf578d87-0eb2-4106-b6d8-96dde5fb69e6")
 	)
 	(no_connect
-		(at 217.17 96.52)
-		(uuid "4f4977f7-569c-41fd-986a-d79f7ac93871")
-	)
-	(no_connect
 		(at 41.91 77.47)
 		(uuid "93413146-47bc-4ae7-8a07-f5efdb835c06")
-	)
-	(no_connect
-		(at 220.98 77.47)
-		(uuid "dab354ba-63f6-463b-bc56-c1c44738bb76")
 	)
 	(wire
 		(pts
@@ -1872,26 +1864,6 @@
 			)
 		)
 		(uuid "3f6d7efe-dffc-44e1-aec8-9f5a9d3eb980")
-	)
-	(text "TODO: 1k"
-		(exclude_from_sim no)
-		(at 221.615 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "67b0e3ee-fdde-449c-b38d-23f0dcafd5e7")
-	)
-	(text "TODO: 2k2"
-		(exclude_from_sim no)
-		(at 223.52 97.155 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a5e9fd4f-ddd8-4e8c-b612-451365ff3240")
 	)
 	(text "TODO: fix swapped units"
 		(exclude_from_sim no)
@@ -2897,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 224.79 92.71 90)
 			(effects
 				(font
@@ -2933,7 +2905,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 224.79 85.725 0)
 			(effects
 				(font
@@ -3483,6 +3455,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 214.63 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8ae34f9-3a61-4702-bc2a-a5725103dc8b")
+		(property "Reference" "R10"
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 211.455 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 216.408 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 211.455 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 214.63 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcf98a3d-f676-409b-aa3b-e3029215b4f1")
+		)
+		(pin "2"
+			(uuid "935c0940-9470-4646-92a0-62c6fe53142e")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/7bc8bd10-2754-45be-8229-53e05f215fde"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/d5f78762-3dcf-4587-9bf2-a6d96ac9105a"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/ff3f8a73-8d5e-452e-8863-ae6e84702dcc"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:DMC3071LVT")
 		(at 82.55 77.47 270)
 		(mirror x)
@@ -3586,101 +3654,6 @@
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/ff3f8a73-8d5e-452e-8863-ae6e84702dcc"
 					(reference "Q2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eef8dfd5-9684-4122-8234-aa06670c3fbe")
-		(property "Reference" "R23"
-			(at 212.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 212.09 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 212.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47ef66a0-e19f-4a24-a43b-ea9c512a1bac")
-		)
-		(pin "2"
-			(uuid "49f88b14-99e0-406b-a5b0-5047a45ed78a")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/7bc8bd10-2754-45be-8229-53e05f215fde"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/d5f78762-3dcf-4587-9bf2-a6d96ac9105a"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/bd6706e6-05a4-4077-89cc-2765b5085839/ff3f8a73-8d5e-452e-8863-ae6e84702dcc"
-					(reference "R18")
-					(unit 1)
 				)
 			)
 		)
