@@ -2379,10 +2379,6 @@
 		(color 0 0 0 0)
 		(uuid "fe13e579-cc5a-4362-8560-7eae609b0a6f")
 	)
-	(no_connect
-		(at 214.63 76.2)
-		(uuid "fb38ed53-e4e4-4e70-b8cd-b2f38138e6e7")
-	)
 	(bus_entry
 		(at 219.71 57.15)
 		(size -2.54 2.54)
@@ -3356,16 +3352,6 @@
 			(justify bottom)
 		)
 		(uuid "21303bf8-dcd8-4eda-9e50-73a21d38bbfc")
-	)
-	(text "TODO: high speed 1k"
-		(exclude_from_sim no)
-		(at 226.695 76.835 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "624a64bd-ea68-4b89-b820-cb02034b6a56")
 	)
 	(text "Stack-up connector"
 		(exclude_from_sim no)
@@ -5904,6 +5890,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 208.28 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a408e899-2736-432f-b123-5a1ae311c514")
+		(property "Reference" "R42"
+			(at 205.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 205.105 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.058 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 205.105 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 208.28 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9dfe118-9271-4af0-98bd-53545557ec50")
+		)
+		(pin "2"
+			(uuid "49803472-c7bc-4c8f-9860-47863da23b62")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/0c5771e8-6cf5-487c-ab29-b56da9c53a3e"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 106.68 58.42 0)
 		(unit 1)
@@ -7118,95 +7192,6 @@
 			(project "control_board"
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/0c5771e8-6cf5-487c-ab29-b56da9c53a3e"
 					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 208.28 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8cc4e7c-28a9-4952-b3fa-5146bc1d8a3c")
-		(property "Reference" "R42"
-			(at 205.74 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 205.74 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.058 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 208.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 208.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 205.74 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5a21d21-933f-4394-a5da-84a8be6f445c")
-		)
-		(pin "1"
-			(uuid "3f3d5628-3dea-41aa-b140-9a32cbd29ca9")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/0c5771e8-6cf5-487c-ab29-b56da9c53a3e"
-					(reference "R42")
 					(unit 1)
 				)
 			)

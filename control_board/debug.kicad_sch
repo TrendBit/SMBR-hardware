@@ -4565,7 +4565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C23345"
+		(property "LCSC" "C122969"
 			(at 82.55 55.245 0)
 			(effects
 				(font
@@ -4741,7 +4741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB "
+		(property "Value" "BM03B-SRSS-TB"
 			(at 128.905 135.89 0)
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C23345"
+		(property "LCSC" "C122969"
 			(at 82.55 50.165 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB "
+		(property "Value" "BM03B-SRSS-TB"
 			(at 50.038 136.2529 0)
 			(effects
 				(font
