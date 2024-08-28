@@ -3727,10 +3727,6 @@
 		(color 0 0 0 0)
 		(uuid "fc745769-8bb7-4442-9c83-55af34d51c1f")
 	)
-	(no_connect
-		(at 217.17 107.95)
-		(uuid "4b216f11-25c5-4ea9-8d3e-12aaa4396f68")
-	)
 	(bus_entry
 		(at 113.03 146.05)
 		(size 2.54 -2.54)
@@ -4833,6 +4829,16 @@
 		)
 		(uuid "8af5e15d-23ed-4f32-b47e-743270c14c5d")
 	)
+	(polyline
+		(pts
+			(xy 222.25 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b36b28c-035d-42c1-bc21-b02bd2c3f7a2")
+	)
 	(wire
 		(pts
 			(xy 36.83 71.12) (xy 44.45 71.12)
@@ -4852,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "8c3e6f05-7fa6-4540-80bc-662e43a5840c")
+	)
+	(polyline
+		(pts
+			(xy 228.6 77.47) (xy 228.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c62c2d6-6664-468f-afe5-b9868f20c64d")
 	)
 	(bus
 		(pts
@@ -5475,7 +5491,7 @@
 	)
 	(bus
 		(pts
-			(xy 219.71 77.47) (xy 219.71 82.55)
+			(xy 219.71 73.66) (xy 219.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5635,7 +5651,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 77.47) (xy 219.71 77.47)
+			(xy 223.52 73.66) (xy 219.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5663,6 +5679,28 @@
 		)
 		(uuid "ffddfbc3-a9f0-4274-9ae2-78618f9a4339")
 	)
+	(rectangle
+		(start 222.25 77.47)
+		(end 234.95 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7069e4ea-5b59-49d5-baa9-705b430d9454)
+	)
+	(text "PIO"
+		(exclude_from_sim no)
+		(at 231.775 141.605 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07fdf566-9c6a-4a4a-9f06-4730bc71aae1")
+	)
 	(text "VREG_OUT(45)"
 		(exclude_from_sim no)
 		(at 113.03 41.91 0)
@@ -5673,6 +5711,16 @@
 			(justify right bottom)
 		)
 		(uuid "09c55a6f-5279-40e0-8734-c68bdf615957")
+	)
+	(text "0B"
+		(exclude_from_sim no)
+		(at 225.425 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c813aad-dd49-46ce-ad6e-768bff4351d7")
 	)
 	(text "Version resistors"
 		(exclude_from_sim no)
@@ -5698,6 +5746,26 @@
 		)
 		(uuid "1155faf7-a32a-470d-adfb-e8cd2040fd57")
 	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 225.425 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "153b14a3-6314-450f-9092-b4681c769dd6")
+	)
+	(text "6A"
+		(exclude_from_sim no)
+		(at 225.425 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15e25788-1f9e-42c1-8671-5ae7edd9050b")
+	)
 	(text "MCU decoupling"
 		(exclude_from_sim no)
 		(at 139.7 19.05 0)
@@ -5711,6 +5779,16 @@
 		)
 		(uuid "18b9dfa0-144f-4b98-85ca-ef377905f84a")
 	)
+	(text "1-x"
+		(exclude_from_sim no)
+		(at 231.775 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1949247a-0701-4b55-8e21-2c7827976260")
+	)
 	(text "USB_VDD(48)"
 		(exclude_from_sim no)
 		(at 210.82 41.91 0)
@@ -5722,6 +5800,16 @@
 		)
 		(uuid "1c97efa9-a39f-498a-b7dd-b7bdbd6d545e")
 	)
+	(text "7B"
+		(exclude_from_sim no)
+		(at 225.425 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1cdaa656-1d19-47ac-bf20-45b2f4b39f50")
+	)
 	(text "IOVDD(10)"
 		(exclude_from_sim no)
 		(at 138.43 41.91 0)
@@ -5732,6 +5820,16 @@
 			(justify left bottom)
 		)
 		(uuid "22eb4da4-0835-4d70-ab78-b6cbc7e98903")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 225.425 141.605 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23e37b36-5ac8-48bb-a892-d8a26de86b33")
 	)
 	(text "IOVDD(22)"
 		(exclude_from_sim no)
@@ -5755,6 +5853,26 @@
 		)
 		(uuid "2d3ff286-6b26-41ab-b968-c167c61d4c3d")
 	)
+	(text "6B"
+		(exclude_from_sim no)
+		(at 225.425 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38deb641-76a6-44bd-8cb6-aa30e6236d0a")
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 225.425 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a348b69-2f73-4e2f-8aa3-4dd92a9f475c")
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 33.02 60.96 0)
@@ -5768,6 +5886,16 @@
 		)
 		(uuid "3b3a8a23-ceb0-4d32-a6fd-2edfd24e4674")
 	)
+	(text "3A"
+		(exclude_from_sim no)
+		(at 225.425 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3dcb5030-8e50-40e3-b945-9f9bcf7a81f9")
+	)
 	(text "Place as close as possible to pins"
 		(exclude_from_sim no)
 		(at 78.74 44.45 0)
@@ -5778,6 +5906,16 @@
 			(justify left bottom)
 		)
 		(uuid "4ac54cec-68b3-48f7-af89-639bb68f3bea")
+	)
+	(text "1B"
+		(exclude_from_sim no)
+		(at 225.425 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bdcdbcf-45a0-4147-9dcf-0d70361a3e2e")
 	)
 	(text "EEPROM"
 		(exclude_from_sim no)
@@ -5803,6 +5941,36 @@
 			(justify left bottom)
 		)
 		(uuid "5faf2ab0-cb5f-42ae-b0d7-361b70d1a1e2")
+	)
+	(text "I2C1"
+		(exclude_from_sim no)
+		(at 205.105 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "681664d9-d7dc-46aa-b493-14d8388df0a3")
+	)
+	(text "4B"
+		(exclude_from_sim no)
+		(at 225.425 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c213c11-380a-4a7b-9ad3-cf2ac70dfda2")
+	)
+	(text "4A"
+		(exclude_from_sim no)
+		(at 225.425 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d3542e0-6653-479a-9728-741a8bfc9e3b")
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
@@ -5894,6 +6062,26 @@
 		)
 		(uuid "8b27899b-1910-4b34-9b4d-5238b9990238")
 	)
+	(text "1A"
+		(exclude_from_sim no)
+		(at 225.425 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dd302a5-ddf3-4839-89ef-81e7dc70a3cd")
+	)
+	(text "3B"
+		(exclude_from_sim no)
+		(at 225.425 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96596974-7726-4621-bcb2-6cca09c6eb66")
+	)
 	(text "Notes"
 		(exclude_from_sim no)
 		(at 259.08 16.51 0)
@@ -5907,6 +6095,16 @@
 		)
 		(uuid "980ca26a-3907-4631-8da6-95906abd4730")
 	)
+	(text "7A"
+		(exclude_from_sim no)
+		(at 225.425 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99453969-a218-4e2d-8e21-81ba883e5170")
+	)
 	(text "Place close\nto MCU input:\nADC_AVDD(43)"
 		(exclude_from_sim no)
 		(at 114.3 195.58 0)
@@ -5918,15 +6116,35 @@
 		)
 		(uuid "9f0b39de-b620-4c22-982a-af67be418016")
 	)
-	(text "Update PWM pins"
+	(text "0-0"
 		(exclude_from_sim no)
-		(at 226.695 108.585 0)
+		(at 231.775 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a621a9ea-cbe0-4230-8a0a-ffa5a9977ca1")
+		(uuid "a06bdbc1-8115-411d-91f7-c23c4d7ba98b")
+	)
+	(text "5B"
+		(exclude_from_sim no)
+		(at 225.425 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6f973b2-abb2-4810-b955-b9744986675b")
+	)
+	(text "0-2"
+		(exclude_from_sim no)
+		(at 231.775 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8a75c2e-9932-46cf-ae35-c9c8237571eb")
 	)
 	(text "VREG_IN(44)"
 		(exclude_from_sim no)
@@ -5952,6 +6170,16 @@
 		)
 		(uuid "b40c04e1-72a2-4183-8a6f-9eb074062843")
 	)
+	(text "2B"
+		(exclude_from_sim no)
+		(at 225.425 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8254822-00f3-49e0-86ea-51a02016baf2")
+	)
 	(text "Decoupling"
 		(exclude_from_sim no)
 		(at 85.09 82.55 90)
@@ -5973,6 +6201,26 @@
 			(justify left bottom)
 		)
 		(uuid "e494bd94-7e12-4c45-a182-6cdec3d9a25a")
+	)
+	(text "0A"
+		(exclude_from_sim no)
+		(at 225.425 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e71a2754-513c-4a33-ae07-7faa31c66114")
+	)
+	(text "0-1"
+		(exclude_from_sim no)
+		(at 231.775 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9c3804d-f268-47af-a6e8-0cb1acb1bf81")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -6340,7 +6588,7 @@
 		(uuid "dfd1a134-c6fc-496d-961b-0a05ddf022c2")
 	)
 	(label "LED2"
-		(at 201.93 130.81 180)
+		(at 201.93 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6399,7 +6647,7 @@
 	)
 	(hierarchical_label "CAN{RX,TX}"
 		(shape input)
-		(at 223.52 77.47 0)
+		(at 223.52 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6447,7 +6695,7 @@
 	)
 	(hierarchical_label "FAN_0_TACHO"
 		(shape input)
-		(at 201.93 82.55 0)
+		(at 201.93 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6459,7 +6707,7 @@
 	)
 	(hierarchical_label "MOTOR_1_IN1"
 		(shape input)
-		(at 201.93 90.17 0)
+		(at 201.93 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6507,7 +6755,7 @@
 	)
 	(hierarchical_label "MOTOR_0_IN1"
 		(shape input)
-		(at 201.93 133.35 0)
+		(at 201.93 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6639,7 +6887,7 @@
 	)
 	(hierarchical_label "MOTOR_2_IN1"
 		(shape input)
-		(at 201.93 135.89 0)
+		(at 201.93 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
