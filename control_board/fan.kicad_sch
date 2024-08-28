@@ -1501,10 +1501,6 @@
 		(color 0 0 0 0)
 		(uuid "cf578d87-0eb2-4106-b6d8-96dde5fb69e6")
 	)
-	(no_connect
-		(at 41.91 77.47)
-		(uuid "93413146-47bc-4ae7-8a07-f5efdb835c06")
-	)
 	(wire
 		(pts
 			(xy 72.39 77.47) (xy 77.47 77.47)
@@ -1864,16 +1860,6 @@
 			)
 		)
 		(uuid "3f6d7efe-dffc-44e1-aec8-9f5a9d3eb980")
-	)
-	(text "TODO: fix swapped units"
-		(exclude_from_sim no)
-		(at 55.245 78.105 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d9f60d95-ebc1-4ef3-866e-7b1cd20d0049")
 	)
 	(label "FAN_PWR"
 		(at 113.03 77.47 180)

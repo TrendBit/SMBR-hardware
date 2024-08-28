@@ -1213,10 +1213,6 @@
 		(color 0 0 0 0)
 		(uuid "ed520294-e127-4d24-acb4-471894ae51b7")
 	)
-	(no_connect
-		(at 179.07 111.76)
-		(uuid "8d8a05dc-9bac-43d0-8826-c36e67533ac6")
-	)
 	(wire
 		(pts
 			(xy 111.76 67.31) (xy 111.76 68.58)
@@ -1446,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "f868cd88-16c6-49ee-be27-0ad81fda90d9")
-	)
-	(text "TODO: update real value, 68uH"
-		(exclude_from_sim no)
-		(at 196.215 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ee6d487-65ce-4912-86a0-73183cd6883b")
 	)
 	(text "Input filter\nCTRL PWM frequency = 10 kHz\nSettling time (10->90%) = ~4 ms\nPeak to peak (Duty = 50%) = 0.07 V"
 		(exclude_from_sim no)
@@ -2508,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Value" "47uH"
+		(property "Value" "68uH"
 			(at 184.785 101.6 90)
 			(effects
 				(font

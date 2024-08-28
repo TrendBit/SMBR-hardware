@@ -3727,6 +3727,10 @@
 		(color 0 0 0 0)
 		(uuid "fc745769-8bb7-4442-9c83-55af34d51c1f")
 	)
+	(no_connect
+		(at 217.17 107.95)
+		(uuid "4b216f11-25c5-4ea9-8d3e-12aaa4396f68")
+	)
 	(bus_entry
 		(at 113.03 146.05)
 		(size 2.54 -2.54)
@@ -5913,6 +5917,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f0b39de-b620-4c22-982a-af67be418016")
+	)
+	(text "Update PWM pins"
+		(exclude_from_sim no)
+		(at 226.695 108.585 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a621a9ea-cbe0-4230-8a0a-ffa5a9977ca1")
 	)
 	(text "VREG_IN(44)"
 		(exclude_from_sim no)
