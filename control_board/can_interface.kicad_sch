@@ -4530,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C86602"
 			(at 189.865 121.92 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405"
 			(at 186.69 121.92 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C86602"
 			(at 154.305 121.92 0)
 			(effects
 				(font
@@ -5401,7 +5401,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C86602"
 			(at 109.855 63.5 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405"
 			(at 106.68 63.5 0)
 			(effects
 				(font

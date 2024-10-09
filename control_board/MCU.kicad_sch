@@ -9555,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C22966"
+		(property "LCSC" "C22966"
 			(at 85.725 186.69 0)
 			(effects
 				(font
@@ -10559,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPNA" " CF4012M00010T8188032"
+		(property "MPNA" "CF4012M00010T8188032"
 			(at 115.57 125.73 0)
 			(effects
 				(font
@@ -10568,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2933034"
+		(property "LCSC" "C9002"
 			(at 126.365 121.92 0)
 			(effects
 				(font
@@ -11985,7 +11985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C22966"
+		(property "LCSC" "C22966"
 			(at 75.565 186.69 0)
 			(effects
 				(font
@@ -12290,7 +12290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C22966"
+		(property "LCSC" "C22966"
 			(at 52.705 186.69 0)
 			(effects
 				(font
@@ -13227,7 +13227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C22966"
+		(property "LCSC" "C22966"
 			(at 98.425 186.69 0)
 			(effects
 				(font
@@ -14404,7 +14404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C22966"
+		(property "LCSC" "C22966"
 			(at 37.465 186.69 0)
 			(effects
 				(font
