@@ -1443,9 +1443,19 @@
 		)
 		(uuid "f868cd88-16c6-49ee-be27-0ad81fda90d9")
 	)
-	(text "Input filter\nCTRL PWM frequency = 10 kHz\nSettling time (10->90%) = ~4 ms\nPeak to peak (Duty = 50%) = 0.07 V"
+	(text "Two modes:\n- Analog mode, limited to range 25-100% with input frequency of 1 MHz\n- PWM mode, full range but flickering at input frequency of 1 kHz"
 		(exclude_from_sim no)
-		(at 106.045 127 0)
+		(at 106.045 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bdc8a73-2eed-4fdb-a51d-2771faa0ba1a")
+	)
+	(text "Input filter\nCTRL PWM frequency = 1 MHz\nSettling time (10->90%) = ~4 ms\nPeak to peak (Duty = 50%) = 0.07 V"
+		(exclude_from_sim no)
+		(at 106.045 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2169,7 +2179,7 @@
 		(dnp no)
 		(uuid "7a2f89ba-934c-44ea-a15b-549c83f000e2")
 		(property "Reference" "C44"
-			(at 116.205 105.41 0)
+			(at 114.935 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,8 +2187,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 116.205 107.95 0)
+		(property "Value" "10nF"
+			(at 114.935 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 127 105.4099 0)
 			(effects
 				(font
@@ -2432,7 +2442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C86602"
 			(at 114.935 72.39 0)
 			(effects
 				(font
@@ -2441,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405"
 			(at 111.76 72.39 0)
 			(effects
 				(font
