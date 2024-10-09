@@ -925,6 +925,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 96.52) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c8a3cc-4fb0-4eea-9993-5259b06ced87")
+	)
+	(wire
+		(pts
 			(xy 173.99 119.38) (xy 152.4 119.38)
 		)
 		(stroke
@@ -982,16 +992,6 @@
 			(type default)
 		)
 		(uuid "bba4da7f-883b-4cf6-b2c2-2c60d26f3dbe")
-	)
-	(wire
-		(pts
-			(xy 158.75 96.52) (xy 158.75 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08e9276-d39a-440d-92ad-bbd52ce100f3")
 	)
 	(wire
 		(pts
@@ -1113,16 +1113,6 @@
 		)
 		(uuid "02443359-b97e-4ee0-94fb-ce24e9ac11a8")
 	)
-	(text "Current limit = 0.18 A"
-		(exclude_from_sim no)
-		(at 173.355 111.125 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f3e62e0-b621-41ee-be70-e87a0b49d68b")
-	)
 	(text "TEC: ATS-TEC30-33-020\nMaximum voltage: 15.4 V\nMaximum current: 4 A\nCurrent draw at 12V: initial 3A, stable 2.5 A\nExperiment:\n	- Hot side: Heatsink with 60mm full-speed fan\n	- Cold side: Heatsink\n	- Ambient temperature: 24°C\n	-  3V, 0.65A,  2.0W -> Hot: 28°C, Cold: 15°C\n	-  4V, 0.85A,  3.5W -> Hot: 30°C, Cold: 13°C\n	-  6V, 1.35A,  8.1W -> Hot: 34°C, Cold: 11°C\n	-  8V, 1.80A, 12.8W -> Hot: 39°C, Cold:  9°C\n	- 10V, 2.20A, 22.0W -> Hot: 45°C, Cold:  9°C\n	- 12V, 2.50A, 30.0W -> Hot: 51°C, Cold: 11°C"
 		(exclude_from_sim no)
 		(at 213.995 122.555 0)
@@ -1167,15 +1157,25 @@
 		)
 		(uuid "958a6b3e-4864-4415-bec2-cc1c5d06448f")
 	)
-	(text "Current limit = 0.48 A"
+	(text "Current limit = 2.20 A"
 		(exclude_from_sim no)
-		(at 174.625 73.025 0)
+		(at 172.085 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "9ad84179-ea7c-4ee0-93f2-7ca4026f532e")
+		(uuid "a42e974c-40f0-4085-83a8-34eaac7b84ef")
+	)
+	(text "Current limit = 2.20 A"
+		(exclude_from_sim no)
+		(at 172.085 74.295 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4a15502-95b6-404a-82ce-078589a525ec")
 	)
 	(text "Motor: 12V\nCurrent draw: stable 100mA, peak 300mA\nAir flow: up to 3 l/min"
 		(exclude_from_sim no)
@@ -1382,234 +1382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 158.75 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "184b8d52-f954-4213-a959-424bd2b41337")
-		(property "Reference" "R38"
-			(at 166.37 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680mR/0.5W"
-			(at 173.355 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 160.528 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 154.94 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dc09a93-7ef0-4be3-b95b-e0cb305f14b0")
-		)
-		(pin "2"
-			(uuid "b06c31ad-4782-4e21-9d76-779b34ed796f")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/4a6f34f7-22b6-4acf-822c-4716fe4b429e"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18e49784-fdac-4018-9dff-d8c9907f16ae")
-		(property "Reference" "R27"
-			(at 166.37 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.8R/0.5W"
-			(at 173.355 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 160.528 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 154.94 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89bcd752-645e-4a6a-894a-96530f813f26")
-		)
-		(pin "2"
-			(uuid "b3f555b5-338c-4187-b767-a066ffde5665")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/4a6f34f7-22b6-4acf-822c-4716fe4b429e"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 166.37 132.08 0)
 		(unit 1)
@@ -1689,6 +1461,234 @@
 			(project "control_board"
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/4a6f34f7-22b6-4acf-822c-4716fe4b429e"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28c76107-b2e8-4df0-b22f-db54c2fe092e")
+		(property "Reference" "R38"
+			(at 166.37 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150mR/0.5W"
+			(at 173.355 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 160.528 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPNA" ""
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C414376"
+			(at 154.94 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4b8d916-9df5-4045-9a6c-b4c994f29df5")
+		)
+		(pin "2"
+			(uuid "287cda09-bc6e-4229-938e-75da84e558d2")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/4a6f34f7-22b6-4acf-822c-4716fe4b429e"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c365f33-ef6a-4ac6-b97b-b579a91188f2")
+		(property "Reference" "R27"
+			(at 166.37 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150mR/0.5W"
+			(at 173.355 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 160.528 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPNA" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C414376"
+			(at 154.94 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b9ae0d-5041-4afb-a8e8-42bbaa500e58")
+		)
+		(pin "2"
+			(uuid "49292116-1f02-471f-8afa-96151004e699")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/4a6f34f7-22b6-4acf-822c-4716fe4b429e"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2180,7 +2180,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C414376"
 			(at 154.94 146.685 0)
 			(effects
 				(font

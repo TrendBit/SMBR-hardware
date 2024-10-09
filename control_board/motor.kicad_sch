@@ -2355,7 +2355,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C86602"
 			(at 194.945 66.04 0)
 			(effects
 				(font
@@ -2364,7 +2364,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405"
 			(at 191.77 66.04 0)
 			(effects
 				(font
@@ -2943,7 +2943,7 @@
 		(dnp no)
 		(uuid "d4494bc7-9c2a-43f0-af5d-2916fcc84275")
 		(property "Reference" "C20"
-			(at 182.245 93.98 0)
+			(at 181.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,8 +2951,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 182.245 96.52 0)
+		(property "Value" "10nF"
+			(at 181.61 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 193.04 93.9799 0)
 			(effects
 				(font
