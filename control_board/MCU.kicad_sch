@@ -7678,6 +7678,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 266.7 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19e957e0-b692-46b3-b730-f991cc99581d")
+		(property "Reference" "R5"
+			(at 273.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 274.066 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 268.478 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C122969"
+			(at 263.525 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 266.7 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8e4f5a6-2a57-490e-865f-7d38461c1633")
+		)
+		(pin "2"
+			(uuid "1479ff10-1991-4d7c-9305-6cf46d60cd68")
+		)
+		(instances
+			(project "control_board"
+				(path "/086bca41-39f3-4e29-bc56-c537d176084f/f313bbde-3d06-4ec5-861a-6ff7c6567e0a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 172.72 0)
 		(unit 1)
@@ -8639,94 +8727,6 @@
 			(project "control_board"
 				(path "/086bca41-39f3-4e29-bc56-c537d176084f/f313bbde-3d06-4ec5-861a-6ff7c6567e0a"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d9dda50-09d1-4a9a-bb05-7d4098d56604")
-		(property "Reference" "R5"
-			(at 273.05 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 271.78 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 268.478 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 263.525 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92d75fd1-4d9c-4e12-922c-a4244a1a5721")
-		)
-		(pin "2"
-			(uuid "343876fa-cea5-4b02-a8bb-4d4df3590716")
-		)
-		(instances
-			(project "control_board"
-				(path "/086bca41-39f3-4e29-bc56-c537d176084f/f313bbde-3d06-4ec5-861a-6ff7c6567e0a"
-					(reference "R5")
 					(unit 1)
 				)
 			)

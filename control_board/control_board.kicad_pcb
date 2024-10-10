@@ -142,7 +142,7 @@
 			(outputdirectory "")
 		)
 	)
-	(property "VERSION" "1.1")
+	(property "VERSION" "1.2")
 	(net 0 "")
 	(net 1 "+3.3V")
 	(net 2 "GND")
@@ -10559,7 +10559,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fadd4473-e10a-4527-b3c1-60ec003904ea")
@@ -10609,7 +10609,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12995,7 +12995,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "7965c10b-8a8e-4db2-ac5f-af4509623000")
@@ -13045,7 +13045,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13475,7 +13475,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "73026d06-6e12-48e3-ba8b-52e5fadcca5f")
@@ -13525,7 +13525,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14572,7 +14572,7 @@
 				)
 			)
 		)
-		(property "Value" "680mR/0.5W"
+		(property "Value" "150mR/0.5W"
 			(at 0 2.28 90)
 			(layer "F.Fab")
 			(uuid "79c43637-a622-49e4-9c0b-9c29f86e7965")
@@ -14674,7 +14674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C620653"
+		(property "LCSC" "C414376"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14688,7 +14688,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4a6f34f7-22b6-4acf-822c-4716fe4b429e/184b8d52-f954-4213-a959-424bd2b41337")
+		(path "/4a6f34f7-22b6-4acf-822c-4716fe4b429e/28c76107-b2e8-4df0-b22f-db54c2fe092e")
 		(sheetname "Motors")
 		(sheetfile "motors.kicad_sch")
 		(attr smd)
@@ -21352,7 +21352,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c157b234-fd6b-49d6-a7e3-c52e2e953b4c")
@@ -21402,7 +21402,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21832,7 +21832,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b27fced4-17f7-4611-8244-9daf6a6a20c5")
@@ -21882,7 +21882,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25496,7 +25496,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f32652c8-da03-4209-a6c9-223c58a2d8ca")
@@ -25546,7 +25546,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41435,7 +41435,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f7154312-d207-4676-ae0b-3c4f19b9a524")
@@ -41485,7 +41485,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43869,7 +43869,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "72e039e3-3f11-4e53-bad4-eaaf3dda5667")
@@ -43919,7 +43919,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C122969"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43946,7 +43946,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/f313bbde-3d06-4ec5-861a-6ff7c6567e0a/2d9dda50-09d1-4a9a-bb05-7d4098d56604")
+		(path "/f313bbde-3d06-4ec5-861a-6ff7c6567e0a/19e957e0-b692-46b3-b730-f991cc99581d")
 		(sheetname "MCU")
 		(sheetfile "MCU.kicad_sch")
 		(attr smd)
@@ -64654,7 +64654,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8R/0.5W"
+		(property "Value" "150mR/0.5W"
 			(at 0 2.28 90)
 			(layer "F.Fab")
 			(uuid "9f98f0a2-1019-4796-844a-60c5d44cc48c")
@@ -64756,7 +64756,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C102425"
+		(property "LCSC" "C414376"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64770,7 +64770,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4a6f34f7-22b6-4acf-822c-4716fe4b429e/18e49784-fdac-4018-9dff-d8c9907f16ae")
+		(path "/4a6f34f7-22b6-4acf-822c-4716fe4b429e/2c365f33-ef6a-4ac6-b97b-b579a91188f2")
 		(sheetname "Motors")
 		(sheetfile "motors.kicad_sch")
 		(attr smd)
