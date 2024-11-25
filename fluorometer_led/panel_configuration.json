@@ -1,0 +1,86 @@
+{
+    "layout": {
+        "hspace": "3.2mm",
+        "vspace": "3.2mm",
+        "rows": "4",
+        "cols": "5"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "tightframe",
+        "hspace": "3.2mm",
+        "vspace": "3.2mm",
+        "slotwidth": "3.2mm",
+        "fillet": "3mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "1.152mm",
+        "soldermaskmargin": "1.3mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "3.35mm",
+        "opening": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "1.25mm",
+        "width": "2mm",
+        "height": "2mm",
+        "thickness": "0.5mm",
+        "vjustify": "top",
+        "layer": "B.SilkS",
+        "text": "Smart Modular Photo BioReactor - Fluorometer LED 10W"
+    },
+    "text2": {
+        "type": "simple",
+        "hoffset": "-8mm",
+        "voffset": "-1.25mm",
+        "width": "2mm",
+        "height": "2mm",
+        "thickness": "0.5mm",
+        "hjustify": "left",
+        "vjustify": "bottom",
+        "layer": "B.SilkS",
+        "text": "TrendBit s.r.o.",
+        "anchor": "br"
+    },
+    "text3": {
+        "type": "simple",
+        "hoffset": "8mm",
+        "voffset": "-1.25mm",
+        "width": "2mm",
+        "height": "2mm",
+        "thickness": "0.5mm",
+        "hjustify": "right",
+        "vjustify": "bottom",
+        "layer": "B.SilkS",
+        "text": "Designed by: Petr Malan\u00edk",
+        "anchor": "bl"
+    },
+    "text4": {
+        "type": "simple",
+        "voffset": "-1.25mm",
+        "width": "2mm",
+        "height": "2mm",
+        "thickness": "0.5mm",
+        "vjustify": "bottom",
+        "layer": "B.SilkS",
+        "text": "11/2024 v1.0",
+        "anchor": "mb"
+    },
+    "post": {
+        "millradius": "1.6mm"
+    }
+}
