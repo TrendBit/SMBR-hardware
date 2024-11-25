@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "8ff5ce80-9988-4ccc-acb2-b62a69ec67df")
 	(paper "A4")
+	(title_block
+		(title "SMPBR - SATA Expansion")
+		(date "2024-10-10")
+		(rev "${VERSION}")
+		(company "TrendBit s.r.o.")
+		(comment 1 "Designed by: Petr Malaník")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
@@ -1999,7 +2006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x07_MountingPin"
+		(property "Value" "Molex_SATA_67800-5002"
 			(at 186.69 86.7155 0)
 			(effects
 				(font
