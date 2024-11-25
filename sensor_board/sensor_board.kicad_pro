@@ -661,7 +661,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "/home/petr/work/Phenobottle_v3/resources/TrendBit_page_layout.kicad_wks",
+    "page_layout_descr_file": "../resources/TrendBit_page_layout.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -743,6 +743,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "1.0 "
+    "VERSION": "1.0a"
   }
 }

@@ -3308,6 +3308,10 @@
 		(at 189.23 121.92)
 		(uuid "cc8b3650-0928-435f-94b6-38e65a80075b")
 	)
+	(no_connect
+		(at 189.23 129.54)
+		(uuid "e1ddd1c0-6c96-409b-bfe6-601fc9369d80")
+	)
 	(bus_entry
 		(at 218.44 83.82)
 		(size -2.54 2.54)
@@ -3569,16 +3573,6 @@
 			(type default)
 		)
 		(uuid "213eff7f-be3f-43bb-8735-d51e0cc90267")
-	)
-	(wire
-		(pts
-			(xy 189.23 129.54) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221f0527-9135-434b-979e-e02f849a5eb3")
 	)
 	(wire
 		(pts
@@ -5770,18 +5764,6 @@
 			(justify left)
 		)
 		(uuid "55f4495f-32f1-4b6d-8995-d9ff2b179171")
-	)
-	(hierarchical_label "ES_ENABLE"
-		(shape output)
-		(at 200.66 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61922c3a-85c5-486d-82af-9f25b3e20b94")
 	)
 	(hierarchical_label "{DGB_UART}"
 		(shape input)

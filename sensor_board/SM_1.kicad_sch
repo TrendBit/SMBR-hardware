@@ -752,16 +752,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 201.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1909be3e-2753-4268-be3c-4213a87b6439")
-	)
-	(wire
-		(pts
 			(xy 109.22 107.95) (xy 119.38 107.95)
 		)
 		(stroke
@@ -952,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 120.65) (xy 201.93 120.65)
+			(xy 176.53 118.11) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2313,18 +2303,8 @@
 				(hide yes)
 			)
 		)
-		(pin "ENABLE" input
-			(at 201.93 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "791f399a-b399-480e-b038-8cd1030f4ff2")
-		)
-		(pin "PWM_CTRL" input
-			(at 201.93 120.65 180)
+		(pin "CTRL" input
+			(at 201.93 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,18 +2421,8 @@
 			)
 			(uuid "71bab644-c30f-4ee7-8e1a-cf3955125f1c")
 		)
-		(pin "ES_ENABLE" output
-			(at 176.53 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1f3c4d39-5eb9-46a0-91f6-5ae13f84cbdc")
-		)
 		(pin "ES_CONTROL" output
-			(at 176.53 120.65 0)
+			(at 176.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
