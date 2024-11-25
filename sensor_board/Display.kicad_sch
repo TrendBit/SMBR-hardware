@@ -962,7 +962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C86602"
 			(at 183.515 113.03 0)
 			(effects
 				(font
@@ -971,7 +971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405"
 			(at 180.34 113.03 0)
 			(effects
 				(font

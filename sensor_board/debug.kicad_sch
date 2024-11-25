@@ -4029,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB "
+		(property "Value" "BM03B-SRSS-TB"
 			(at 126.365 135.89 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB "
+		(property "Value" "BM03B-SRSS-TB"
 			(at 47.498 136.2529 0)
 			(effects
 				(font
