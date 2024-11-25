@@ -1,0 +1,73 @@
+{
+    "layout": {
+        "hspace": "3.0mm",
+        "vspace": "3.0mm",
+        "rows": "3",
+        "cols": "4"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "3mm",
+        "mintotalheight": "70mm",
+        "fillet": "3mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "1.152mm",
+        "soldermaskmargin": "1.3mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "3.35mm",
+        "opening": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "1.5mm",
+        "thickness": "0.4mm",
+        "vjustify": "top",
+        "text": "Smart Modular Photo BioReactor - SATA expansion port"
+    },
+    "text2": {
+        "type": "simple",
+        "hoffset": "-8mm",
+        "voffset": "-1.5mm",
+        "thickness": "0.4mm",
+        "hjustify": "right",
+        "vjustify": "bottom",
+        "text": "TrendBit s.r.o.",
+        "anchor": "br"
+    },
+    "text3": {
+        "type": "simple",
+        "hoffset": "8mm",
+        "voffset": "-1.5mm",
+        "thickness": "0.4mm",
+        "hjustify": "left",
+        "vjustify": "bottom",
+        "text": "Designed by: Petr Malan\u00edk",
+        "anchor": "bl"
+    },
+    "text4": {
+        "type": "simple",
+        "voffset": "-1.5mm",
+        "thickness": "0.4mm",
+        "vjustify": "bottom",
+        "text": "10/2024 v1.0",
+        "anchor": "mb"
+    },
+    "post": {
+        "millradius": "1.5mm"
+    }
+}
