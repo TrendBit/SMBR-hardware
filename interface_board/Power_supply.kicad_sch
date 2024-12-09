@@ -2295,6 +2295,12 @@
 		(uuid "20cd7d27-4947-4362-8b81-c582e7826e47")
 	)
 	(junction
+		(at 161.29 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "217fdab7-a166-49ea-952e-5ce8de91f8a7")
+	)
+	(junction
 		(at 44.45 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2341,12 +2347,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ded556d-09e0-492a-87fc-c3ccc9f69172")
-	)
-	(junction
-		(at 161.29 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "808bfd81-f638-45fe-88db-2ce896557fd7")
 	)
 	(junction
 		(at 105.41 52.07)
@@ -2700,6 +2700,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f796bd2-2b0e-4794-87d0-f8067108efd3")
+	)
+	(wire
+		(pts
 			(xy 96.52 127) (xy 104.14 127)
 		)
 		(stroke
@@ -3037,16 +3047,6 @@
 			(type default)
 		)
 		(uuid "7eb063c2-8f80-4a9e-8b25-d191a295a2fd")
-	)
-	(wire
-		(pts
-			(xy 161.29 77.47) (xy 167.64 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f879b5b-5ce6-4ccb-ab84-70e59c6f0900")
 	)
 	(wire
 		(pts
@@ -6123,6 +6123,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50e3a334-d2b2-4d55-b901-9e31e24c0e01")
+		(property "Reference" "C25"
+			(at 165.1 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 165.1 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.2552 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 165.1 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPNA" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ddacd1e-a994-4fc6-b20c-ffee4455fe11")
+		)
+		(pin "1"
+			(uuid "0e2e5a9d-2ed7-4a14-a550-f95b69011bd9")
+		)
+		(instances
+			(project "interface_board"
+				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 66.04 0)
 		(unit 1)
@@ -7901,112 +8016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 161.29 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91f0c346-9b3e-4947-a16c-3ae62b8e7218")
-		(property "Reference" "C25"
-			(at 165.1 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 165.1 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 162.2552 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 165.1 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81d96bab-01b3-4057-8933-36e0279102bd")
-		)
-		(pin "1"
-			(uuid "376d1aa8-dddb-4578-a108-93269b81d83b")
-		)
-		(instances
-			(project "interface_board"
-				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 50.8 43.18 180)
 		(unit 1)
@@ -9092,6 +9101,121 @@
 			(project "interface_board"
 				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc019bd2-44e1-4f72-8acb-28fc036764cb")
+		(property "Reference" "C10"
+			(at 234.95 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 234.95 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 232.1052 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 234.95 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPNA" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7b9418b-6f5a-44ee-a26f-49c80e0eb1c7")
+		)
+		(pin "1"
+			(uuid "46d11fc4-6fbc-4e3d-9792-8d0d65b624f0")
+		)
+		(instances
+			(project "interface_board"
+				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10359,93 +10483,6 @@
 			(project "interface_board"
 				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 231.14 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7c3e92b-6d7a-41be-81fe-d9459781f8a9")
-		(property "Reference" "C10"
-			(at 234.315 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 234.315 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 232.1052 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pole4" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 234.315 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f813e90f-67ce-4bb9-83d8-240278a886af")
-		)
-		(pin "2"
-			(uuid "2219c868-701a-4787-8fea-bf9f476a9ded")
-		)
-		(instances
-			(project "interface_board"
-				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
-					(reference "C10")
 					(unit 1)
 				)
 			)

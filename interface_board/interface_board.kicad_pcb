@@ -13601,7 +13601,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "1d1d5e74-acde-4b4f-8487-3bdf563371ec")
@@ -13697,7 +13697,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13711,8 +13711,22 @@
 				(justify mirror)
 			)
 		)
+		(property "MPNA" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5479b5e2-1aec-4d57-b194-52e9020f20ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/91f0c346-9b3e-4947-a16c-3ae62b8e7218")
+		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/50e3a334-d2b2-4d55-b901-9e31e24c0e01")
 		(sheetname "Power supply")
 		(sheetfile "Power_supply.kicad_sch")
 		(attr smd)
@@ -16232,7 +16246,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "9dfb0f0c-c5bd-4a21-b468-f875c5f67903")
@@ -16272,7 +16286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16286,21 +16300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Pole4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2f928b05-4e94-4ac5-be0a-3b932d1c80dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16314,8 +16314,64 @@
 				(justify mirror)
 			)
 		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0717e231-712d-4f1e-97c4-8602ef9244f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "07f1084b-a04a-4e87-b930-f98fc78a9c7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c31507a1-f80d-4c26-88d3-c7fd4bd13aa0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPNA" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59fc9df4-526a-44e9-b1ce-c6c0a03b0690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/4a6538c1-9b30-41cd-ba3f-4d15004b51bb/564f3bef-484f-4ea5-9574-d47d7aae1232")
+		(path "/4a6538c1-9b30-41cd-ba3f-4d15004b51bb/d84eff32-9dba-4aaa-881f-8f9258346af3")
 		(sheetname "PoE")
 		(sheetfile "PoE.kicad_sch")
 		(attr smd)
@@ -20791,7 +20847,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "d24058aa-499b-4c3a-89cc-0f2b37b6f874")
@@ -20831,7 +20887,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20845,21 +20901,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Pole4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2047cada-85da-4742-8746-f7bbcbf488b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20873,8 +20915,64 @@
 				(justify mirror)
 			)
 		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc1d0268-9f1d-4d4e-9796-cb9daff0d8cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "46d5358f-4eaf-4c39-be4f-9302e9cc2f5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09389ea0-0aa2-47e4-a1e5-af1831fdc028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPNA" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cc35a51-f0c3-4368-862a-a9d2584dc046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/42765091-f595-47b3-8125-95f0eb7ae6c2/45d05b42-cb13-4b75-ac32-f9d60402e17f")
+		(path "/42765091-f595-47b3-8125-95f0eb7ae6c2/d348758b-e9be-4f2b-89bd-e206688d1fc2")
 		(sheetname "Power input")
 		(sheetfile "Power_input.kicad_sch")
 		(attr smd)
@@ -39833,7 +39931,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "aa253ba4-69bd-4ebe-bf0b-5adcffdcfbe0")
@@ -39873,7 +39971,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39887,21 +39985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Pole4" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "313406a3-133d-40f7-8d6b-747e78fb3ea0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C15849"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39915,8 +39999,64 @@
 				(justify mirror)
 			)
 		)
+		(property "Mouser" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05e9fc54-d50b-4f95-9554-f2c4d6aafe60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ddda0df1-2b23-42d2-abeb-c69a81e30dbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbfdeb87-060c-445f-a6ed-fa63308a428c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPNA" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ca1f482-4c84-46f3-9fe7-6955fb214c0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/e7c3e92b-6d7a-41be-81fe-d9459781f8a9")
+		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/bc019bd2-44e1-4f72-8acb-28fc036764cb")
 		(sheetname "Power supply")
 		(sheetfile "Power_supply.kicad_sch")
 		(attr smd)
