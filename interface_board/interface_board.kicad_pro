@@ -901,6 +901,10 @@
     [
       "2207e8d4-f9ad-48e2-a62f-8c39d403c414",
       "Fan"
+    ],
+    [
+      "d0ae2eb7-4e25-4d3c-b403-a84c867c88c3",
+      "Thermometer"
     ]
   ],
   "text_variables": {

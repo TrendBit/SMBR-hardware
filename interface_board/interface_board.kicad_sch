@@ -2879,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 57.15) (xy 172.72 57.15)
+			(xy 157.48 57.15) (xy 172.72 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 53.34) (xy 172.72 53.34)
+			(xy 157.48 53.34) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 148.59) (xy 149.86 148.59)
+			(xy 158.75 154.94) (xy 149.86 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 154.94) (xy 162.56 154.94)
+			(xy 149.86 161.29) (xy 158.75 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3849,6 +3849,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 148.59) (xy 172.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb97b9f-47ba-4591-bb5c-70e2fdf7e5c2")
+	)
+	(wire
+		(pts
 			(xy 237.49 105.41) (xy 242.57 105.41)
 		)
 		(stroke
@@ -4119,6 +4129,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8b1d22-b5e0-4515-8225-21407687c5d5")
+	)
+	(wire
+		(pts
 			(xy 48.26 26.67) (xy 48.26 30.48)
 		)
 		(stroke
@@ -4205,6 +4225,17 @@
 		)
 		(uuid "15131e24-7023-478c-8151-049c8d469be2")
 	)
+	(label "GPIO3(SCL1)"
+		(at 157.48 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25b6a3fb-d997-4424-a683-748c90d332bf")
+	)
 	(label "GPIO23(GEN4)"
 		(at 92.71 48.26 180)
 		(fields_autoplaced yes)
@@ -4270,6 +4301,17 @@
 			(justify left bottom)
 		)
 		(uuid "3c21bafa-6a89-4fe8-98f7-7d30594420a4")
+	)
+	(label "GPIO2(SDA1)"
+		(at 157.48 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40f27ee8-1121-4377-abf3-e843f0add283")
 	)
 	(label "GPIO26"
 		(at 24.13 76.2 0)
@@ -4360,7 +4402,7 @@
 		(uuid "617efbbf-70c1-439d-80d3-97c71802697f")
 	)
 	(label "GPIO2(SDA1)"
-		(at 153.67 53.34 0)
+		(at 157.48 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4470,7 +4512,7 @@
 		(uuid "91cbfa4e-4a25-4689-ab60-83d013da091b")
 	)
 	(label "GPIO3(SCL1)"
-		(at 153.67 57.15 0)
+		(at 157.48 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4580,7 +4622,7 @@
 		(uuid "be7a372f-f31b-4eae-aa7d-b775c82f9e0c")
 	)
 	(label "CAN_L"
-		(at 162.56 154.94 180)
+		(at 158.75 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4602,7 +4644,7 @@
 		(uuid "c28b5f19-72fa-4f88-8dbb-748eeef64dd1")
 	)
 	(label "CAN_H"
-		(at 162.56 148.59 180)
+		(at 158.75 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8268,7 +8310,7 @@
 			(uuid "f316c90c-b288-4e7b-b5f7-3d92c2d00c54")
 		)
 		(pin "CAN_L" input
-			(at 149.86 154.94 0)
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8320,7 @@
 			(uuid "3833488c-2e78-4544-85e7-766a9d3bfe47")
 		)
 		(pin "CAN_H" input
-			(at 149.86 148.59 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,6 +8517,65 @@
 			(project "interface_board"
 				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 139.7)
+		(size 29.21 24.13)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0ae2eb7-4e25-4d3c-b403-a84c867c88c3")
+		(property "Sheetname" "Thermometer"
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Thermometer_#3.kicad_sch"
+			(at 172.72 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "I2C_SDA" tri_state
+			(at 172.72 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b30b9f38-e6d8-42c3-a54f-f83bc8c78b29")
+		)
+		(pin "I2C_SCL" input
+			(at 172.72 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b850b068-00b6-4e65-8c2e-c150077a6e28")
+		)
+		(instances
+			(project "interface_board"
+				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d"
+					(page "8")
 				)
 			)
 		)
