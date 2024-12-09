@@ -2313,7 +2313,7 @@
 		(uuid "2eea087f-ea86-4156-9bbd-e89d453522b5")
 	)
 	(junction
-		(at 44.45 63.5)
+		(at 44.45 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350fbf46-0b1c-4e13-90e4-aa4b2a75dbbb")
@@ -2397,7 +2397,7 @@
 		(uuid "9e7839b9-a760-4b1c-9be2-06fca405b88e")
 	)
 	(junction
-		(at 57.15 63.5)
+		(at 57.15 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9ce1a77-dd5f-4cef-98e4-843ae7328c17")
@@ -2664,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 43.18) (xy 57.15 40.64)
+			(xy 57.15 48.26) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 38.1) (xy 57.15 38.1)
+			(xy 54.61 33.02) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 38.1) (xy 44.45 38.1)
+			(xy 46.99 33.02) (xy 44.45 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 60.96 63.5)
+			(xy 60.96 52.07) (xy 60.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2924,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 57.15 60.96)
+			(xy 44.45 40.64) (xy 46.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ceab586-fc17-4af9-bcff-a0c343f1250f")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 57.15 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 57.15 66.04)
+			(xy 54.61 76.2) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 66.04) (xy 46.99 66.04)
+			(xy 44.45 76.2) (xy 46.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3154,13 +3164,33 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 57.15 66.04)
+			(xy 54.61 68.58) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8165318e-895c-4ff4-bb87-371114e87e02")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "828e6857-29ea-4950-93d2-9a2384c884e6")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 57.15 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b6950b-f634-45f2-9cf1-2a51ed920f28")
 	)
 	(wire
 		(pts
@@ -3314,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 44.45 63.5)
+			(xy 44.45 60.96) (xy 44.45 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3364,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 63.5) (xy 44.45 63.5)
+			(xy 36.83 68.58) (xy 44.45 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3384,7 +3414,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 63.5) (xy 44.45 66.04)
+			(xy 44.45 68.58) (xy 44.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3464,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 44.45 40.64)
+			(xy 44.45 33.02) (xy 44.45 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3524,7 +3554,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 57.15 38.1)
+			(xy 57.15 40.64) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 43.18) (xy 46.99 43.18)
+			(xy 44.45 48.26) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 60.96 63.5)
+			(xy 57.15 68.58) (xy 60.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 40.64) (xy 44.45 43.18)
+			(xy 44.45 40.64) (xy 44.45 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3764,7 +3794,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 57.15 43.18)
+			(xy 44.45 68.58) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08b4763-5b9b-4cd9-95ea-0b09c7c1eb59")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 57.15 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +4313,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 50.8 66.04 180)
+		(at 50.8 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4281,15 +4321,15 @@
 		(dnp no)
 		(uuid "08ea444a-7768-4703-a16c-68a9cdcfb29b")
 		(property "Reference" "D15"
-			(at 50.8 69.215 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CDBA340"
-			(at 50.8 71.755 0)
+		(property "Value" "SS34"
+			(at 50.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4337,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4355,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4364,7 @@
 			)
 		)
 		(property "Link" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=sGAEpiMZZMtbRapU8LlZD7Jimkw4KnZBmcvzrUXABj8%3D"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,8 +4372,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBA340-HF"
-			(at 50.8 66.04 0)
+		(property "MPN" "SS34"
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4382,7 @@
 			)
 		)
 		(property "Pole4" ""
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4391,7 @@
 			)
 		)
 		(property "JLCPCB" "C8678"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4400,7 @@
 			)
 		)
 		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4409,7 @@
 			)
 		)
 		(property "MPNA" "SS34"
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4418,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 50.8 69.215 0)
+			(at 50.8 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,24 +7477,23 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 50.8 38.1 180)
+		(at 50.8 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8226d0b1-12cd-4ab7-868d-9ae82364451e")
 		(property "Reference" "D12"
-			(at 51.1175 31.75 0)
+			(at 50.8 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CDBA340"
-			(at 51.1175 34.29 0)
+		(property "Value" "SS34"
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +7501,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7519,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7528,7 @@
 			)
 		)
 		(property "Link" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=sGAEpiMZZMtbRapU8LlZD7Jimkw4KnZBmcvzrUXABj8%3D"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,8 +7536,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBA340-HF"
-			(at 50.8 38.1 0)
+		(property "MPN" "SS34"
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7546,7 @@
 			)
 		)
 		(property "Pole4" ""
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7555,7 @@
 			)
 		)
 		(property "JLCPCB" "C8678"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7564,7 @@
 			)
 		)
 		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7573,7 @@
 			)
 		)
 		(property "MPNA" "SS34"
-			(at 50.8 38.1 0)
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7582,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 51.1175 31.75 0)
+			(at 51.1175 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8131,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 50.8 43.18 180)
+		(at 50.8 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8100,15 +8139,15 @@
 		(dnp no)
 		(uuid "93ef7e9a-6c35-4e4a-9af3-dc92fa6e66b2")
 		(property "Reference" "D13"
-			(at 50.8 46.355 0)
+			(at 50.8 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CDBA340"
-			(at 50.8 48.895 0)
+		(property "Value" "SS34"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8155,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 43.18 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 43.18 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8173,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 50.8 43.18 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,8 +8181,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBA340-HF"
-			(at 50.8 43.18 0)
+		(property "MPN" "SS34"
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8191,7 @@
 			)
 		)
 		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
-			(at 50.8 43.18 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8200,7 @@
 			)
 		)
 		(property "JLCPCB" "C8678"
-			(at 50.8 43.18 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8209,7 @@
 			)
 		)
 		(property "MPNA" "SS34"
-			(at 50.8 43.18 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8218,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 50.8 46.355 0)
+			(at 50.8 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,18 +8314,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "967f26b8-44b2-40a0-bf29-8cbb16a05a12")
 		(property "Reference" "D14"
-			(at 51.1175 54.61 0)
+			(at 51.435 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CDBA340"
-			(at 51.1175 57.15 0)
+		(property "Value" "SS34"
+			(at 50.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8367,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBA340-HF"
+		(property "MPN" "SS34"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -9573,7 +9611,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 36.83 63.5 90)
+		(at 36.83 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9582,7 +9620,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb9695fb-43c1-4721-abb5-42ebd331bb90")
 		(property "Reference" "#PWR030"
-			(at 40.64 63.5 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9629,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 33.02 63.4999 90)
+			(at 33.02 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 63.5 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 63.5 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VIN\""
-			(at 36.83 63.5 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9665,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 36.83 63.5 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9674,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 36.83 63.5 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,6 +9890,136 @@
 			(project "interface_board"
 				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 50.8 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d27d7e46-1a08-4e4a-bd89-76aeabcb7020")
+		(property "Reference" "D26"
+			(at 50.8 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=sGAEpiMZZMtbRapU8LlZD7Jimkw4KnZBmcvzrUXABj8%3D"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS34"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pole4" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8678"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPNA" "SS34"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 51.1175 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f85cfa6-e107-491a-8806-569b0373b11f")
+		)
+		(pin "2"
+			(uuid "a8beeb16-9d32-4b16-817f-763e7feebf69")
+		)
+		(instances
+			(project "interface_board"
+				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -10358,7 +10526,7 @@
 				)
 			)
 		)
-		(property "Value" "CDBA340"
+		(property "Value" "SS34"
 			(at 97.155 137.795 90)
 			(effects
 				(font
@@ -10402,7 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBA340-HF"
+		(property "MPN" "SS34"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -10553,6 +10721,136 @@
 			(project "interface_board"
 				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 50.8 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e257f8fb-3c4f-4f45-b72c-ba57149c8b04")
+		(property "Reference" "D25"
+			(at 50.8 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 51.435 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=sGAEpiMZZMtbRapU8LlZD7Jimkw4KnZBmcvzrUXABj8%3D"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS34"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pole4" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8678"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPNA" "SS34"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 51.1175 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82d471b8-f12a-4135-a39e-2874f17c68f7")
+		)
+		(pin "2"
+			(uuid "b75c54ee-5430-4a90-99c0-3315534c74be")
+		)
+		(instances
+			(project "interface_board"
+				(path "/52f681ba-9d8b-484a-ba10-008e18ad4c7d/6037e008-2b6c-41cd-afad-545dfb1a7118"
+					(reference "D25")
 					(unit 1)
 				)
 			)
