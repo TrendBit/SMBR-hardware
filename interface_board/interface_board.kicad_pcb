@@ -3228,7 +3228,7 @@
 		(uuid "c0d18c7f-605a-4a0b-a908-89d67247f3de")
 		(at 137.275347 74.170091 180)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f3126f50-c9e5-4471-81f9-929103a600a7")
@@ -3240,7 +3240,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0f4edd6a-b3c5-4d15-98bc-800fdc80b7f4")
@@ -3252,7 +3252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d276557-c5b1-4998-a422-a6e905874598")
@@ -3264,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5531d2a8-a913-452e-bec1-bc97b69d2941")
@@ -3276,7 +3276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f01c9a5-d6b7-41f8-a26c-eab0a684b040")
@@ -8957,7 +8957,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C57112"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9247,7 +9247,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9855,7 +9855,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C460972"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10207,6 +10207,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4b3f74d1-6338-4c58-a959-e1d39e4383f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e78823f5-44cc-4243-a0ff-2478ce49a13c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b14d4e6-1a8b-4181-b5ec-3606b33f814c")
 			(effects
 				(font
 					(size 1 1)
@@ -10839,7 +10867,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C270845"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11515,6 +11543,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1a2399fe-03de-4fb2-be5c-ee5ded55f5f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C25803"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09221e9c-50cd-4073-b86f-ae98427b1e9a")
 			(effects
 				(font
 					(size 1 1)
@@ -12401,7 +12443,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13334,6 +13376,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25803"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e582dea8-1177-490f-8a2e-b4f70d4e4ae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/42765091-f595-47b3-8125-95f0eb7ae6c2/abce3ede-8db4-41b7-9977-db40caaabfd3")
 		(sheetname "Power input")
@@ -13894,7 +13950,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14556,12 +14612,40 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" "C22859"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0ed7e632-a36a-41c5-b0bd-97fdd4b47dd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C22859"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80cdc488-609f-495d-9b6e-75a58d15b1f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "94cd3aba-fbdd-46d4-b92c-9e1a724994b1")
 			(effects
 				(font
 					(size 1 1)
@@ -15246,7 +15330,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C144481"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16202,7 +16286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C1634"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16484,6 +16568,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dc82fad7-432a-414c-86fd-7b24b4ad7eed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C7420328"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "69fac9b7-0108-4ef5-bbf6-d9e1ab1af779")
 			(effects
 				(font
 					(size 1 1)
@@ -16808,7 +16906,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17112,7 +17210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17792,7 +17890,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18068,7 +18166,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18110,7 +18208,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C3001226"
+		(property "JLCPCB" "C72485"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18138,7 +18236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C72485"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18617,7 +18715,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19247,7 +19345,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19537,7 +19635,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19841,7 +19939,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22282,7 +22380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22324,7 +22422,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C3001226"
+		(property "JLCPCB" "C72485"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22352,7 +22450,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C72485"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22845,6 +22943,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43e457df-6883-4b68-8e2e-73b28d8dbbd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a06fdadf-d5fc-4405-a2e7-627b27194b97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/a9b91efb-fcda-4f3a-8b89-735d0d48b871")
 		(sheetname "Power supply")
@@ -23071,6 +23197,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6fc52930-2257-4fee-ac32-1a4d92e859d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C1634"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1ce503e8-68e3-4502-9476-11b066413807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72b04308-3d2a-4437-a5ac-42a11f45ebeb")
 			(effects
 				(font
 					(size 1 1)
@@ -23617,6 +23771,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C21190"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb806a6a-6cb9-4e9c-9e21-8d759663cebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/27def437-1f08-4e4b-b70e-788c04702ab0/f0ccddeb-4067-42aa-ac60-0dd370d6ef10")
 		(sheetname "CAN")
@@ -23851,7 +24019,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405 "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23893,7 +24061,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C3001226"
+		(property "JLCPCB" "C72485"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23921,7 +24089,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C72485"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24406,6 +24574,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ed1fff54-48ee-4f84-9192-fc6d33ef9077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C99269 "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "07ac2354-9a20-4df0-8eba-f9bb9ce913da")
 			(effects
 				(font
 					(size 1 1)
@@ -25116,7 +25298,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25420,7 +25602,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25710,6 +25892,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "871b58f3-95a4-47e1-87bd-362b98920f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d634bf8-6d70-4c63-b7da-9be36096791a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/42765091-f595-47b3-8125-95f0eb7ae6c2/49330973-d201-4c1c-8f52-6109d7c6318f")
 		(sheetname "Power input")
@@ -25958,7 +26168,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26566,7 +26776,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C437951"
+		(property "JLCPCB" "C840748"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27428,7 +27638,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27718,6 +27928,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8d01e27-9780-434b-844e-8d40c7675a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db835cfb-d81a-4867-b066-ead41bf72199")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4a6538c1-9b30-41cd-ba3f-4d15004b51bb/c60111ad-b5ad-4941-ac7e-85773601970e")
 		(sheetname "PoE")
@@ -27952,7 +28190,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28618,7 +28856,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405 "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28660,7 +28898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C3001226"
+		(property "JLCPCB" "C72485"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28688,7 +28926,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C72485"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29181,7 +29419,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22859"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29223,7 +29461,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" "C22859"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29471,7 +29709,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C144481"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29761,7 +29999,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30214,7 +30452,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30496,6 +30734,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cee578b5-9b17-421a-8c04-9fac84fa705d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C22966"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6dfe69a9-5051-44d0-a5a9-b2ab5530a8ef")
 			(effects
 				(font
 					(size 1 1)
@@ -31142,7 +31394,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31432,12 +31684,40 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" "C22859"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5d2101f4-df57-48d9-bc89-223202d82bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C22859"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0bc558db-5c09-4b6e-90e7-611d607a0928")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5fa63f1-765d-4c51-98b3-5876efaa8756")
 			(effects
 				(font
 					(size 1 1)
@@ -32042,12 +32322,40 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" "C22859"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5c1457a6-7458-4722-a277-d71acd0b710e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C22859"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c2a20ea8-f981-4baf-a6f2-f9dfcd0c08e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52b85f4e-3baa-4c13-bd64-c9faedfd7cd9")
 			(effects
 				(font
 					(size 1 1)
@@ -33134,7 +33442,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33430,6 +33738,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "09497066-a828-42e3-8ecf-1753722c4d98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C7420328"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58498ef2-a89a-43ca-bc38-c2daac3792f0")
 			(effects
 				(font
 					(size 1 1)
@@ -33760,6 +34082,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c6b67c7d-f31a-4852-af59-1dbe0dcc025d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C23162"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e520569-3503-4148-bb8b-084835b12ba7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33512e83-d0e3-44d2-bc29-441f516b68f6")
 			(effects
 				(font
 					(size 1 1)
@@ -35628,7 +35978,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35932,7 +36282,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36194,7 +36544,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" " CK1E100M-CRC54"
+		(property "MPN" "RVT1V100M0405 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36222,7 +36572,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C3001226"
+		(property "JLCPCB" "C72485"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36250,7 +36600,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3001226"
+		(property "LCSC" "C72485"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36743,6 +37093,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25803"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d4848e5-50af-4c2f-b15f-195b4fcbf7b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4a6538c1-9b30-41cd-ba3f-4d15004b51bb/801c2886-4f09-4db9-b35b-8a91be34d45b")
 		(sheetname "PoE")
@@ -36977,7 +37341,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37615,7 +37979,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37905,6 +38269,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C23162"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47f88428-5609-4c45-9616-0a20e76267b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68b7afa9-cb5b-4152-90d0-30e6fa994f42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/0d37594c-5add-4b25-a613-cc69fa71280f")
 		(sheetname "Power supply")
@@ -38139,7 +38531,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38733,7 +39125,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C437951"
+		(property "JLCPCB" "C840748"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39960,6 +40352,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25803"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "520cee2d-528a-4ccf-8de1-6afbe7ddf4d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/383c90e3-c6d2-414a-a140-c33d79d02069")
 		(sheetname "Power supply")
@@ -40200,6 +40606,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "95a614f3-52cf-4008-91b6-19d7160a97c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "694cbb35-a749-4d0b-8749-852c7631d13a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ff92a59f-1b50-489d-9144-1bb3347459b6")
 			(effects
 				(font
 					(size 1 1)
@@ -41194,6 +41628,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C57112"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1494fb61-d579-4d49-92e8-1cfa5c47d44f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7db8000c-98eb-419c-a058-ae056584085c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/0caacd82-b666-4063-85af-d3f4eea565bf")
 		(sheetname "Power supply")
@@ -41442,7 +41904,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41732,7 +42194,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42412,6 +42874,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39d93a18-0d75-4ac6-a7ec-9f3f9d04d15a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d132c8aa-2e21-432c-b1c2-a93515b4d38d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/b644a9ca-012b-4199-be00-3baa4dcba384")
 		(sheetname "Power supply")
@@ -43000,7 +43490,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23162"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43276,7 +43766,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43566,7 +44056,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43870,6 +44360,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "afb80dfc-75f5-4944-a16a-2c623c8acdce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c82f519e-7c81-437d-936d-2671a0aa21d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4a6538c1-9b30-41cd-ba3f-4d15004b51bb/02cd9713-a47a-4766-b1d9-f2d7573473eb")
 		(sheetname "PoE")
@@ -44104,12 +44622,40 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" "C22859"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "05bd0a89-3a0c-4697-a24f-45499ef0f23a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C22859"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b1445cc-44f7-4528-b4f2-5defe1e2b78a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9502474b-a562-45be-b7aa-056b6ad1ed53")
 			(effects
 				(font
 					(size 1 1)
@@ -44366,7 +44912,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C15849"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -44656,7 +45202,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" " PM254-2-20-S-8.5"
+		(property "MPN" "PM254-2-20-S-8.5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46928,7 +47474,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47232,6 +47778,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C22966"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "592949fd-9633-4f39-a6d7-89e1ea2ee2f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6037e008-2b6c-41cd-afad-545dfb1a7118/cd14777a-8a73-4407-91b7-5a2adbb15506")
 		(sheetname "Power supply")
@@ -47466,7 +48026,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C2933034"
+		(property "JLCPCB" "C9002"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47480,7 +48040,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "ABM8G-12.000MHZ-4Y-T3"
+		(property "MPN" "X322512MSB4SI"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47494,7 +48054,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPNA" " CF4012M00010T8188032"
+		(property "MPNA" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47508,7 +48068,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2933034"
+		(property "LCSC" "C9002"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47838,6 +48398,34 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df7e6d53-2a52-4acc-8d67-1942bc475f68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "357a3760-4f52-43fb-bd95-bef953f12d34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4a6538c1-9b30-41cd-ba3f-4d15004b51bb/ae5aa8f4-8d95-46dc-b6be-d9303a169ef2")
 		(sheetname "PoE")
@@ -48078,6 +48666,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4913778d-6da6-4d67-a6b3-abc0ce9eb475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4de909f0-fbb7-40d7-a45e-384d6f591368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ca6623f-4a72-4d07-8443-063faf4f83cd")
 			(effects
 				(font
 					(size 1 1)

@@ -2576,7 +2576,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2933034"
+		(property "JLCPCB" "C9002"
 			(at 83.82 104.14 0)
 			(effects
 				(font
@@ -2585,7 +2585,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ABM8G-12.000MHZ-4Y-T3"
+		(property "MPN" "X322512MSB4SI"
 			(at 83.82 104.14 0)
 			(effects
 				(font
@@ -2594,7 +2594,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPNA" " CF4012M00010T8188032"
+		(property "MPNA" ""
 			(at 83.82 104.14 0)
 			(effects
 				(font
@@ -2603,7 +2603,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2933034"
+		(property "LCSC" "C9002"
 			(at 80.01 93.345 0)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 124.46 59.69 0)
 			(effects
 				(font
@@ -3147,7 +3147,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14663"
 			(at 166.37 59.69 0)
 			(effects
 				(font
@@ -3253,7 +3253,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C144481"
 			(at 201.93 78.74 0)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C57112"
 			(at 195.58 85.09 0)
 			(effects
 				(font
@@ -3775,6 +3775,24 @@
 		)
 		(property "LCSC" "C1634"
 			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1634"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 72.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4076,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C1634"
 			(at 91.44 110.49 0)
 			(effects
 				(font
@@ -4239,7 +4257,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -4421,7 +4439,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C144481"
 			(at 201.93 91.44 0)
 			(effects
 				(font
@@ -4730,6 +4748,15 @@
 		)
 		(property "MPN" ""
 			(at 143.51 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7817,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " PM254-2-20-S-8.5"
+		(property "MPN" "PM254-2-20-S-8.5"
 			(at 58.42 53.34 0)
 			(effects
 				(font
