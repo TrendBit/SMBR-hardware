@@ -21,6 +21,7 @@ framing={
 		"vspace" : "3mm", # space between board and rail
 		"hspace" : "3mm", # space between board and rail
 		"width": "5mm", # Width of the rail
+		"hbackbone": "5mm",
 		"mintotalheight": "70mm",
 		"mintotalwidth": "70mm",
 		"fillet": "2.5mm",
@@ -88,24 +89,96 @@ refRenamer = lambda x, y: "Board_{n}-{orig}".format(n=x, orig=y)
 # Place two boards above each other
 panelOrigin = VECTOR2I(0,0)
 
-board1_voffset = 0*mm
-board2_voffset = 49*mm
-board3_voffset = 71*mm
+# Panel rotation option (-90, 0, 90)
+panel_rotation = 0  # Set to desired rotation angle (e.g., -90, 0, or 90)
 
-set_hoffset = 45*mm
+h_boards_count = 4
+v_boards_count = 2
 
-board1_hoffset = int(0*mm)
-board2_hoffset = int(0*mm)
-board3_hoffset = int(7.35*mm)
+board1_voffset = 0 * mm
+board2_voffset = 49 * mm
+board3_voffset = 71 * mm
 
-h_boards_count = 6
+set_hoffset = 45 * mm
+set_voffset = 117 * mm
 
-for i in range (0, h_boards_count):
-	current_set_hoffset = i*set_hoffset
-	panel.appendBoard(board1_path, panelOrigin + VECTOR2I(current_set_hoffset + board1_hoffset, board1_voffset), origin=Origin.Center, sourceArea=sourceArea1, netRenamer=netRenamer, refRenamer=refRenamer)
-	panel.appendBoard(board2_path, panelOrigin + VECTOR2I(current_set_hoffset + board2_hoffset, board2_voffset), origin=Origin.Center, sourceArea=sourceArea2, netRenamer=netRenamer, refRenamer=refRenamer,  inheritDrc=False, rotationAngle=90*deg)
-	panel.appendBoard(board3_path, panelOrigin + VECTOR2I(current_set_hoffset + board3_hoffset, board3_voffset), origin=Origin.Center, sourceArea=sourceArea3, netRenamer=netRenamer, refRenamer=refRenamer,  inheritDrc=False)
+board1_hoffset = int(0 * mm)
+board2_hoffset = int(0 * mm)
+board3_hoffset = int(7.35 * mm)
 
+# Function to rotate offsets
+def rotate_offsets(h_offset, v_offset, angle):
+    """Rotate offsets for any board based on panel rotation."""
+    if angle == 90:
+        return v_offset, -h_offset  # Swap and flip horizontal
+    elif angle == -90:
+        return -v_offset, h_offset  # Swap and flip vertical
+    else:
+        return h_offset, v_offset  # No rotation
+
+
+# Iterate through vertical and horizontal boards
+for v in range(v_boards_count):
+    for h in range(h_boards_count):
+        # Calculate set offsets
+        if panel_rotation == 90:
+            # Swap dimensions for 90° rotation
+            current_set_hoffset = v * set_voffset
+            current_set_voffset = h * set_hoffset
+        elif panel_rotation == -90:
+            # Swap dimensions for -90° rotation (reverse vertical order)
+            current_set_hoffset = (v_boards_count - 1 - v) * set_voffset
+            current_set_voffset = h * set_hoffset
+        else:
+            # Default layout (no rotation)
+            current_set_hoffset = h * set_hoffset
+            current_set_voffset = v * set_voffset
+
+        # Rotate offsets for each board
+        b1_hoffset, b1_voffset = rotate_offsets(board1_hoffset, board1_voffset, panel_rotation)
+        b2_hoffset, b2_voffset = rotate_offsets(board2_hoffset, board2_voffset, panel_rotation)
+        b3_hoffset, b3_voffset = rotate_offsets(board3_hoffset, board3_voffset, panel_rotation)
+
+        # Calculate final positions
+        pos1 = (current_set_hoffset + b1_hoffset, current_set_voffset + b1_voffset)
+        pos2 = (current_set_hoffset + b2_hoffset, current_set_voffset + b2_voffset)
+        pos3 = (current_set_hoffset + b3_hoffset, current_set_voffset + b3_voffset)
+
+        # Add boards to the panel
+        # Board 1: Rotate according to panel_rotation
+        panel.appendBoard(
+            board1_path,
+            panelOrigin + VECTOR2I(*pos1),
+            origin=Origin.Center,
+            sourceArea=sourceArea1,
+            netRenamer=netRenamer,
+            refRenamer=refRenamer,
+            rotationAngle=panel_rotation * deg,
+        )
+
+        # Board 2: Always rotated 90° plus any additional panel_rotation
+        panel.appendBoard(
+            board2_path,
+            panelOrigin + VECTOR2I(*pos2),
+            origin=Origin.Center,
+            sourceArea=sourceArea2,
+            netRenamer=netRenamer,
+            refRenamer=refRenamer,
+            inheritDrc=False,
+            rotationAngle=(panel_rotation + 90) * deg,
+        )
+
+        # Board 3: Rotate according to panel_rotation
+        panel.appendBoard(
+            board3_path,
+            panelOrigin + VECTOR2I(*pos3),
+            origin=Origin.Center,
+            sourceArea=sourceArea3,
+            netRenamer=netRenamer,
+            refRenamer=refRenamer,
+            inheritDrc=False,
+            rotationAngle=panel_rotation * deg,
+        )
 
 substrates = panel.substrates[substrateCount:] # Collect set of newly added boards
 
