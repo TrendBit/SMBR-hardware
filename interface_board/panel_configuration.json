@@ -3,7 +3,8 @@
         "hspace": "3.0mm",
         "vspace": "3.0mm",
         "rows": "2",
-        "cols": "4"
+        "cols": "4",
+        "renameref": "{orig}-{n}"
     },
     "tabs": {
         "type": "fixed",
