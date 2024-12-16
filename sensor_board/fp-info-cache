@@ -1,4 +1,4 @@
-24377454884050838
+24382702171957493
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68768,6 +68768,13 @@ Mark board for extraction
 0
 0
 PCM_kikit
+Error
+Mark board for extraction
+
+0
+0
+0
+PCM_kikit
 Fiducial
 Circular Fiducial
 fiducial
@@ -92092,6 +92099,13 @@ RPi-CM4_3D
 0
 0
 TCY_modules
+RPi-Zero-2W_3D
+
+
+0
+0
+0
+TCY_modules
 RPi_4
 
 
@@ -92420,6 +92434,13 @@ LTE-R38386A-ZF-U
 0
 6
 2
+TCY_smd_leds
+OSRAM_LZ4-00
+
+
+0
+9
+9
 TCY_smd_leds
 SFH_4171S_EP1_5x5mm
 https://us.liteon.com/upload/media/news/20161228%20LTE-R38386A-ZF-U%20DATA%20SHEET.pdf

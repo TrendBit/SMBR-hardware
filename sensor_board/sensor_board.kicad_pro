@@ -505,7 +505,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "../resources/TrendBit_page_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -736,6 +736,8 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "1.0a"
+    "MONTH": "12",
+    "VERSION": "1.0a",
+    "YEAR": "2024"
   }
 }
