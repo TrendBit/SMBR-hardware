@@ -137,7 +137,7 @@
 		)
 	)
 	(property "MONTH" "12")
-	(property "VERSION" "1.0a")
+	(property "VERSION" "1.1")
 	(property "YEAR" "2024")
 	(net 0 "")
 	(net 1 "GND_{SM1}")
@@ -43562,7 +43562,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "4a0a76e7-df7a-4344-a109-7a5c08ef97b0")
@@ -43616,7 +43616,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -60315,7 +60315,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "1c845295-8d33-458f-9526-0329f672ea4b")
@@ -60369,7 +60369,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -73445,6 +73445,19 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "BT"
+		(at 198 80 270)
+		(layer "B.SilkS")
+		(uuid "1ef92e33-00dc-4516-9c62-2e0694d9ae86")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "G"
 		(at 217.3 120.7 0)
 		(layer "B.SilkS")
@@ -73472,7 +73485,7 @@
 		)
 	)
 	(gr_text "BOTTOM"
-		(at 191.8 128 -0)
+		(at 191.8 125.7 -0)
 		(layer "B.SilkS")
 		(uuid "27a221a3-e178-4665-868b-5adcb453b346")
 		(effects
@@ -73861,8 +73874,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "TEMP"
-		(at 198 72.5 -90)
+	(gr_text "LED TEMP"
+		(at 198 73.8 270)
 		(layer "B.SilkS")
 		(uuid "97c1a85f-5e68-4f49-b9ef-d93ad8b1dac1")
 		(effects
@@ -74285,7 +74298,7 @@
 		)
 	)
 	(gr_text "BOTTOM"
-		(at 191.8 128 0)
+		(at 191.8 125.7 0)
 		(layer "F.SilkS")
 		(uuid "188b7490-7d7d-4bb7-8011-03ab370f7d19")
 		(effects
@@ -74554,7 +74567,7 @@
 			)
 		)
 	)
-	(gr_text "Sensor module #1\nDesigned by: Petr Malanik\n10/2024 v${VERSION}"
+	(gr_text "Sensor module #1\nDesigned by: Petr Malanik\n${MONTH}/${YEAR} v${VERSION}"
 		(at 189.3 108.899999 0)
 		(layer "F.SilkS")
 		(uuid "69eebc5f-5cc4-4dd3-9f59-5b7a14e50fce")
@@ -74591,7 +74604,7 @@
 		)
 	)
 	(gr_text "v${VERSION}"
-		(at 97.35 76.75 0)
+		(at 97 76.75 0)
 		(layer "F.SilkS")
 		(uuid "6ec642ac-d58a-4775-823a-eae1acfc006b")
 		(effects
@@ -74713,7 +74726,7 @@
 		)
 	)
 	(gr_text "M#1"
-		(at 179.9 66.8 0)
+		(at 180.4 66.8 0)
 		(layer "F.SilkS")
 		(uuid "967047ac-7305-43f5-b8a4-523e2ae62780")
 		(effects
@@ -74957,7 +74970,7 @@
 		)
 	)
 	(gr_text "v${VERSION}"
-		(at 142.5 83.5 0)
+		(at 142.1 83.5 0)
 		(layer "F.SilkS")
 		(uuid "d4acecb2-544c-4d49-b8db-a83062de00c3")
 		(effects
@@ -75006,8 +75019,8 @@
 			)
 		)
 	)
-	(gr_text "TEMP"
-		(at 197.7 69.8 270)
+	(gr_text "TEMP\nLED"
+		(at 196.8 67.9 270)
 		(layer "F.SilkS")
 		(uuid "dc4569e0-f9ae-40f5-be55-9212f413f0c6")
 		(effects
@@ -75016,6 +75029,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+			(justify left)
 		)
 	)
 	(gr_text "ES-EMIT"
