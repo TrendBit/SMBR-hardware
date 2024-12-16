@@ -731,7 +731,7 @@
 		)
 		(uuid "1ffa8ff6-1a7f-4b8c-8402-cf9b0f1dfb91")
 	)
-	(text "I2C address (7-bit):\nADDR =  HIGH -> 0b1001001 (0x49)"
+	(text "Designator: TA3\nLocation: Board #3\nI2C address (7-bit):\nADDR =  HIGH -> 0b1001001 (0x49)"
 		(exclude_from_sim no)
 		(at 147.955 119.38 0)
 		(effects

@@ -805,9 +805,9 @@
 		)
 		(uuid "1ffa8ff6-1a7f-4b8c-8402-cf9b0f1dfb91")
 	)
-	(text "I2C address (7-bit):\nADDR = LOW -> 0b1001000 (0x48)"
+	(text "Designator: TA1\nLocation: Board #2, inside\nI2C address (7-bit):\nADDR = LOW -> 0b1001000 (0x48)"
 		(exclude_from_sim no)
-		(at 141.605 102.87 0)
+		(at 141.605 104.775 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -840,9 +840,9 @@
 		)
 		(uuid "3dcf385a-d234-4351-bd0a-1c945c5cc9e9")
 	)
-	(text "I2C address (7-bit):\nADDR = LOW -> 0b1001010 (0x4a)"
+	(text "Designator: TA2\nLocation: Board #2, outside\nI2C address (7-bit):\nADDR = LOW -> 0b1001010 (0x4a)"
 		(exclude_from_sim no)
-		(at 141.605 158.75 0)
+		(at 141.605 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
