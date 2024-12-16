@@ -3289,6 +3289,10 @@
 		(uuid "2099b0e7-8926-4e73-9617-f2b443fc78c5")
 	)
 	(no_connect
+		(at 189.23 137.16)
+		(uuid "3106d7d9-938f-4b67-9b28-60a8afbf0f63")
+	)
+	(no_connect
 		(at 189.23 78.74)
 		(uuid "862a4f37-2b32-435d-bded-8a69b935a0b3")
 	)
@@ -3297,20 +3301,28 @@
 		(uuid "9ea9b510-13b3-40fc-b2c1-0998abd20165")
 	)
 	(no_connect
-		(at 189.23 132.08)
-		(uuid "a8819b56-8d64-402c-8a25-93cec4120c7a")
-	)
-	(no_connect
-		(at 189.23 134.62)
-		(uuid "b6d6c3a7-2e84-4956-a9d4-ae7ae658b69a")
+		(at 189.23 104.14)
+		(uuid "b8a1c42d-40ea-4404-89b6-d5011cce0085")
 	)
 	(no_connect
 		(at 189.23 121.92)
 		(uuid "cc8b3650-0928-435f-94b6-38e65a80075b")
 	)
 	(no_connect
+		(at 189.23 91.44)
+		(uuid "ccd29c61-5a43-42d9-8709-1598603c3c1e")
+	)
+	(no_connect
+		(at 189.23 88.9)
+		(uuid "cec8aeb1-908e-4493-bc1b-0aedda15db2c")
+	)
+	(no_connect
 		(at 189.23 129.54)
 		(uuid "e1ddd1c0-6c96-409b-bfe6-601fc9369d80")
+	)
+	(no_connect
+		(at 189.23 93.98)
+		(uuid "f7017c7a-c23f-48ac-9abe-a624bca4b212")
 	)
 	(bus_entry
 		(at 218.44 83.82)
@@ -3466,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 137.16) (xy 200.66 137.16)
+			(xy 189.23 132.08) (xy 200.66 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 200.66 104.14)
+			(xy 189.23 106.68) (xy 200.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 106.68) (xy 200.66 106.68)
+			(xy 189.23 134.62) (xy 200.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5374,7 +5386,7 @@
 		(uuid "12022d54-c30d-4e50-9135-815714489c15")
 	)
 	(label "LED2"
-		(at 166.37 195.58 180)
+		(at 153.67 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5462,7 +5474,7 @@
 		(uuid "575e0ae7-9a7c-48e7-a207-12c387b87eb4")
 	)
 	(label "LED1"
-		(at 153.67 195.58 180)
+		(at 166.37 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5528,7 +5540,7 @@
 		(uuid "9acbcbd3-9c4e-47f2-90c6-faf0670add9f")
 	)
 	(label "LED2"
-		(at 200.66 104.14 180)
+		(at 200.66 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5638,7 +5650,7 @@
 		(uuid "d9d94fac-56e6-46b9-b1d9-c8000bba756f")
 	)
 	(label "LED1"
-		(at 200.66 106.68 180)
+		(at 200.66 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5719,7 +5731,7 @@
 	)
 	(hierarchical_label "ES_CONTROL"
 		(shape output)
-		(at 200.66 137.16 0)
+		(at 200.66 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10786,7 +10798,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ABM8G-12.000MHZ-4Y-T3"
+		(property "MPN" "C9002"
 			(at 114.3 124.46 0)
 			(effects
 				(font
