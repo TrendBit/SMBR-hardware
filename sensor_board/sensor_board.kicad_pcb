@@ -159,7 +159,7 @@
 	(net 17 "Net-(U801-OUT)")
 	(net 18 "+3.3V_REF_{SM2}")
 	(net 19 "Net-(D801-K)")
-	(net 20 "Net-(C804-Pad2)")
+	(net 20 "Net-(C8-Pad2)")
 	(net 21 "Net-(U803-GS)")
 	(net 22 "Net-(C901-Pad2)")
 	(net 23 "Net-(D901-K)")
@@ -231,7 +231,7 @@
 	(net 89 "/SM_1/Microcontroller/VERSION")
 	(net 90 "Net-(U702-Rs)")
 	(net 91 "Net-(U803-IN)")
-	(net 92 "Net-(R806-Pad1)")
+	(net 92 "Net-(R7-Pad2)")
 	(net 93 "Net-(U902-IN)")
 	(net 94 "/SM_1/Microcontroller/TS_IR_GAIN")
 	(net 95 "Net-(R904-Pad1)")
@@ -468,7 +468,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2501,7 +2501,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 92 "Net-(R806-Pad1)")
+			(net 92 "Net-(R7-Pad2)")
 			(pintype "output")
 			(uuid "f3706bc4-651d-4c76-bbaa-97b941964581")
 		)
@@ -3664,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f6e58ba1-7963-40f1-b9db-47f8db93042f")
@@ -3714,7 +3714,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8943,7 +8943,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(C804-Pad2)")
+			(net 20 "Net-(C8-Pad2)")
 			(pintype "output")
 			(uuid "96438e6a-a76c-4dc6-870f-428c551c62a4")
 		)
@@ -14944,7 +14944,7 @@
 				)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "10pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c29e1be6-a359-4ba6-bdf8-191e9fa9c992")
@@ -15150,7 +15150,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(C804-Pad2)")
+			(net 20 "Net-(C8-Pad2)")
 			(pintype "passive")
 			(uuid "ba53bb78-1e56-4834-967b-76f477007db4")
 		)
@@ -15686,7 +15686,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15833,7 +15833,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 92 "Net-(R806-Pad1)")
+			(net 92 "Net-(R7-Pad2)")
 			(pintype "passive")
 			(uuid "be7a5603-387c-46b3-bfbc-9f55f96db7b1")
 		)
@@ -17695,7 +17695,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "150k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "aac81b4c-a8da-4352-82e6-cb4ed1e37cd9")
@@ -17745,7 +17745,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17901,7 +17901,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(C804-Pad2)")
+			(net 20 "Net-(C8-Pad2)")
 			(pintype "passive")
 			(uuid "a63c71bc-bec3-42e0-b3ec-728ca2bd0719")
 		)
@@ -20231,7 +20231,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20378,7 +20378,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(C804-Pad2)")
+			(net 20 "Net-(C8-Pad2)")
 			(pintype "passive")
 			(uuid "422af87a-14f9-46bd-8fc8-19864ed12087")
 		)
@@ -24757,7 +24757,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.27R"
+		(property "Value" "0.068R"
 			(at 0 -2.28 90)
 			(layer "B.Fab")
 			(uuid "4fdd48c9-fc51-4e48-892c-b451a63e94ab")
@@ -24811,7 +24811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5123641"
+		(property "LCSC" "C7467480"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24825,7 +24825,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FRL1210FR068TS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32081,7 +32081,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40958,7 +40958,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "ABM8G-12.000MHZ-4Y-T3"
+		(property "MPN" "C9002"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42770,7 +42770,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48725,7 +48725,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "10nF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "a2b98dfc-cdd7-4c19-8093-53902e8120ac")
@@ -48779,7 +48779,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C282246"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49270,6 +49270,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4eee3686-62df-489a-b5d8-1e8444b93d0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "C507866"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f444301a-2a89-42af-9960-889026954a4a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -57279,7 +57307,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "fe9bd019-b5f0-430e-9716-5802ff9a2a19")
@@ -57319,7 +57347,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57347,7 +57375,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" "C21190"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57362,7 +57390,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/e02b8769-509c-4455-802a-e3d24be63cf2/4ed1e6cd-d036-4dd1-ae45-e476bf21038e")
+		(path "/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/e02b8769-509c-4455-802a-e3d24be63cf2/4ac3abf1-a5bb-40ad-a3ed-5e49f111895f")
 		(sheetname "CAN & Power")
 		(sheetfile "Power_supply.kicad_sch")
 		(attr smd)
@@ -57483,7 +57511,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 90 "Net-(U702-Rs)")
+			(net 1 "GND_{SM1}")
 			(pintype "passive")
 			(uuid "628e1b9b-1e62-4b95-85b2-5ae6eecbd158")
 		)
@@ -57492,7 +57520,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 1 "GND_{SM1}")
+			(net 90 "Net-(U702-Rs)")
 			(pintype "passive")
 			(uuid "4947eec8-70eb-43fc-8136-0e90075f6148")
 		)
@@ -63155,7 +63183,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23193"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64748,7 +64776,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "012a7d61-16d4-4fba-aa14-08f1fb572eca")
@@ -64802,7 +64830,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

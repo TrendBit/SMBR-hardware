@@ -3509,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 50.8) (xy 250.19 50.8)
+			(xy 243.84 50.8) (xy 254 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 93.98) (xy 250.19 93.98)
+			(xy 243.84 93.98) (xy 254 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6128,6 +6128,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ac3abf1-a5bb-40ad-a3ed-5e49f111895f")
+		(property "Reference" "R703"
+			(at 111.125 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 111.125 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.078 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b436aca9-011b-4f0b-aecf-4222fc0654e1")
+		)
+		(pin "2"
+			(uuid "5f8fe524-aac7-43ae-ba89-8f0f7f6f5cf0")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/e02b8769-509c-4455-802a-e3d24be63cf2"
+					(reference "R703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 151.13 0)
 		(unit 1)
@@ -6188,95 +6275,6 @@
 			(project "sensor_board"
 				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/e02b8769-509c-4455-802a-e3d24be63cf2"
 					(reference "#PWR0729")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 179.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ed1e6cd-d036-4dd1-ae45-e476bf21038e")
-		(property "Reference" "R703"
-			(at 111.76 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 111.76 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.078 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 114.3 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C122538"
-			(at 111.76 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5cc5f3e6-af21-4597-9624-7a243c62b272")
-		)
-		(pin "1"
-			(uuid "d6f79720-b7b5-4b07-8547-f05eb4c1453f")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/4ddeb86a-7187-4ece-ba8d-5f6a5377aeeb/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/e02b8769-509c-4455-802a-e3d24be63cf2"
-					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -6369,7 +6367,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 250.19 93.98 270)
+		(at 254 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6377,7 +6375,7 @@
 		(dnp no)
 		(uuid "51c8502a-6177-43be-9100-05c9c66cda05")
 		(property "Reference" "#PWR0742"
-			(at 246.38 93.98 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6384,7 @@
 			)
 		)
 		(property "Value" "+1.25V_REF_{SM1}"
-			(at 248.285 91.44 90)
+			(at 252.095 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 93.98 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 93.98 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 250.19 93.98 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6420,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 250.19 93.98 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6429,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 250.19 93.98 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9050,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 250.19 50.8 270)
+		(at 254 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9060,7 +9058,7 @@
 		(dnp no)
 		(uuid "c7c667f3-906e-4c28-b796-971ef829e6af")
 		(property "Reference" "#PWR0741"
-			(at 246.38 50.8 0)
+			(at 250.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,7 +9067,7 @@
 			)
 		)
 		(property "Value" "+3.3V_REF_{SM1}"
-			(at 248.285 47.625 90)
+			(at 252.095 47.625 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 50.8 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 50.8 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 250.19 50.8 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
