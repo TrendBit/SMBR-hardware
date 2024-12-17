@@ -72278,7 +72278,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Control board\n09/24 v${VERSION}\nDesigned by:\nPetr Malaník"
+	(gr_text "Control board\n12/24 v${VERSION}\nDesigned by:\nPetr Malaník"
 		(at 136.75 68.75 0)
 		(layer "B.SilkS")
 		(uuid "ddd50ab6-2aa2-4133-83b5-64bd7c26e2f0")
