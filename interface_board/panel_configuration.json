@@ -3,14 +3,16 @@
         "hspace": "3.0mm",
         "vspace": "3.0mm",
         "rows": "2",
-        "cols": "4",
+        "cols": "2",
+        "vbonecut": "False",
+        "renamenet": "{orig}-{n}",
         "renameref": "{orig}-{n}"
     },
     "tabs": {
         "type": "fixed",
-        "vwidth": "5mm",
-        "hwidth": "5mm",
-        "vcount": "2",
+        "vwidth": "8mm",
+        "hwidth": "8mm",
+        "vcount": "3",
         "hcount": "2"
     },
     "cuts": {
