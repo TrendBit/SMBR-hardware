@@ -4066,13 +4066,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 104.14 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4154,13 +4155,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 78.74 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4333,13 +4335,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 176.53 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4421,13 +4424,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 91.44 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -4509,13 +4513,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 66.04 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4597,13 +4602,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 201.93 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4685,13 +4691,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 163.83 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4773,13 +4780,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 163.83 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -4861,13 +4869,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 66.04 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -4949,13 +4958,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 78.74 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -5212,13 +5222,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 163.83 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -5300,13 +5311,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 91.44 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -5388,13 +5400,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 91.44 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -5564,13 +5577,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 189.23 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -5652,13 +5666,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 66.04 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -5740,13 +5755,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 189.23 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -5914,13 +5930,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 176.53 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -6002,13 +6019,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 189.23 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -6090,13 +6108,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 78.74 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -6178,13 +6197,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 189.23 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -6340,7 +6360,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66744230-36b8-4605-a8a0-df52844c0fa3")
 		(property "Reference" "D19"
 			(at 104.14 44.7674 90)
@@ -6351,13 +6370,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 104.14 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -6795,13 +6815,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 201.93 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -6883,13 +6904,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 91.44 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -6971,13 +6993,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 201.93 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -7124,13 +7147,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 163.83 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -7212,13 +7236,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 78.74 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -7300,13 +7325,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 66.04 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -7453,13 +7479,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 163.83 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -7651,13 +7678,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 201.93 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -7739,13 +7767,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 176.53 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -7827,13 +7856,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 176.53 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -7915,13 +7945,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 163.83 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8003,13 +8034,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 66.04 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8091,13 +8123,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 201.93 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8179,13 +8212,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 78.74 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -8267,13 +8301,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 176.53 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8355,13 +8390,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 91.44 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8443,13 +8479,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 66.04 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8618,13 +8655,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 104.14 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8706,13 +8744,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 104.14 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -8882,13 +8921,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 78.74 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -8970,13 +9010,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 201.93 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -9285,7 +9326,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5b19336-663b-4fc3-bdd3-be5c9380df14")
 		(property "Reference" "D21"
 			(at 104.14 70.1674 90)
@@ -9296,13 +9336,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 104.14 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -9449,13 +9490,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 189.23 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -9690,13 +9732,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "XL-2835UBC-05"
 			(at 91.44 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -9767,7 +9810,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8d4a771-d0b6-4ba1-aea1-f15d42b183ef")
 		(property "Reference" "D20"
 			(at 104.14 57.4674 90)
@@ -9778,13 +9820,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-2835SURC-05"
 			(at 104.14 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TCY_smd_leds:LED_PLCC_2835_Reversed"
@@ -9866,13 +9909,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHITE"
+		(property "Value" "67-21S/KK7C-H276034Z15/DT(GC)"
 			(at 189.23 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"
@@ -9954,13 +9998,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "XL-2835UGC-05"
 			(at 176.53 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_PLCC_2835"

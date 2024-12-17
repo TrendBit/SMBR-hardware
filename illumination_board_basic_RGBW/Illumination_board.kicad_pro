@@ -43,8 +43,8 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.7,
-        "silk_text_size_v": 0.7,
+        "silk_text_size_h": 0.6,
+        "silk_text_size_v": 0.6,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -59,7 +59,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|177500000|142500000|d472ecab-71c7-46e8-affb-dc9460ec01e2|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|177500000|142500000|f8249af6-55b9-4219-99b8-6ca81467efcf|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|128220000|56537500|a1efd2d6-c839-4644-96ef-de61fce6221b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|151770000|56570000|9943ff90-2042-45e4-b632-fef5f8470a40|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -129,7 +134,7 @@
         "min_microvia_drill": 0.5,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
@@ -521,7 +526,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "/home/petr/work/Phenobottle_v3/resources/TrendBit_page_layout.kicad_wks"
+    "page_layout_descr_file": "../resources/TrendBit_page_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -599,6 +604,12 @@
           "label": "Popis",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -674,6 +685,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "1.0"
+    "VERSION": "1.1"
   }
 }
