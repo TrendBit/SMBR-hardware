@@ -1,0 +1,78 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "3mm",
+        "rotation": "90deg",
+        "rows": "2",
+        "cols": "2",
+        "renamenet": "{orig}-{n}",
+        "renameref": "{orig}-{n}"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "8mm",
+        "hwidth": "8mm",
+        "vcount": "3",
+        "hcount": "2"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "3mm",
+        "mintotalheight": "70mm",
+        "fillet": "3mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "1.152mm",
+        "soldermaskmargin": "1.3mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "3.35mm",
+        "opening": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "1.5mm",
+        "thickness": "0.4mm",
+        "vjustify": "top",
+        "text": "Smart Modular Photo BioReactor - Control module"
+    },
+    "text2": {
+        "type": "simple",
+        "hoffset": "-8mm",
+        "voffset": "-1.5mm",
+        "thickness": "0.4mm",
+        "hjustify": "right",
+        "vjustify": "bottom",
+        "text": "TrendBit s.r.o.",
+        "anchor": "br"
+    },
+    "text3": {
+        "type": "simple",
+        "hoffset": "8mm",
+        "voffset": "-1.5mm",
+        "thickness": "0.4mm",
+        "hjustify": "left",
+        "vjustify": "bottom",
+        "text": "Designed by: Petr Malan\u00edk",
+        "anchor": "bl"
+    },
+    "text4": {
+        "type": "simple",
+        "voffset": "-1.5mm",
+        "thickness": "0.4mm",
+        "vjustify": "bottom",
+        "text": "12/2024 v1.2",
+        "anchor": "mb"
+    },
+    "post": {
+        "millradius": "1.5mm"
+    }
+}
