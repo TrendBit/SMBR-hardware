@@ -10870,7 +10870,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 128.905 124.46 0)
 			(effects
 				(font
@@ -13746,7 +13746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2986059"
+		(property "LCSC" "C965804"
 			(at 96.52 177.8 0)
 			(effects
 				(font
@@ -13755,7 +13755,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/6T"
+		(property "MPN" "XL-1608UGC-04"
 			(at 96.52 177.8 0)
 			(effects
 				(font

@@ -2442,7 +2442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86602"
+		(property "LCSC" "C72485"
 			(at 114.935 72.39 0)
 			(effects
 				(font
@@ -2679,7 +2679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CDBA340"
+		(property "Value" "SS34"
 			(at 169.545 95.25 90)
 			(effects
 				(font
@@ -2760,7 +2760,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBA340-HF"
+		(property "MPN" "SS34"
 			(at 166.37 93.98 90)
 			(effects
 				(font
