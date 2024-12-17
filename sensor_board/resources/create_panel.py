@@ -81,8 +81,8 @@ sourceArea3 = ki.readSourceArea(preset["source"], board3)
 
 substrateCount = len(panel.substrates) # Store number of previous boards (probably 0)
 # Prepare renaming nets and references
-netRenamer = lambda x, y: "Board_{n}-{orig}".format(n=x, orig=y)
-refRenamer = lambda x, y: "Board_{n}-{orig}".format(n=x, orig=y)
+netRenamer = lambda x, y: "{orig}-{n}".format(n=x, orig=y)
+refRenamer = lambda x, y: "{orig}-{n}".format(n=x, orig=y)
 
 # Actually place the individual boards
 # Use existing grid positioner
@@ -93,7 +93,9 @@ panelOrigin = VECTOR2I(0,0)
 panel_rotation = 0  # Set to desired rotation angle (e.g., -90, 0, or 90)
 
 h_boards_count = 4
-v_boards_count = 2
+
+# Increasing vertical board count can cause issues with CPL file for JLCPCB
+v_boards_count = 1
 
 board1_voffset = 0 * mm
 board2_voffset = 49 * mm
