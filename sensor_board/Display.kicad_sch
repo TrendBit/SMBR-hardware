@@ -962,7 +962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86602"
+		(property "LCSC" "C72485"
 			(at 183.515 113.03 0)
 			(effects
 				(font

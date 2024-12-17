@@ -2968,7 +2968,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2876104"
+		(property "JLCPCB" ""
 			(at 207.01 58.42 0)
 			(effects
 				(font
@@ -2986,7 +2986,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2876104"
+		(property "LCSC" "C2670138"
 			(at 209.2041 40.64 0)
 			(effects
 				(font

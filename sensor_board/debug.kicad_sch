@@ -5031,7 +5031,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2286"
+		(property "JLCPCB" ""
 			(at 148.59 52.07 0)
 			(effects
 				(font
