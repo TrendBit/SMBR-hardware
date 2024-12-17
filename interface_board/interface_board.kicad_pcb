@@ -15896,7 +15896,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" "C2876104"
+		(property "JLCPCB" "C2670138"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15924,12 +15924,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2876104"
+		(property "LCSC" "C2670138"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "faba4db4-1156-4ae3-acaa-89e6407e99e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPNA" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f75bcd0a-03e7-4f8b-ab2c-9b432fba84fd")
 			(effects
 				(font
 					(size 1 1)
