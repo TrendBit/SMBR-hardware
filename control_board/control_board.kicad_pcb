@@ -12431,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Value" "DMC2700"
+		(property "Value" "DMC3071"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "beda98df-25c7-4184-94c2-b69e9851ba4f")
@@ -12481,7 +12481,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C444426"
+		(property "LCSC" "DMC3071"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12494,7 +12494,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMC2700UDM-7"
+		(property "MPN" "C460972"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26631,7 +26631,7 @@
 				)
 			)
 		)
-		(property "Value" "DMC2700"
+		(property "Value" "DMC3071"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "36775567-c20f-459e-b22a-6d0b2ace322b")
@@ -26681,7 +26681,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C444426"
+		(property "LCSC" "DMC3071"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26694,7 +26694,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMC2700UDM-7"
+		(property "MPN" "C460972"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35070,7 +35070,7 @@
 				)
 			)
 		)
-		(property "Value" "DMC2700"
+		(property "Value" "DMC3071"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "8fc9acf9-7ca0-4756-b97b-af8fcaea58dc")
@@ -35120,7 +35120,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C444426"
+		(property "LCSC" "DMC3071"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35133,7 +35133,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMC2700UDM-7"
+		(property "MPN" "C460972"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
