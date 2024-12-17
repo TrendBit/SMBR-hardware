@@ -1196,22 +1196,22 @@
 		(uuid "5756f01e-c126-4312-a2b0-b9fd86ef8495")
 	)
 	(junction
+		(at 166.37 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73bbd06f-c83e-49de-b76c-8fece7398c34")
+	)
+	(junction
 		(at 105.41 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95890a55-5866-4a99-813f-d3fe2c2950c4")
 	)
 	(junction
-		(at 172.72 104.14)
+		(at 185.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d753172c-df4f-4fe3-b28c-71f1b21cdb9a")
-	)
-	(junction
-		(at 166.37 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed520294-e127-4d24-acb4-471894ae51b7")
+		(uuid "f633b3a9-b3eb-4a75-bb5c-eb0c690f0d64")
 	)
 	(wire
 		(pts
@@ -1222,6 +1222,16 @@
 			(type default)
 		)
 		(uuid "07bf49dc-275a-4733-b692-347dd3647247")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151af4d8-f452-4c66-b93e-d2da54bb6cac")
 	)
 	(wire
 		(pts
@@ -1245,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 104.14) (xy 193.04 104.14)
+			(xy 180.34 104.14) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 166.37 104.14)
+			(xy 185.42 97.79) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 172.72 90.17)
+			(xy 166.37 87.63) (xy 166.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1335,16 +1345,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 104.14) (xy 172.72 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa875e7f-9d35-47e1-9f16-004c6f589180")
-	)
-	(wire
-		(pts
 			(xy 123.19 110.49) (xy 123.19 113.03)
 		)
 		(stroke
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 172.72 97.79)
+			(xy 166.37 104.14) (xy 166.37 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 179.07 104.14)
+			(xy 166.37 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 166.37 90.17)
+			(xy 185.42 87.63) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(hierarchical_label "LED-"
 		(shape input)
-		(at 193.04 104.14 0)
+		(at 186.69 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1501,7 +1501,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 166.37 87.63 0)
+		(at 185.42 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1509,7 +1509,7 @@
 		(dnp no)
 		(uuid "16a7e0e7-6dcb-463d-bb2a-fbf30ca37cde")
 		(property "Reference" "#PWR0126"
-			(at 166.37 91.44 0)
+			(at 185.42 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +1518,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 166.37 82.55 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 87.63 0)
+			(at 185.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +1535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 87.63 0)
+			(at 185.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 166.37 87.63 0)
+			(at 185.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1578,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 93.98 0)
+		(at 185.42 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1586,7 +1586,7 @@
 		(dnp no)
 		(uuid "18b3cb6c-2860-41f9-a8da-fa3edfd96054")
 		(property "Reference" "C45"
-			(at 156.845 92.71 0)
+			(at 189.865 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 156.845 95.25 0)
+			(at 189.865 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1604,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 167.3352 97.79 0)
+			(at 186.3852 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 170.18 92.7099 0)
+			(at 189.23 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1640,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 166.37 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2489,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 182.88 104.14 90)
+		(at 176.53 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2497,7 +2497,7 @@
 		(dnp no)
 		(uuid "97e79d0d-dfc3-4cc7-b467-ee1c1d7fabae")
 		(property "Reference" "L4"
-			(at 179.07 101.6 90)
+			(at 172.72 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Value" "68uH"
-			(at 184.785 101.6 90)
+			(at 178.435 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2513,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Sumida_CDMC6D28_7.25x6.5mm"
-			(at 182.88 104.14 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 104.14 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2531,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 182.88 104.14 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 			)
 		)
 		(property "LCSC" "C5189964"
-			(at 182.88 104.14 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "MPN" "CYA0650-68UH"
-			(at 182.88 104.14 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2586,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 172.72 87.63 0)
+		(at 166.37 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2594,7 +2594,7 @@
 		(dnp no)
 		(uuid "9ca0adc4-831d-4edc-a109-a80124e4415b")
 		(property "Reference" "#PWR0127"
-			(at 172.72 91.44 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 172.72 82.55 0)
+			(at 166.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 172.72 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2663,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 172.72 93.98 270)
+		(at 166.37 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2671,7 +2671,7 @@
 		(dnp no)
 		(uuid "a971dc20-e04a-46ff-bece-25b908355ed5")
 		(property "Reference" "D13"
-			(at 175.895 92.075 90)
+			(at 169.545 92.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2680,7 @@
 			)
 		)
 		(property "Value" "CDBA340"
-			(at 175.895 95.25 90)
+			(at 169.545 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2689,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2707,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 			)
 		)
 		(property "Link" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=sGAEpiMZZMtbRapU8LlZD7Jimkw4KnZBmcvzrUXABj8%3D"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 			)
 		)
 		(property "JLCPCB" "C8678"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2734,7 @@
 			)
 		)
 		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(property "MPNA" "SS34"
-			(at 172.72 93.98 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2752,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 166.37 92.075 0)
+			(at 160.02 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "MPN" "CDBA340-HF"
-			(at 172.72 93.98 90)
+			(at 166.37 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
