@@ -5261,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 143.51) (xy 201.93 143.51)
+			(xy 190.5 143.51) (xy 208.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6389,8 +6389,8 @@
 		)
 		(uuid "60f8979f-afb3-4094-9b12-5c9371a915af")
 	)
-	(label "LED1"
-		(at 201.93 105.41 180)
+	(label "LED2"
+		(at 208.28 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6411,7 +6411,7 @@
 		)
 		(uuid "6ff66141-46e1-44d1-8f3f-3f8eb6684e30")
 	)
-	(label "LED1"
+	(label "LED2"
 		(at 83.82 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6532,7 +6532,7 @@
 		)
 		(uuid "d0eef979-54c9-48e1-a66a-a82789dc3d22")
 	)
-	(label "LED2"
+	(label "LED1"
 		(at 101.6 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6587,7 +6587,7 @@
 		)
 		(uuid "dfd1a134-c6fc-496d-961b-0a05ddf022c2")
 	)
-	(label "LED2"
+	(label "LED1"
 		(at 201.93 135.89 180)
 		(fields_autoplaced yes)
 		(effects
