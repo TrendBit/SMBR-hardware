@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|138000000|104500000|04b414f3-b25b-4fb2-8939-ae8e89d26596|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|138000000|88000000|a72a8c61-2470-45b8-977d-f88689cc0b44|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|152300000|96200000|0c972e2f-3264-43e6-9254-413fddbfc71f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -118,14 +122,14 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -433,7 +437,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -646,6 +650,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "1.1"
+    "VERSION": "1.2"
   }
 }

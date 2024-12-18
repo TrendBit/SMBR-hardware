@@ -1,24 +1,21 @@
 {
     "layout": {
-        "hspace": "3.2mm",
-        "vspace": "3.2mm",
+        "hspace": "2mm",
+        "vspace": "2mm",
         "rows": "4",
-        "cols": "5"
+        "cols": "5",
+        "renamenet": "{orig}-{n}",
+        "renameref": "{orig}-{n}"
     },
     "tabs": {
-        "type": "fixed",
-        "vwidth": "5mm",
-        "hwidth": "5mm"
+        "type": "annotation"
     },
     "cuts": {
         "type": "vcuts"
     },
     "framing": {
-        "type": "tightframe",
-        "hspace": "3.2mm",
-        "vspace": "3.2mm",
-        "slotwidth": "3.2mm",
-        "fillet": "3mm"
+        "type": "frame",
+        "fillet": "2mm"
     },
     "tooling": {
         "type": "4hole",
@@ -71,16 +68,17 @@
     },
     "text4": {
         "type": "simple",
+        "hoffset": "8mm",
         "voffset": "-1.25mm",
         "width": "2mm",
         "height": "2mm",
         "thickness": "0.5mm",
         "vjustify": "bottom",
         "layer": "B.SilkS",
-        "text": "11/2024 v1.0",
+        "text": "12/2024 v1.2",
         "anchor": "mb"
     },
     "post": {
-        "millradius": "1.6mm"
+        "millradius": "1mm"
     }
 }
