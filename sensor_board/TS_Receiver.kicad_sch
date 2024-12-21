@@ -2055,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C623520"
 			(at 132.08 119.38 0)
 			(effects
 				(font
