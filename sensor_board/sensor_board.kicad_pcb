@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C623520"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27264,7 +27264,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C623520"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30142,6 +30142,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C7399705"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e711372-1310-40e3-94f5-726f6b3ed1d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30e69964-2a0f-43b5-8d9b-c914e02530fa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -44817,6 +44845,34 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C598275"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04f1773b-3b3a-4856-96b2-ee2527fb232e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1f4caef-0863-416f-9b67-4e947178a285")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/025f460d-e744-4c02-8ec8-7b807f0506ef/9121b575-5f5d-4201-ae9e-4db12778ea55/be73f69d-6f57-4ee0-b0fd-9f9f8b7545dd")
 		(sheetname "TS_Emitter")
@@ -50101,7 +50157,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19842503"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62120,7 +62176,7 @@
 		(path "/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/f3de6778-193e-4873-b277-8b7a6f2e09dd/67474bdd-8845-4d0b-a197-529db6506c2c")
 		(sheetname "Temperature measurement")
 		(sheetfile "Temperature_measurement.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -63471,7 +63527,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C500368"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -65592,7 +65648,7 @@
 		(path "/342d4c51-06a6-43b8-b7d8-fd5274b8f3a5/f3de6778-193e-4873-b277-8b7a6f2e09dd/f6eda1c6-8a32-4469-8e76-92a18f78c7f2")
 		(sheetname "Temperature measurement")
 		(sheetfile "Temperature_measurement.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 1.65 1)
 			(end -2.36 1)

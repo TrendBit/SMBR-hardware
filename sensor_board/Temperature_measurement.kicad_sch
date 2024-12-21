@@ -3867,9 +3867,9 @@
 		(at 110.49 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "67474bdd-8845-4d0b-a197-529db6506c2c")
 		(property "Reference" "D1502"
 			(at 117.475 176.53 90)
@@ -5246,9 +5246,9 @@
 		(at 110.49 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6eda1c6-8a32-4469-8e76-92a18f78c7f2")
 		(property "Reference" "D1501"
 			(at 116.205 160.655 90)
