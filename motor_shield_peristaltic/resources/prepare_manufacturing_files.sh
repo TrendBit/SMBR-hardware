@@ -1,19 +1,17 @@
 RESULTS_LOCATION="pcb_output_data/manufacturers/jlcpcb"
+MAIN_PCB="pcb/${PROJECT_FILE}.kicad_pcb"
+PANEL_PCB="pcb/panel/panel.kicad_pcb"
+PANEL_CONFIG="resources/panel_configuration.json"
 
-MAIN_PCB="pcb/detector.kicad_pcb"
-
-PALM_PCB="${RESULTS_LOCATION}/palm/palm.kicad_pcb"
-HEAD_TOP_PCB="${RESULTS_LOCATION}/head_top/head_top.kicad_pcb"
-HEAD_BOTTOM_PCB="${RESULTS_LOCATION}/head_bottom/head_bottom.kicad_pcb"
-
-mkdir -p ${RESULTS_LOCATION}/palm
-mkdir -p ${RESULTS_LOCATION}/head_top
-mkdir -p ${RESULTS_LOCATION}/head_bottom
+mkdir -p pcb/panel
 
 REPO_URL="https://github.com/bennymeg/Fabrication-Toolkit.git"
 TOOLKIT_DIR="resources/jlcpcb_toolkit"
+TOOLKIT_VERSION="5.1.0"
 MODULE="plugins.cli"
 QUIET_MODE=false
+
+echo ${MAIN_PCB}
 
 print() {
     if [ "$QUIET_MODE" = false ]; then
@@ -28,27 +26,47 @@ for arg in "$@"; do
     esac
 done
 
-# Clone or update repository
+# Clone or update repository to specific version
 print "Setting up JLCPCB fabrication tools..."
 if [ -d "$TOOLKIT_DIR/.git" ]; then
-    print "Repository already exists. Pulling latest changes..."
-    git -C "$TOOLKIT_DIR" pull > /dev/null 2>&1
+    cd "$TOOLKIT_DIR"
+    CURRENT_COMMIT=$(git rev-parse HEAD)
+    TARGET_COMMIT=$(git rev-parse "$TOOLKIT_VERSION" 2>/dev/null || echo "")
+    
+    if [ "$CURRENT_COMMIT" != "$TARGET_COMMIT" ]; then
+        print "Repository exists but not at target version. Updating to $TOOLKIT_VERSION..."
+        git fetch > /dev/null 2>&1
+        git checkout "$TOOLKIT_VERSION" > /dev/null 2>&1
+    fi
+    cd - > /dev/null
 else
-    print "Cloning repository..."
-    git clone "$REPO_URL" "$TOOLKIT_DIR" > /dev/null 2>&1
+    print "Cloning repository at version $TOOLKIT_VERSION..."
+    git clone --branch "$TOOLKIT_VERSION" "$REPO_URL" "$TOOLKIT_DIR" > /dev/null 2>&1
 fi
 
-
-print "Separating boards."
-kikit separate --source 'annotation; ref: Palm'         pcb/detector.kicad_pcb ${PALM_PCB}
-kikit separate --source 'annotation; ref: Head-Top'     pcb/detector.kicad_pcb ${HEAD_TOP_PCB}
-kikit separate --source 'annotation; ref: Head-Bottom'  pcb/detector.kicad_pcb ${HEAD_BOTTOM_PCB}
+print "Generating panels."
+kikit panelize --preset ${PANEL_CONFIG} ${MAIN_PCB} ${PANEL_PCB}
 
 print "Generating JLCPCB manufacturing files."
 export PYTHONPATH="$TOOLKIT_DIR"
-print "   --- Palm unit board ---"
-python3 -m "$MODULE" -p ${PALM_PCB} -t -e -aL User.1
-print "   --- Head-Top board ---"
-python3 -m "$MODULE" -p ${HEAD_TOP_PCB} -t -e -aL User.1
-print "   --- Head-Bottom board ---"
-python3 -m "$MODULE" -p ${HEAD_BOTTOM_PCB} -t -e -aL User.1
+print "   --- Single board ---"
+python3 -m "$MODULE" -p ${MAIN_PCB} -t -e -aL User.1
+print "   --- Panel ---"
+python3 -m "$MODULE" -p ${PANEL_PCB} -t -e -aL User.1
+
+# Copy files to results location
+rm -rf ${RESULTS_LOCATION}
+
+mkdir -p ${RESULTS_LOCATION}/single
+mkdir -p ${RESULTS_LOCATION}/panel
+
+cp pcb/production/bom.csv ${RESULTS_LOCATION}/single/
+cp pcb/production/positions.csv ${RESULTS_LOCATION}/single/
+cp pcb/production/*.zip ${RESULTS_LOCATION}/single/
+
+cp pcb/panel/production/bom.csv ${RESULTS_LOCATION}/panel/
+cp pcb/panel/production/positions.csv ${RESULTS_LOCATION}/panel/
+cp pcb/panel/production/*.zip ${RESULTS_LOCATION}/panel/
+
+rm -rf pcb/production
+rm -rf pcb/panel/production
