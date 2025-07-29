@@ -1,0 +1,54 @@
+# KiBot Globals
+# https://kibot.readthedocs.io/en/latest/configuration/global.html
+
+kibot:
+  version: 1
+
+global:
+  out_dir: '@OUTPUT_DIR@'
+  dnp_cross_top_layer: '@LAYER_DNP_TOP@'
+  dnp_cross_bottom_layer: '@LAYER_DNP_BOTTOM@'
+  cross_footprints_for_dnp: false
+  extra_pth_drill: 0 # for annular ring computation.
+  filters:
+    # 'KiCad config without environment.vars section'
+    - number: 9
+    # 'Unable to find KiCad 3D models'
+    - number: 10
+    # 'Malformed value'
+    - number: 20
+    # 'More than one SCH file found in ...'
+    - number: 44
+    # Missing 3D model
+    - number: 47
+    # Failed to download 3D model
+    - number: 48
+    # Invalid column name
+    - number: 62
+    # 3D render image is note ready for html output
+    - number: 91
+    # 3D models downloaded or cached
+    - number: 98
+    # 'Avoid adding extra information in the component value, use separated fields'
+    - number: 133
+    # ERC multiple_net_names (because ignores exclusions)
+    - number: 142
+    # 'This output depends on KiCad version, use blender_export instead'
+    - number: 143
+    # DRC lib_footprint_mismatch (because ignores exclusions)
+    - number: 145
+    # 'Not including component <ref> in filters because it has a malformed reference'
+    - number: 147
+    # 'No output to handle <output>'
+    - number: 168
+    # 'Please only use simple data types for definitions'
+    - number: 172
+    # Can't enable <distributor> without a key
+    - number: 1008
+
+
+...
+definitions:
+  OUTPUT_DIR: ./
+  LAYER_DNP_TOP: F.DNP
+  LAYER_DNP_BOTTOM: B.DNP
