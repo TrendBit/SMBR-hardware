@@ -1,9 +1,5 @@
-
-<h1 align="center">TrendBit_template - Template_example</h1>
-
-<p align="center" width="100%">
-  <img alt="Logo" width="10%" src="resources/logos/main_logo.png">
-</p>
+# Pump board
+Board for expansion pump module, which is used to control additional peristaltic pumps. To this board up to 4 peristaltic pumps can be connected a controlled. Module can be connected to SMPBR reactor via expansion port. Multiple of those modules can be connected to one bio-reactor and can be chained bia expansion ports. Module also have external power, because when more modules will be connected to expansion port, main adapter can be overloaded. External power input is prioritized over power from extension cable.
 
 <p align="center">
   <img alt="3D Top Angled" src="images/angled_top.png" width="45%">
@@ -11,10 +7,14 @@
   <img alt="3D Bottom Angled" src="images/angled_bottom.png" width="45%">
 </p>
 
-### ! Notes how to work with this templates are in [README_TEMPLATE.md](README_TEMPLATE.md) !
-
-# Resources
-[Summary](index.html) - Signpost with links to other documentation for production and testing
-[Schematic](detector-schematic.pdf) - Diagram of the device itself. The PDF allows interactive browsing of the blocks.
-[Fabrication](pcb_output_data/manufacturing/fabrication/detector-fabrication.pdf) - Manufacturing documents, not targeted to a specific manufacturer. PCB build-up/stackup, test points, drilling, layers.
-[Assembly](pcb_output_data/manufacturing/assembly/detector-assembly.pdf) - Documentation for board assembly, component positioning plan.
+## Manufacturing configuration
+- Single pieces
+- Thickness: 1.6mm
+- Layers: 4
+- Color: Green/White
+- Surface: HASL Lead Free
+- Confirm Production file: No
+- Mark: Remove
+- Assembly: Economic - Top Side
+- Edge Rails/Fiducials: Added by JLCPCB
+- Confirm parts placement: Yes
