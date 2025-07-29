@@ -32,7 +32,12 @@ fp-info-cache
 
 # KiBot files
 pcb/kibot*.kicad*
+pcb/panel
+html/
 pcb_output_data/kiri
+pcb_output_data/reports
+pcb_output_data/manufacturing/fabrication/gerbers
+pcb_output_data/manufacturing/*.zip
 pcb_output_data/manufacturers
 
 .cache/
