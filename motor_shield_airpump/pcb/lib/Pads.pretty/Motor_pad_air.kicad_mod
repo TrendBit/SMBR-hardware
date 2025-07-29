@@ -1,0 +1,160 @@
+(footprint "Motor_pad_air"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pads for connecting motor lead of air pump")
+	(tags "Motor pad")
+	(property "Reference" "REF**"
+		(at 0 -5.7 0)
+		(layer "F.SilkS")
+		(uuid "3d8e7feb-9963-415c-88ce-55d6e25b0683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Motor_pad_air"
+		(at 0 7.9 0)
+		(layer "F.Fab")
+		(uuid "80189ff5-d758-4f62-bf22-0a2143dbddf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7767fb3-2a12-4cc0-b708-839720ce53ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "363938ae-7b9f-4a91-ab51-dca61563984c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.9 1.8)
+		(end -0.9 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "f1a6710e-d00a-4c5b-b065-c75f7e69a9a1")
+	)
+	(fp_line
+		(start 0.9 -1.8)
+		(end 0.9 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "70b62dd6-f067-42f3-b7ce-31acaa618de0")
+	)
+	(fp_arc
+		(start -0.9 -1.8)
+		(mid 0 -2.7)
+		(end 0.9 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "c501d7a5-b784-41d3-9170-ea60116581b6")
+	)
+	(fp_arc
+		(start 0.9 1.8)
+		(mid 0 2.7)
+		(end -0.9 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "f35bb11a-8c46-4f4f-958f-fbe6efcd936f")
+	)
+	(fp_line
+		(start -1 1.8)
+		(end -1 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b33bf87-2312-4f4c-bcf3-f98afed7bc84")
+	)
+	(fp_line
+		(start 1 -1.8)
+		(end 1 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6286484-e935-4562-932c-d7e032b5f594")
+	)
+	(fp_arc
+		(start -1 -1.8)
+		(mid 0 -2.8)
+		(end 1 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "76ea24ef-878c-481c-81ce-b7f6e51ebf09")
+	)
+	(fp_arc
+		(start 1 1.8)
+		(mid 0 2.8)
+		(end -1 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec6415de-ef45-450a-a796-a7d50f75270b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.9 0)
+		(layer "F.Fab")
+		(uuid "2878d74c-3d10-463d-ba87-bc688e90e276")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.6 5.2)
+		(drill oval 0.6 4.2)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7316146f-cb83-4f41-add3-976b45b9d01f")
+	)
+	(embedded_fonts no)
+)
