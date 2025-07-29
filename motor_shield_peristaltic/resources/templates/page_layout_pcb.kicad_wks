@@ -1,0 +1,232 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "rect1:Rect")
+		(start 110 34)
+		(end 2 2)
+	)
+	(rect
+		(name "rect2:Rect")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "segm1:Line")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "text1:Text")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "segm2:Line")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "text2:Text")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "segm3:Line")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "text3:Text")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "segm4:Line")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "text4:Text")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "text5:Text")
+		(pos 88.9752 6.9002)
+	)
+	(line
+		(name "segm5:Line")
+		(start 110 5.5)
+		(end 2 5.5)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "text6:Text")
+		(pos 109 4.1)
+	)
+	(line
+		(name "segm6:Line")
+		(start 110 8.5)
+		(end 2 8.5)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "text7:Text")
+		(pos 24 6.9)
+		(font bold)
+	)
+	(tbtext "Size: ${PAPER}"
+		(name "text8:Text")
+		(pos 109 6.9)
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "text9:Text")
+		(pos 24 4.1)
+	)
+	(line
+		(name "segm7:Line")
+		(start 110 12.5)
+		(end 2 12.5)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "text11:Text")
+		(pos 109 14.3)
+	)
+	(line
+		(name "segm8:Line")
+		(start 110 18.5)
+		(end 2 18.5)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "text12:Text")
+		(pos 109 17)
+	)
+	(tbtext "Designed by: ${DESIGNER}"
+		(name "text13:Text")
+		(pos 109 20)
+	)
+	(tbtext "Designed for: ${COMPANY}"
+		(name "text14:Text")
+		(pos 109 23)
+	)
+	(tbtext "${COMMENT1}"
+		(name "text15:Text")
+		(pos 109 26)
+	)
+	(tbtext "${COMMENT2}"
+		(name "text16:Text")
+		(pos 109 29)
+	)
+	(tbtext "${COMMENT3}"
+		(name "text17:Text")
+		(pos 109 32)
+	)
+	(line
+		(name "segm9:Line")
+		(start 90 8.5)
+		(end 90 5.5)
+	)
+	(line
+		(name "segm10:Line")
+		(start 26 8.5)
+		(end 26 2)
+	)
+	(line
+		(name "segm9:Line")
+		(start 58.0522 8.5072)
+		(end 58.0522 5.5072)
+	)
+	(tbtext "GIT hash: ${GIT_HASH_PCB}"
+		(name "text5:Text")
+		(pos 57.602 6.9)
+	)
+	(tbtext "${LAYER}"
+		(name "")
+		(pos 147.3022 180.3572)
+		(font
+			(face "Times New Roman")
+			(size 3.226 3.226) bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Project: ${PROJECT_NAME}"
+		(name "text10:Text")
+		(pos 46.6272 14.7822)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "Title:\n\n"
+		(name "text10:Text")
+		(pos 109.5522 8.8822)
+		(font
+			(size 2 2) bold italic)
+	)
+	(line
+		(name "")
+		(start 47.3272 8.5322)
+		(end 47.3272 18.4822)
+	)
+	(tbtext "Board: ${BOARD_NAME}"
+		(name "text10:Text")
+		(pos 45.1022 10.6822)
+		(font
+			(size 2 2) bold italic)
+	)
+	(bitmap
+		(name "")
+		(pos 13.6022 26.3572)
+		(scale 0.3133333333)
+		(data "iVBORw0KGgoAAAANSUhEUgAAARgAAACRAQMAAAAiiDVrAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAO"
+			"xAAADsQBlSsOGwAAAAZQTFRFAAAAAAAApWe5zwAAAAJ0Uk5TAP9bkSK1AAACLklEQVR4nO3WPZKl"
+			"IBAAYCwCQtLNuMZmXmsz3RPslZwT7BW8wRISWPTy0yA+W6BmnKkJ7Eip72nbdOtj7IknPjsGwJgF"
+			"gI6nvxfGpFEAlLFoVjQrYQCNRmMos0Rj0FjKrNFsaGAmjI7GJrNcG0hmJYxBM3ujuSvG2Wy4tgTD"
+			"8MF2406yWaMZzbnoKhkdjdzORlg0Jho8p80WDScMT8aigYqBaIaqmaUJB3PFLMGwqlkvTX4u0GiW"
+			"s0k1BBPNdDZywz2dtkszJTNa2gxFbyhoGwl/Lk3qQwF/6Xz2ngcO/2gz5dmBAWcrGd/boQFHt00D"
+			"tiRl/LoCW1zzsBfRrK6CsLfvSBm3JNI7ICwSxiXECxOvORyNjeOQQgSTezUaf1bkw8OxeDGz39Js"
+			"hmBkelC1BugqMRajEow6mJCvKsZg8mbcSsNigea9QKZMMJpJ+xSXtBdMGXftFzPqcMNspJG+Vw7G"
+			"/c4XKBsRzHowMt4/Gx7Mko3SaLDnvRmCYQcTRmu02TBvLGEU7OaX3B+rNNK1aTI/5Z5yaQS8ZfND"
+			"7umg4cTrkb3DiC8xTt1oJPH5eDXqJuP60L24oeirs4G28Z++lnEj0TRTl5k7DGsb22G2m4wlP2hE"
+			"zi0zN40MNawbHvarbliPmXTbjB3G9WrTyJuMm8Gq8fGVhkej9AeN+GYG9+LDRnUY7LGqmToM9nzN"
+			"DB0mzeCFyf9b7jGsbWyHMR1Gd5ilw7C2qW3TE0888a74D4/4hXHbLuNWAAAAAElFTkSuQmCC"
+		)
+	)
+)

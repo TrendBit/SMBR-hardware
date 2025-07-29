@@ -1,0 +1,2 @@
+Transmission Line,					Impedance [ohms],	    Tolerance [ohms],	Layer,	Trace Width [mm],	Gap [mm],	Ref. Layers
+USB,		                        90,					    ±10 %,				L1,		0.17,				0.275,		L2
