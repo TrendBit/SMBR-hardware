@@ -1,9 +1,5 @@
-
-<h1 align="center">TrendBit_template - Template_example</h1>
-
-<p align="center" width="100%">
-  <img alt="Logo" width="10%" src="resources/logos/main_logo.png">
-</p>
+### Motor filter shield for air pump
+Small PCB directly soldered to motor terminals of air pump motor. It acts as a low pass filter reducing EMI. However, it can also be soldered directly to the motor chassis, further improving EMC. It simplifies motor connection by allowing the motor to be connected via a connector on the board.
 
 <p align="center">
   <img alt="3D Top Angled" src="images/angled_top.png" width="45%">
@@ -11,10 +7,15 @@
   <img alt="3D Bottom Angled" src="images/angled_bottom.png" width="45%">
 </p>
 
-### ! Notes how to work with this templates are in [README_TEMPLATE.md](README_TEMPLATE.md) !
-
-# Resources
-[Summary](index.html) - Signpost with links to other documentation for production and testing
-[Schematic](detector-schematic.pdf) - Diagram of the device itself. The PDF allows interactive browsing of the blocks.
-[Fabrication](pcb_output_data/manufacturing/fabrication/detector-fabrication.pdf) - Manufacturing documents, not targeted to a specific manufacturer. PCB build-up/stackup, test points, drilling, layers.
-[Assembly](pcb_output_data/manufacturing/assembly/detector-assembly.pdf) - Documentation for board assembly, component positioning plan.
+## Manufacturing configuration
+- Panel by customer, 3x3
+- Thickness: 1.6mm
+- Color: Black/White
+- Surface: HASL Lead Free
+- Confirm Production file: Yes
+- Mark: Remove
+- Assembly: Standard - Both sides
+- Castelated holes: Yes (2 sides)
+- Assembly: Standard - Top Side
+- Edge Rails/Fiducials: Added by customer
+- Confirm parts placement: Yes
