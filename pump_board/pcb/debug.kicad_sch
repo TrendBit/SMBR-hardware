@@ -2427,6 +2427,16 @@
 		)
 		(uuid "687416ea-820f-4a72-89c6-da8395129074")
 	)
+	(text "CONFIG 2 vs 4 pumps"
+		(exclude_from_sim no)
+		(at 217.805 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d6920ef-4136-4d45-a72c-54e8045b8f87")
+	)
 	(text "SWD Debug"
 		(exclude_from_sim no)
 		(at 155.575 120.65 0)
@@ -2556,6 +2566,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f53f3811-01dc-41ce-846f-5b083276dc94")
+	)
+	(no_connect
+		(at 205.74 53.34)
+		(uuid "1cfe11aa-18a7-4472-8129-49f3ebc86e00")
 	)
 	(no_connect
 		(at 80.01 82.55)

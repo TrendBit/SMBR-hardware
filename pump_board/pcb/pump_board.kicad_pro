@@ -896,12 +896,28 @@
       "Debug Interface"
     ],
     [
+      "cdec3853-c7e5-4d07-8d1c-6106f70488d0",
+      "CAN"
+    ],
+    [
       "2b7b6696-c5dd-49e2-b635-38dfcbfbb38b",
       "Peristaltic pump 1"
     ],
     [
-      "cdec3853-c7e5-4d07-8d1c-6106f70488d0",
-      "CAN"
+      "463f82ed-7c5f-4886-bee6-8cb334d9b148",
+      "Peristaltic pump 2"
+    ],
+    [
+      "9a07094b-7a68-437b-a41b-02c087f9bb84",
+      "Peristaltic pump 3"
+    ],
+    [
+      "97d212de-fbf8-46b2-aa29-7b20a16d533e",
+      "Peristaltic pump 4"
+    ],
+    [
+      "c8bd0ff2-14be-456c-aeee-c9a03cf7d230",
+      "Enumeration"
     ]
   ],
   "text_variables": {
@@ -910,8 +926,8 @@
     "COMPANY": "TrendBit",
     "DESIGNER": "Petr_Malan\u00edk",
     "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: ENIG\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR GREEN.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY TRENDBIT.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t90.000 \u00d7 100.000 mm\n\tBOARD THICKNESS\t\t1.160 mm\n\tTRACE WIDTH\t\t\tN/A mm\n\tTRACE TO TRACE\t\t0.100 mm\n\tMIN. HOLE (PTH)\t\t\t0.350 mm\n\tMIN. HOLE (NPTH)\t\t0.650 mm\n\tANNULAR RING\t\t\t0.140 mm\n\tCOPPER TO HOLE\t\t0.150 mm\n\tCOPPER TO EDGE\t\t0.300 mm\n\tHOLE TO HOLE\t\t\t0.250 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
-    "GIT_HASH_PCB": "",
-    "GIT_HASH_SCH": "",
+    "GIT_HASH_PCB": "a985fdb",
+    "GIT_HASH_SCH": "a985fdb",
     "GIT_URL": "",
     "PROJECT_NAME": "SMPBR",
     "RELEASE_BODY_1.0": "",
@@ -930,9 +946,9 @@
     "RELEASE_TITLE_UNRELEASED": "",
     "REVISION": "1.0",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "......................................",
-    "SHEET_NAME_11": "......................................",
-    "SHEET_NAME_12": "......................................",
+    "SHEET_NAME_10": "Peristaltic pump 3",
+    "SHEET_NAME_11": "Peristaltic pump 4",
+    "SHEET_NAME_12": "Enumeration",
     "SHEET_NAME_13": "......................................",
     "SHEET_NAME_14": "......................................",
     "SHEET_NAME_15": "......................................",
@@ -966,9 +982,9 @@
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "Power",
     "SHEET_NAME_6": "Debug Interface",
-    "SHEET_NAME_7": "Peristaltic pump 1",
-    "SHEET_NAME_8": "CAN",
-    "SHEET_NAME_9": "......................................",
+    "SHEET_NAME_7": "CAN",
+    "SHEET_NAME_8": "Peristaltic pump 1",
+    "SHEET_NAME_9": "Peristaltic pump 2",
     "VARIANT": "CHECKED"
   }
 }
