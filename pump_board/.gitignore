@@ -33,6 +33,7 @@ fp-info-cache
 # KiBot files
 pcb/kibot*.kicad*
 pcb/panel
+index.html
 html/
 pcb_output_data/kiri
 pcb_output_data/reports
