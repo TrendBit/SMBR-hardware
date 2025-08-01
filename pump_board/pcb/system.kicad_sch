@@ -232,6 +232,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 121.92) (xy 247.65 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cccc88-ed91-4993-99b7-e85b909e0da3")
+	)
+	(wire
+		(pts
 			(xy 175.26 44.45) (xy 203.2 44.45)
 		)
 		(stroke
@@ -292,6 +302,36 @@
 	)
 	(wire
 		(pts
+			(xy 254 69.85) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19df346b-70c8-4501-9ad4-78f6f1c73ec8")
+	)
+	(wire
+		(pts
+			(xy 247.65 69.85) (xy 247.65 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a35501f-e0d6-4184-8f6b-ecec785aab5d")
+	)
+	(wire
+		(pts
+			(xy 254 121.92) (xy 247.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28122857-fca4-4fab-b5b3-e22c2255ed9b")
+	)
+	(wire
+		(pts
 			(xy 175.26 158.75) (xy 203.2 158.75)
 		)
 		(stroke
@@ -302,6 +342,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 115.57) (xy 254 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cc2772-fcca-4ff4-b09d-16f58c20b8f5")
+	)
+	(wire
+		(pts
 			(xy 175.26 110.49) (xy 203.2 110.49)
 		)
 		(stroke
@@ -309,6 +359,16 @@
 			(type default)
 		)
 		(uuid "67ab528c-1d20-472f-8273-36c338778f5d")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 254 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6960485d-2e8b-4dd5-90da-3542a235043f")
 	)
 	(bus
 		(pts
@@ -330,6 +390,16 @@
 		)
 		(uuid "6b8c8970-83cd-4f29-a411-162f89949dfc")
 	)
+	(wire
+		(pts
+			(xy 247.65 39.37) (xy 241.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712766a0-bdaa-466d-8af3-ed20ae0bf379")
+	)
 	(bus
 		(pts
 			(xy 86.36 114.3) (xy 111.76 114.3)
@@ -342,6 +412,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 153.67) (xy 241.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c0bfdb-c504-4d0d-b7f6-f396dd59e0f2")
+	)
+	(wire
+		(pts
 			(xy 86.36 78.74) (xy 111.76 78.74)
 		)
 		(stroke
@@ -349,6 +429,16 @@
 			(type default)
 		)
 		(uuid "84ec77ed-3392-4d40-a3af-f941185a0ffb")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c07f1b4-36ed-4eff-9b96-39f1ef6884d0")
 	)
 	(wire
 		(pts
@@ -409,6 +499,16 @@
 			(type default)
 		)
 		(uuid "e27beba0-b4a7-48ab-9450-2e7c381ea181")
+	)
+	(wire
+		(pts
+			(xy 241.3 77.47) (xy 254 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4850cc8-0728-4512-8661-05a5432afa2b")
 	)
 	(bus
 		(pts
@@ -1517,6 +1617,16 @@
 				(justify left)
 			)
 		)
+		(pin "ISEN" input
+			(at 241.3 39.37 0)
+			(uuid "a0414d2b-16b3-4335-bef0-c33b0fc81647")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pump_board"
 				(path "/92eae144-0071-464d-be6a-9eaeb5f8d098/189942b8-7968-4178-bfe2-c840c1506356"
@@ -1670,6 +1780,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ISEN" input
+			(at 241.3 77.47 0)
+			(uuid "6aeba323-e306-48e7-8185-5c8be72c623b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1925,6 +2045,26 @@
 				(justify left)
 			)
 		)
+		(pin "SCL" input
+			(at 175.26 96.52 0)
+			(uuid "b2f8351c-3c65-4beb-9901-aa3c3903d7d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 175.26 92.71 0)
+			(uuid "9a10a768-fed0-45db-ba70-509cbefb9294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pump_board"
 				(path "/92eae144-0071-464d-be6a-9eaeb5f8d098/189942b8-7968-4178-bfe2-c840c1506356"
@@ -1995,6 +2135,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ISEN" input
+			(at 241.3 153.67 0)
+			(uuid "a4801ee0-f3a3-46a6-9dd7-f18fa89cd72d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2069,10 +2219,124 @@
 				(justify left)
 			)
 		)
+		(pin "ISEN" input
+			(at 241.3 115.57 0)
+			(uuid "de30a86b-95b6-4c30-90ca-7b23c71bac48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pump_board"
 				(path "/92eae144-0071-464d-be6a-9eaeb5f8d098/189942b8-7968-4178-bfe2-c840c1506356"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 63.5)
+		(size 25.4 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f6fbba5-3d56-4c9f-ac3d-68b70d1687d3")
+		(property "Sheetname" "ADC"
+			(at 263.525 97.155 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(thickness 0.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 254 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SDA" input
+			(at 254 92.71 180)
+			(uuid "658d86ce-a21e-45bd-8b23-4201106d2237")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PUMP_3_ISEN" input
+			(at 254 115.57 180)
+			(uuid "d6552dc0-2942-4148-9656-b7471608a23a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PUMP_1_ISEN" input
+			(at 254 69.85 180)
+			(uuid "3165e4d3-6590-464a-98be-b6679eb400d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PUMP_2_ISEN" input
+			(at 254 77.47 180)
+			(uuid "e9b7344d-4082-48ee-9a7e-ff833123a80a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PUMP_4_ISEN" input
+			(at 254 121.92 180)
+			(uuid "6ee584c2-4566-456e-a89b-9c9e834012eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 254 96.52 180)
+			(uuid "24359d27-d124-4842-a5f6-b4d6b1e54821")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pump_board"
+				(path "/92eae144-0071-464d-be6a-9eaeb5f8d098/189942b8-7968-4178-bfe2-c840c1506356"
+					(page "13")
 				)
 			)
 		)

@@ -511,10 +511,24 @@
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "microvia_diameter": 0.45,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.3,
-        "name": "1.8V",
+        "name": "1.1V",
         "pcb_color": "rgb(255, 153, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "12V",
+        "pcb_color": "rgb(132, 0, 0)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -531,7 +545,7 @@
         "microvia_drill": 0.3,
         "name": "3.3V",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 1,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -544,9 +558,37 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.45,
         "microvia_drill": 0.3,
+        "name": "5V",
+        "pcb_color": "rgb(204, 102, 0)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "CAN",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.45,
+        "microvia_drill": 0.3,
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 4,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -562,12 +604,68 @@
         "microvia_drill": 0.3,
         "name": "I2C",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 3,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "PUMP_CTRL",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "PUMP_OUT",
+        "pcb_color": "rgb(0, 0, 132)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "QSPI",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "SWD",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.1,
@@ -577,7 +675,7 @@
         "microvia_drill": 0.3,
         "name": "USB",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 0,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.17,
         "via_diameter": 0.45,
@@ -593,7 +691,7 @@
         "microvia_drill": 0.3,
         "name": "Unconnected",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 5,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -613,19 +711,7 @@
       },
       {
         "netclass": "I2C",
-        "pattern": "*SCL*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "*XTRIG1*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "*/TRG*"
-      },
-      {
-        "netclass": "3.3V",
-        "pattern": "*VRL*"
+        "pattern": "*/SCL*"
       },
       {
         "netclass": "Unconnected",
@@ -633,11 +719,11 @@
       },
       {
         "netclass": "3.3V",
-        "pattern": "*+3.3V*"
+        "pattern": "*+3.3V"
       },
       {
-        "netclass": "1.8V",
-        "pattern": "*+1.8V*"
+        "netclass": "5V",
+        "pattern": "*5V"
       },
       {
         "netclass": "GND",
@@ -650,6 +736,46 @@
       {
         "netclass": "USB",
         "pattern": "*D-"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "*QSPI*"
+      },
+      {
+        "netclass": "PUMP_CTRL",
+        "pattern": "*PUMP*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*_DM*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*_DP*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "*/CAN_*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "*SW*"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "*12V*"
+      },
+      {
+        "netclass": "PUMP_OUT",
+        "pattern": "*-OUT?)"
+      },
+      {
+        "netclass": "1.1V",
+        "pattern": "*1V1*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "*/CAN.*"
       }
     ]
   },
@@ -928,6 +1054,10 @@
     [
       "c8bd0ff2-14be-456c-aeee-c9a03cf7d230",
       "Enumeration"
+    ],
+    [
+      "9f6fbba5-3d56-4c9f-ac3d-68b70d1687d3",
+      "ADC"
     ]
   ],
   "text_variables": {

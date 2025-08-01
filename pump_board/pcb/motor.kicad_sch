@@ -1386,6 +1386,12 @@
 		(uuid "22dd25a6-38f2-4d26-8ef1-65440ed571fb")
 	)
 	(junction
+		(at 154.94 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab3c6a9-1041-4e20-b0ca-54c0d1ba77b0")
+	)
+	(junction
 		(at 123.19 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1415,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 153.67 109.22)
+			(xy 149.86 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 153.67 114.3)
+			(xy 154.94 109.22) (xy 154.94 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1522,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "49640ee2-bcc5-4dbd-a671-7ab26fa47443")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5233ad85-69f2-40b3-a086-c65bb64460a5")
 	)
 	(wire
 		(pts
@@ -1665,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 114.3) (xy 156.21 114.3)
+			(xy 154.94 114.3) (xy 156.21 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1834,6 +1850,17 @@
 			(justify right)
 		)
 		(uuid "a5b41aa7-d998-4d43-801e-152b08cfb574")
+	)
+	(hierarchical_label "ISEN"
+		(shape input)
+		(at 152.4 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2609359-e9f1-43a4-a65f-0750007828c5")
 	)
 	(hierarchical_label "IN1"
 		(shape input)
@@ -3474,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Value" "10R@100MHz"
+		(property "Value" "120R@100MHz"
 			(at 179.705 105.41 90)
 			(effects
 				(font
@@ -3545,7 +3572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2971881"
+		(property "LCSC" "C14709"
 			(at 178.816 116.586 0)
 			(effects
 				(font
@@ -4193,7 +4220,7 @@
 				)
 			)
 		)
-		(property "Value" "10R@100MHz"
+		(property "Value" "120R@100MHz"
 			(at 179.705 92.71 90)
 			(effects
 				(font
@@ -4264,7 +4291,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2971881"
+		(property "LCSC" "C14709"
 			(at 178.816 103.886 0)
 			(effects
 				(font
