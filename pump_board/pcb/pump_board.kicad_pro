@@ -990,6 +990,10 @@
     [
       "c8bd0ff2-14be-456c-aeee-c9a03cf7d230",
       "Enumeration"
+    ],
+    [
+      "9f6fbba5-3d56-4c9f-ac3d-68b70d1687d3",
+      "ADC"
     ]
   ],
   "text_variables": {
