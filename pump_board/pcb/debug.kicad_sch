@@ -1287,6 +1287,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -2377,6 +2386,15 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "CAN"
+		(members "RX" "TX")
+	)
+	(bus_alias "DBG_UART"
+		(members "RX" "TX")
+	)
+	(bus_alias "USB"
+		(members "D+" "D-")
+	)
 	(text "USB - Update & Debug"
 		(exclude_from_sim no)
 		(at 93.345 36.195 0)
@@ -2416,7 +2434,7 @@
 	)
 	(text "Tag-connector"
 		(exclude_from_sim no)
-		(at 227.965 109.22 0)
+		(at 227.965 111.125 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2426,16 +2444,6 @@
 			(justify bottom)
 		)
 		(uuid "687416ea-820f-4a72-89c6-da8395129074")
-	)
-	(text "CONFIG 2 vs 4 pumps"
-		(exclude_from_sim no)
-		(at 217.805 53.975 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d6920ef-4136-4d45-a72c-54e8045b8f87")
 	)
 	(text "SWD Debug"
 		(exclude_from_sim no)
@@ -2566,10 +2574,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f53f3811-01dc-41ce-846f-5b083276dc94")
-	)
-	(no_connect
-		(at 205.74 53.34)
-		(uuid "1cfe11aa-18a7-4472-8129-49f3ebc86e00")
 	)
 	(no_connect
 		(at 80.01 82.55)
@@ -3603,6 +3607,17 @@
 		)
 		(uuid "daca448a-037f-457b-ae8d-318719fd237a")
 	)
+	(hierarchical_label "{DBG_UART}"
+		(shape input)
+		(at 257.81 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18f00e9a-b328-487d-aa8b-a4a188a7661c")
+	)
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 245.11 146.05 0)
@@ -3625,17 +3640,6 @@
 		)
 		(uuid "42b8e571-9055-4b7d-8a45-98d3db221325")
 	)
-	(hierarchical_label "{DGB_UART}"
-		(shape input)
-		(at 257.81 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95d2c14e-0145-47f5-8d7f-42f29615afb9")
-	)
 	(hierarchical_label "{USB}"
 		(shape input)
 		(at 100.33 78.74 0)
@@ -3647,7 +3651,7 @@
 		)
 		(uuid "96251549-c5d7-400c-9fcb-a6db9df91b5d")
 	)
-	(hierarchical_label "{DGB_UART}"
+	(hierarchical_label "{DBG_UART}"
 		(shape input)
 		(at 86.36 125.73 0)
 		(effects
@@ -4850,7 +4854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -4933,6 +4937,15 @@
 		)
 		(property "Sim.Device" ""
 			(at 158.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

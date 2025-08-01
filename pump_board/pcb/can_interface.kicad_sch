@@ -1566,16 +1566,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Dual SATA ports passthrough"
-		(exclude_from_sim no)
-		(at 81.28 86.995 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36d5b3ff-3e4d-47c1-8d12-b87a4a398a9b")
-	)
 	(text "CAN transiever"
 		(exclude_from_sim no)
 		(at 179.07 42.545 0)
@@ -1648,10 +1638,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e51dabdd-ab06-431e-a36b-a3d7fd09e052")
-	)
-	(no_connect
-		(at 64.77 86.36)
-		(uuid "72d785df-377c-4d1b-a142-f370c5aaeb59")
 	)
 	(bus_entry
 		(at 218.44 59.69)
