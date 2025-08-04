@@ -13,7 +13,7 @@ outputs:
   layers: all
   options:
     keep_generated: true
-    max_commits: 3
+    max_commits: 0
     revision: 'HEAD'
     color_theme: '@COLOR_THEME@'
     zones: 'global'

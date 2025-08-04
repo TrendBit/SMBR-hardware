@@ -4418,7 +4418,7 @@
 		(uuid "3dc8e022-f2af-4f06-845a-0dd417b80a3f")
 	)
 	(label "SWCLK"
-		(at 203.2 138.43 180)
+		(at 203.2 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,7 +4498,7 @@
 		(uuid "abbfd3bc-73e8-42aa-b7d2-65babb1133b7")
 	)
 	(label "SWDIO"
-		(at 203.2 133.35 180)
+		(at 203.2 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)

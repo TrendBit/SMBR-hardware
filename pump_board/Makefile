@@ -24,6 +24,12 @@ kibot:
 clean:
 	rm -rf pcb_output_data
 
+kiri:
+	# mkdir -p pcb_output_data/kiri/web
+	# Link folder to itself in order to fix path issue with kiri-server 
+	-@ln -sf . pcb_output_data/kiri/web
+	pcb_output_data/kiri/kiri-server pcb_output_data/kiri/
+
 clean_template:
 	rm -rf 3d
 	rm -rf images
