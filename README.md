@@ -11,7 +11,20 @@ All the main modules are built on a similar basis. These are the RP2040 microcon
 
 ### Sensor board
 
-### Illumination module RGBW
+### Illumination board - Basic RGBW
+SMPBR illumination panel with 4 channels. Channels can be controlled individually from control module. Each module has own power limit based on on board sense resistor. Board has integrated thermistor in order to limit heat dissipation which could influence the experiment.
+
+This board has four basic colors:
+- Red 625nm 4.8W
+- Green 520nm 5.8W
+- Blue 465nm 5.8W
+- White (Warm) 2700K 6.1W
+
+<p align="center">
+  <img alt="3D Top Angled" src="illumination_board_basic_RGBW/images/angled_top.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="3D Bottom Angled" src="illumination_board_basic_RGBW/images/angled_bottom.png" width="45%">
+</p>
 
 ### Motor filter shield for peristaltic pump
 Small PCB directly soldered to motor terminals of Peristaltic pump motor. It acts as a low pass filter reducing EMI. However, it can also be soldered directly to the motor chassis, further improving EMC. It simplifies motor connection by allowing the motor to be connected via a connector on the board.
