@@ -14,7 +14,14 @@ Extension for RPi 4 which adds capabilities for communication and power inputs. 
   <img alt="3D Bottom Angled" src="interface_board/images/angled_bottom.png" width="45%">
 </p>
 
-### Control board
+# Control board
+Board responsible for main control function of SMPBR. Can be used to control illumination intensity. Drives peltier element which influence temperature of algae in bottle. Controls Aerator, Peristaltic pump, Mixer and heat control fans on device. Reads temperature of heater plate and LED panel. Can be used as additional CAN bus HUB. Is designed to be stacked on top of Interface module, as third layer of sandwich RPi-Interface-Control.
+
+<p align="center">
+  <img alt="3D Top Angled" src="control_board/images/angled_top.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="3D Bottom Angled" src="control_board/images/angled_bottom.png" width="45%">
+</p>
 
 ### Sensor board
 
@@ -49,7 +56,7 @@ Small PCB directly soldered to motor terminals of air pump motor. It acts as a l
   <img alt="3D Bottom Angled" src="motor_shield_airpump/images/angled_bottom.png" width="45%">
 </p>
 
-### Pump board
+### [WIP] Pump board 
 Board for expansion pump module, which is used to control additional peristaltic pumps. To this board up to 4 peristaltic pumps can be connected a controlled. Module can be connected to SMPBR reactor via expansion port. Multiple of those modules can be connected to one bio-reactor and can be chained bia expansion ports. Module also have external power, because when more modules will be connected to expansion port, main adapter can be overloaded. External power input is prioritized over power from extension cable.
 <p align="center">
   <img alt="3D Top Angled" src="pump_board/images/angled_top.png" width="45%">
