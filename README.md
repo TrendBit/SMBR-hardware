@@ -24,6 +24,13 @@ Board responsible for main control function of SMPBR. Can be used to control ill
 </p>
 
 ### Sensor board
+Module performing most of the basic measurements related to experiment. Consists of three boards which  can be connected together around sampling cuvette. Sample is pumped into cuvette and after adaptation the measurements can start. For OJIP measurement sample is saturated with high power 10W Green LED and resulting value is measured with adaptive gain IR energy sensor. Another measurement is optical density which can be measured at 6 defined wavelengths. Board also measures temperature in bottle via two contact-less thermometers (thermopiles).
+
+<p align="center">
+  <img alt="3D Top Angled" src="sensor_board/images/angled_top.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="3D Bottom Angled" src="sensor_board/images/angled_bottom.png" width="45%">
+</p>
 
 ### Illumination board - Basic RGBW
 SMPBR illumination panel with 4 channels. Channels can be controlled individually from control module. Each module has own power limit based on on board sense resistor. Board has integrated thermistor in order to limit heat dissipation which could influence the experiment.
@@ -43,17 +50,17 @@ This board has four basic colors:
 ### Motor filter shield for peristaltic pump
 Small PCB directly soldered to motor terminals of Peristaltic pump motor. It acts as a low pass filter reducing EMI. However, it can also be soldered directly to the motor chassis, further improving EMC. It simplifies motor connection by allowing the motor to be connected via a connector on the board.
 <p align="center">
-  <img alt="3D Top Angled" src="motor_shield_peristaltic/images/angled_top.png" width="45%">
+  <img alt="3D Top Angled" src="motor_shield_peristaltic/images/angled_top.png" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="3D Bottom Angled" src="motor_shield_peristaltic/images/angled_bottom.png" width="45%">
+  <img alt="3D Bottom Angled" src="motor_shield_peristaltic/images/angled_bottom.png" width="20%">
 </p>
 
 ### Motor filter shield for air pump
 Small PCB directly soldered to motor terminals of air pump motor. It acts as a low pass filter reducing EMI. However, it can also be soldered directly to the motor chassis, further improving EMC. It simplifies motor connection by allowing the motor to be connected via a connector on the board.
 <p align="center">
-  <img alt="3D Top Angled" src="motor_shield_airpump/images/angled_top.png" width="45%">
+  <img alt="3D Top Angled" src="motor_shield_airpump/images/angled_top.png" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="3D Bottom Angled" src="motor_shield_airpump/images/angled_bottom.png" width="45%">
+  <img alt="3D Bottom Angled" src="motor_shield_airpump/images/angled_bottom.png" width="20%">
 </p>
 
 ### [WIP] Pump board 
@@ -63,3 +70,7 @@ Board for expansion pump module, which is used to control additional peristaltic
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="3D Bottom Angled" src="pump_board/images/angled_bottom.png" width="45%">
 </p>
+
+### Sata Expansion port
+
+### Fluorometer LED
