@@ -4397,16 +4397,6 @@
 		)
 		(uuid "1557198c-be20-4744-ad0f-1786f53b6dc1")
 	)
-	(label "TX"
-		(at 273.05 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25dcf0db-4d02-4cc2-bd9a-d9845dbba899")
-	)
 	(label "RX"
 		(at 59.69 138.43 0)
 		(effects
