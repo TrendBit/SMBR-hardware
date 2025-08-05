@@ -5,8 +5,9 @@
 	(uuid "7d2ac840-e7f9-4c33-9b50-c9c00cf353d7")
 	(paper "A4")
 	(title_block
-		(title "Detector")
+		(title "Pump_board")
 		(date "2024-12-03")
+		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
 	(lib_symbols

@@ -1,17 +1,15 @@
 {
     "layout": {
-        "hspace": "3mm",
-        "vspace": "3mm",
-        "rows": "3",
-        "cols": "3",
+        "hspace": "4mm",
+        "vspace": "4mm",
+        "rows": "2",
+        "cols": "2",
+        "rotation": "90deg",
         "renamenet": "{orig}-{n}",
         "renameref": "{orig}-{n}"
     },
     "tabs": {
-        "type": "fixed",
-        "vwidth": "4mm",
-        "hwidth": "4mm",
-        "hcount": "0"
+        "type": "annotation"
     },
     "cuts": {
         "type": "vcuts"
@@ -42,7 +40,7 @@
         "vjustify": "top",
         "hjustify": "left",
         "hoffset": "8mm",
-        "text": "SMPBR - Peristaltic pump filter shield",
+        "text": "SMPBR - Pump board",
         "anchor": "tl"
     },
     "text2": {
@@ -72,7 +70,7 @@
         "thickness": "0.4mm",
         "vjustify": "top",
         "hjustify": "right",
-        "text": "07/25 v1.0",
+        "text": "08/25 v1.0",
         "anchor": "tr"
     },
     "post": {

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "ecc827a4-596e-4b9e-8125-ba512b27c4cf")
 	(paper "A4")
+	(title_block
+		(title "Pump_board")
+		(date "2024-12-03")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "148668ed-1075-4cbb-8cf6-174ed925351b")
 	(paper "A4")
+	(title_block
+		(title "Pump_board")
+		(date "2024-12-03")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names

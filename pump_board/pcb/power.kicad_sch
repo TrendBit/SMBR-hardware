@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "d2f3d679-0ca9-4f96-8c12-70ed8f41a6f3")
 	(paper "A4")
+	(title_block
+		(title "Pump_board")
+		(date "2024-12-03")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch_MountingPin"
 			(pin_names
