@@ -1022,15 +1022,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 186.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 186.69 83.82 0)
 			(effects
@@ -1041,15 +1032,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 186.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -1655,15 +1637,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 148.59 73.66 0)
 			(effects
@@ -1674,15 +1647,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 148.59 73.66 0)
 			(effects
 				(font

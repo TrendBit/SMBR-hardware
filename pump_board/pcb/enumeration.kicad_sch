@@ -2110,15 +2110,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 135.89 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 135.89 116.84 0)
 			(effects
@@ -2129,15 +2120,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 135.89 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -2225,51 +2207,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 137.16 69.85 0)
 			(effects
@@ -2280,15 +2217,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 137.16 69.85 0)
 			(effects
 				(font
@@ -2444,15 +2372,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 93.98 116.84 0)
 			(effects
@@ -2463,15 +2382,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 93.98 116.84 0)
 			(effects
 				(font
@@ -3030,15 +2940,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C7835"
 			(at 162.56 63.5 0)
 			(effects
@@ -3269,51 +3170,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 137.16 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 137.16 57.15 0)
 			(effects
@@ -3324,15 +3180,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -3553,15 +3400,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 182.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 182.88 49.53 0)
 			(effects
@@ -3572,15 +3410,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 182.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 182.88 49.53 0)
 			(effects
 				(font
@@ -3864,15 +3693,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 171.45 119.38 0)
 			(effects
@@ -3883,15 +3703,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 171.45 119.38 0)
 			(effects
 				(font
@@ -4119,15 +3930,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 127 63.5 0)
 			(effects
 				(font

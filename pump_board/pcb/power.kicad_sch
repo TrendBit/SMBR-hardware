@@ -3861,15 +3861,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 53.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 53.34 137.16 0)
 			(effects
@@ -3880,15 +3871,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 53.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 53.34 137.16 0)
 			(effects
 				(font
@@ -4135,15 +4117,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 218.44 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "da5f1bac-2b2b-4397-87ae-af6f2aa2b85d")
 		)
@@ -4288,15 +4261,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 104.14 137.16 0)
 			(effects
@@ -4307,15 +4271,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -4412,15 +4367,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 160.02 137.16 0)
 			(effects
 				(font
@@ -4639,43 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "LCSC" "C14709"
 			(at 67.056 55.626 0)
 			(effects
 				(font
@@ -4694,15 +4604,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 67.31 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 67.31 48.26 90)
 			(effects
 				(font
@@ -4855,15 +4756,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RVT1V100M0405"
-			(at 81.28 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 81.28 137.16 0)
 			(effects
@@ -4874,15 +4766,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 81.28 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 81.28 137.16 0)
 			(effects
 				(font
@@ -4987,15 +4870,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 171.45 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "662c454c-5590-48eb-ae32-b3aec53518f2")
 		)
@@ -5086,15 +4960,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 95.25 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 95.25 48.26 90)
 			(effects
 				(font
@@ -5283,15 +5148,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 231.14 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "faad5a44-54ca-453c-9f61-97df24064e3a")
 		)
@@ -5382,15 +5238,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 184.15 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 184.15 55.88 90)
 			(effects
 				(font
@@ -5495,15 +5342,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 209.55 63.5 0)
 			(effects
@@ -5514,15 +5352,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 209.55 63.5 0)
 			(effects
 				(font
@@ -5730,42 +5559,6 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 99.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 99.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 99.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 99.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C14709"
 			(at 99.314 122.174 0)
 			(effects
@@ -5785,15 +5578,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 99.06 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 99.06 129.54 90)
 			(effects
 				(font
@@ -6012,15 +5796,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 93.98 137.16 0)
 			(effects
@@ -6031,15 +5806,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 93.98 137.16 0)
 			(effects
 				(font
@@ -6126,15 +5892,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RVT1V100M0405"
-			(at 45.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 45.72 137.16 0)
 			(effects
@@ -6145,15 +5902,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 45.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 45.72 137.16 0)
 			(effects
 				(font
@@ -6391,15 +6139,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 104.14 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "025a4b60-dd80-487b-a59e-a5fcd140f33b")
 		)
@@ -6564,15 +6303,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 160.02 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 160.02 124.46 0)
 			(effects
 				(font
@@ -6873,15 +6603,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 196.85 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8b1f3698-f2f6-4f75-bb8a-a71c769473bf")
 		)
@@ -7102,15 +6823,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 95.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" ""
 			(at 95.25 62.23 0)
 			(effects
@@ -7208,15 +6920,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 207.01 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 207.01 137.16 0)
 			(effects
 				(font
@@ -7434,15 +7137,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 166.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 166.37 57.15 0)
 			(effects
@@ -7453,15 +7147,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 166.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 166.37 57.15 0)
 			(effects
 				(font
@@ -7876,43 +7561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 67.31 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 67.31 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 67.31 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 67.31 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "LCSC" "C14709"
 			(at 67.056 50.546 0)
 			(effects
 				(font
@@ -7931,15 +7580,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 67.31 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 67.31 43.18 90)
 			(effects
 				(font
@@ -8178,15 +7818,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 238.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 238.76 63.5 0)
 			(effects
 				(font
@@ -8462,53 +8093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=sGAEpiMZZMtbRapU8LlZD7Jimkw4KnZBmcvzrUXABj8%3D"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C8678"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Comchip-Technology/CDBA340-HF?qs=2qJf6qQ4IOK2MGmBCnkoYw%3D%3D"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "SS34"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C8678"
 			(at 65.405 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SS34"
-			(at 67.31 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,15 +8112,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -8630,15 +8207,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 81.28 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 81.28 45.72 90)
 			(effects
 				(font
@@ -8790,15 +8358,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AMS1117-3.3"
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 67.31 129.54 0)
 			(effects
@@ -8809,15 +8368,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -8923,15 +8473,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 201.93 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "66c66ba9-bec0-46be-8bac-2c379bae9ada")
 		)
@@ -9020,15 +8561,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 207.01 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 207.01 124.46 0)
 			(effects
 				(font
@@ -9198,15 +8730,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 43.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "MP"
 			(uuid "f32c5bc2-7da0-4cb0-a502-3fd0d037a455")
 		)
@@ -9301,15 +8824,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 118.11 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 118.11 57.15 90)
 			(effects
 				(font

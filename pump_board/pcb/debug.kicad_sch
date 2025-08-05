@@ -4656,15 +4656,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 215.9 67.31 0)
 			(effects
@@ -4675,15 +4666,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -4838,15 +4820,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 69.85 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 69.85 135.89 0)
 			(effects
@@ -4857,15 +4830,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 69.85 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 69.85 135.89 0)
 			(effects
 				(font
@@ -5155,15 +5119,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " TYPE-C16PIN"
-			(at 92.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 92.71 62.23 0)
 			(effects
@@ -5174,15 +5129,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 92.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -5447,15 +5393,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B5817W"
-			(at 153.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 153.67 46.99 0)
 			(effects
@@ -5466,15 +5403,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 153.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 153.67 46.99 0)
 			(effects
 				(font
@@ -5562,15 +5490,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 116.84 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 116.84 46.99 90)
 			(effects
@@ -5581,15 +5500,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 116.84 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 116.84 46.99 90)
 			(effects
 				(font
@@ -5744,15 +5654,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 116.84 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 116.84 55.88 90)
 			(effects
@@ -5763,15 +5664,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 116.84 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 116.84 55.88 90)
 			(effects
 				(font
@@ -5916,51 +5808,6 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/755-SML-D12V8WT86"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KT-0603R"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2286"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "SML-D12V8WT86 "
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/SML-D12V8WT86?qs=4kLU8WoGk0uh2PhEoCCv1w%3D%3D"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2286"
 			(at 224.79 56.1975 0)
 			(effects
@@ -5981,24 +5828,6 @@
 		)
 		(property "FT Rotation Offset" ""
 			(at 220.98 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 220.98 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,15 +5914,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM03B-SRSS-TB "
-			(at 111.76 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 111.76 135.89 0)
 			(effects
@@ -6104,15 +5924,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 111.76 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -6205,15 +6016,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 226.06 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 226.06 67.31 0)
 			(effects
@@ -6224,15 +6026,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 226.06 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 226.06 67.31 0)
 			(effects
 				(font
@@ -6726,43 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 129.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 129.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 129.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 129.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "LCSC" "C14709"
 			(at 129.286 54.356 0)
 			(effects
 				(font
@@ -6781,15 +6538,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 129.54 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 129.54 46.99 90)
 			(effects
 				(font
@@ -7079,15 +6827,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 116.84 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 116.84 50.8 90)
 			(effects
@@ -7098,15 +6837,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 116.84 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 116.84 50.8 90)
 			(effects
 				(font
@@ -7328,15 +7058,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM03B-SRSS-TB "
-			(at 38.1 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 38.1 135.89 0)
 			(effects
@@ -7347,15 +7068,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 38.1 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 38.1 135.89 0)
 			(effects
 				(font
@@ -7448,15 +7160,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 237.49 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 237.49 134.62 0)
 			(effects
@@ -7467,15 +7170,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 237.49 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 237.49 134.62 0)
 			(effects
 				(font
@@ -7587,15 +7281,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 142.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 142.24 135.89 0)
 			(effects
@@ -7606,15 +7291,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 142.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 142.24 135.89 0)
 			(effects
 				(font

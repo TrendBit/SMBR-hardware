@@ -2763,33 +2763,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/onsemi/SZNUP2105LT1G?qs=PJJcWtbOkNWqqZbXH80dfQ%3D%3D"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PSM712-LF-T7"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "SZNUP2105LT1G"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C32677"
 			(at 168.275 54.61 0)
 			(effects
@@ -2809,15 +2782,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 168.91 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 168.91 63.5 90)
 			(effects
 				(font
@@ -2900,33 +2864,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Texas-Instruments/SN65HVD230DR?qs=QViXGNcIEAtifeQR3pYVUQ%3D%3D"
-			(at 194.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C12084"
-			(at 194.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SN65HVD230DR"
-			(at 194.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C12084"
 			(at 192.1159 52.07 0)
 			(effects
@@ -2946,15 +2883,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 194.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -3250,43 +3178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 97.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 97.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 97.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 97.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "LCSC" "C14709"
 			(at 97.536 102.616 0)
 			(effects
 				(font
@@ -3305,15 +3197,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 97.79 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 97.79 95.25 90)
 			(effects
 				(font
@@ -3389,43 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "LCSC" "C14709"
 			(at 97.536 81.026 0)
 			(effects
 				(font
@@ -3444,15 +3291,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 97.79 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 97.79 73.66 90)
 			(effects
 				(font
@@ -3532,15 +3370,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 148.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C144481"
 			(at 146.05 68.5799 0)
 			(effects
@@ -3560,15 +3389,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 148.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 148.59 69.85 0)
 			(effects
 				(font
@@ -3648,15 +3468,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 148.59 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C144481"
 			(at 146.05 55.8799 0)
 			(effects
@@ -3676,15 +3487,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 148.59 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 148.59 57.15 0)
 			(effects
 				(font
@@ -3935,15 +3737,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 48.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "653d8bf0-dd4c-4079-99d7-2dac8f534b9f")
 		)
@@ -4097,43 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLM21PG220SN1D?qs=tuW2Z%252BT4A0yqSWmso6vkmg%3D%3D"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " GZ1608D601TF"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPNA" "BLE18PK100SN1D"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://cz.mouser.com/ProductDetail/Murata-Electronics/BLE18PK100SN1D?qs=W%2FMpXkg%252BdQ6tzBmLeY1psA%3D%3D"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "LCSC" "C14709"
 			(at 97.536 97.536 0)
 			(effects
 				(font
@@ -4152,15 +3909,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 97.79 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 97.79 90.17 90)
 			(effects
 				(font
@@ -4316,15 +4064,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 207.01 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 207.01 73.66 0)
 			(effects
@@ -4335,15 +4074,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 207.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 207.01 73.66 0)
 			(effects
 				(font
@@ -4487,15 +4217,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C57112"
 			(at 154.94 55.88 0)
 			(effects
@@ -4515,15 +4236,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 154.94 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 154.94 63.5 90)
 			(effects
 				(font
@@ -4611,15 +4323,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 204.47 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Position Offset" ""
 			(at 204.47 38.1 0)
 			(effects
@@ -4630,15 +4333,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 204.47 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 204.47 38.1 0)
 			(effects
 				(font
@@ -4936,15 +4630,6 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 48.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
 			(at 48.26 105.41 0)
 			(effects
 				(font
