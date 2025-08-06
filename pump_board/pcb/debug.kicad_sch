@@ -5125,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Position Offset" ""
+		(property "FT Position Offset" "0 , 1.33"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -6128,7 +6128,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "90"
 			(at 186.69 63.5 0)
 			(effects
 				(font
@@ -6237,7 +6237,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "90"
 			(at 184.15 135.89 0)
 			(effects
 				(font

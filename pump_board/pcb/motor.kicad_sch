@@ -2606,7 +2606,6 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 201.93 102.87 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2614,7 +2613,7 @@
 		(dnp no)
 		(uuid "67486dfa-cdb5-45db-a7a6-d707f425fd82")
 		(property "Reference" "J701"
-			(at 204.47 104.1401 0)
+			(at 204.47 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2622,7 @@
 			)
 		)
 		(property "Value" "DF3A-03P-2DSA"
-			(at 204.47 101.6001 0)
+			(at 204.47 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2787,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -3104,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 171.45 73.66 0)
 			(effects
 				(font

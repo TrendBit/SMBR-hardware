@@ -2353,7 +2353,7 @@
 	)
 	(sheet
 		(at 38.1 139.7)
-		(size 48.26 24.13)
+		(size 48.26 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)

@@ -15,6 +15,6 @@ Board for expansion pump module, which is used to control additional peristaltic
 - Surface: HASL Lead Free
 - Confirm Production file: No
 - Mark: Remove
-- Assembly: Economic - Top Side
+- Assembly: Standard - Top Side
 - Edge Rails/Fiducials: Added by JLCPCB
 - Confirm parts placement: Yes

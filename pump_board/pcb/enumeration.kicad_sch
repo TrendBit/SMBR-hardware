@@ -3869,15 +3869,15 @@
 		(dnp no)
 		(uuid "f9118387-18e6-4422-b0ff-96250ee01dff")
 		(property "Reference" "SW1201"
-			(at 127 55.88 0)
+			(at 125.095 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "HCTL TC-6615-8-260G"
-			(at 120.015 58.42 0)
+		(property "Value" "TC-6615-9.5-260G"
+			(at 125.095 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2845277"
+		(property "LCSC" "C2845278"
 			(at 127 63.5 0)
 			(effects
 				(font
