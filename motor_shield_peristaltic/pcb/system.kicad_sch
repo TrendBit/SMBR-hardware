@@ -434,172 +434,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Feedthrough"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "C_Feedthrough"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Feedthrough capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "EMI filter feedthrough capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Feedthrough_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.651 1.524)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.524 3.048)
-					(end -1.651 3.556)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Feedthrough_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -782,22 +616,16 @@
 		(uuid "4c435446-d11d-4eea-80eb-c5d5817dab6e")
 	)
 	(junction
-		(at 149.86 101.6)
+		(at 186.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f0c16f9-590b-433c-b9d6-90301ff49995")
 	)
 	(junction
-		(at 158.75 87.63)
+		(at 149.86 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6854b378-ebf8-4c97-975c-504f04450296")
-	)
-	(junction
-		(at 158.75 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77d4c95c-7bf3-4fcc-b541-7a4d836ec5ad")
+		(uuid "6b978457-d915-4a8f-b892-31d5fa7e238b")
 	)
 	(junction
 		(at 124.46 115.57)
@@ -812,10 +640,26 @@
 		(uuid "8a3db597-1192-4da8-b19b-2308390103c5")
 	)
 	(junction
-		(at 142.24 101.6)
+		(at 149.86 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "932c18aa-43a1-4e9d-aa92-f03513b132c2")
+	)
+	(junction
+		(at 179.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8be6460-6528-48a6-80b9-f3d232d19208")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d5443f-c312-46a7-8ad2-cc4137a0d6b8")
 	)
 	(wire
 		(pts
@@ -839,16 +683,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 158.75 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e3b8a1-959a-495f-8122-72da8063b123")
-	)
-	(wire
-		(pts
 			(xy 124.46 101.6) (xy 124.46 106.68)
 		)
 		(stroke
@@ -859,7 +693,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 87.63) (xy 158.75 87.63)
+			(xy 147.32 87.63) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -869,13 +703,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 158.75 106.68)
+			(xy 149.86 105.41) (xy 149.86 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55a06e7c-ac71-4373-a698-c94e7672c6fd")
+		(uuid "461b7d28-c906-44bb-9650-b90e52ea6755")
 	)
 	(wire
 		(pts
@@ -899,17 +733,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 115.57) (xy 158.75 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7979703c-248c-484a-a647-6f5a8bbef93b")
-	)
-	(wire
-		(pts
-			(xy 142.24 101.6) (xy 149.86 101.6)
+			(xy 179.07 101.6) (xy 186.69 101.6)
 		)
 		(stroke
 			(width 0)
@@ -929,13 +753,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 161.29 87.63)
+			(xy 149.86 87.63) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae9e21e0-00e6-417a-970a-60be10031691")
+		(uuid "941ad222-0766-4b6b-8be6-cb7bc59645c6")
 	)
 	(wire
 		(pts
@@ -949,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 158.75 115.57)
+			(xy 147.32 115.57) (xy 149.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -999,16 +823,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 153.67 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e75dfb-9606-4c65-a50c-b136aa063f7e")
-	)
-	(wire
-		(pts
 			(xy 124.46 115.57) (xy 124.46 114.3)
 		)
 		(stroke
@@ -1049,6 +863,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9beaf40-cf11-4515-bc64-ed7b574f2642")
+	)
+	(wire
+		(pts
 			(xy 135.89 115.57) (xy 139.7 115.57)
 		)
 		(stroke
@@ -1068,7 +892,7 @@
 		(uuid "e7cbc8e4-ac22-4d00-b252-24e4a44dfac7")
 	)
 	(label "CASE"
-		(at 142.24 101.6 0)
+		(at 179.07 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1129,7 +953,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 149.86 106.68 270)
+		(at 186.69 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1137,7 +961,7 @@
 		(dnp no)
 		(uuid "01ef465d-25c0-4b45-81e6-159300c9e174")
 		(property "Reference" "J107"
-			(at 152.4 112.395 90)
+			(at 189.23 112.395 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +970,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 153.035 109.855 90)
+			(at 189.865 109.855 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +979,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Motor_pad_shield"
-			(at 149.86 106.68 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 106.68 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +997,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 106.68 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1006,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 149.86 106.68 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1028,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 142.24 106.68 270)
+		(at 179.07 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1212,7 +1036,7 @@
 		(dnp no)
 		(uuid "0f4c22bc-0765-4be7-9222-be17e3efc2c2")
 		(property "Reference" "J108"
-			(at 144.78 112.395 90)
+			(at 181.61 112.395 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1045,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 145.415 109.855 90)
+			(at 182.245 109.855 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1054,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Motor_pad_shield"
-			(at 142.24 106.68 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 106.68 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1072,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 106.68 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1081,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 142.24 106.68 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1274,7 @@
 			)
 		)
 		(property "Value" "DF3EA-3P-2H"
-			(at 101.6 103.2255 0)
+			(at 205.74 101.9555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,8 +1337,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 156.21 101.6 270)
+		(lib_id "Device:C")
+		(at 149.86 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1523,7 +1347,7 @@
 		(fields_autoplaced yes)
 		(uuid "40be9ae3-7809-4deb-a7db-006aa54a2d5e")
 		(property "Reference" "C101"
-			(at 161.29 100.3299 90)
+			(at 153.67 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,8 +1355,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 161.29 102.8699 90)
+		(property "Value" "1uF"
+			(at 153.67 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,8 +1364,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCY_passives:C-FT_1206_3216Metric"
-			(at 156.21 101.6 90)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 150.8252 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1374,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 101.6 90)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,8 +1382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Feedthrough capacitor"
-			(at 156.21 101.6 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,8 +1391,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C433069"
-			(at 156.21 101.6 0)
+		(property "LCSC" "C1848"
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,9 +1402,6 @@
 		)
 		(pin "1"
 			(uuid "a3784c5b-5281-4b8e-ac2f-066b49309d7b")
-		)
-		(pin "3"
-			(uuid "2680a7fa-03ef-4b13-87e3-aabf3c9e3c15")
 		)
 		(pin "2"
 			(uuid "55dc0ea4-8063-463b-8fe6-e2422b2a5363")
@@ -1596,7 +1417,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 149.86 96.52 90)
+		(at 186.69 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1604,7 +1425,7 @@
 		(dnp no)
 		(uuid "86f2bc63-b9ea-4b1d-bc4c-d7ddd772b044")
 		(property "Reference" "J106"
-			(at 147.32 90.805 90)
+			(at 184.15 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1434,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 146.685 93.345 90)
+			(at 183.515 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1443,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Motor_pad_shield"
-			(at 149.86 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1461,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1470,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 149.86 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1570,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 166.37 87.63 0)
+		(at 162.56 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1758,7 +1579,7 @@
 		(fields_autoplaced yes)
 		(uuid "a17a5e99-f4ab-4bde-92dd-89678db811d0")
 		(property "Reference" "J103"
-			(at 168.91 86.3599 0)
+			(at 165.1 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1588,7 @@
 			)
 		)
 		(property "Value" "MOT-"
-			(at 168.91 88.8999 0)
+			(at 165.1 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +1597,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Motor_pad_peri"
-			(at 166.37 87.63 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 87.63 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1615,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 87.63 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1624,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 166.37 87.63 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1646,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 166.37 115.57 0)
+		(at 162.56 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1834,7 +1655,7 @@
 		(fields_autoplaced yes)
 		(uuid "a17b70e0-5419-4aae-90e8-6620b04bcc94")
 		(property "Reference" "J102"
-			(at 168.91 114.2999 0)
+			(at 165.1 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1664,7 @@
 			)
 		)
 		(property "Value" "MOT+"
-			(at 168.91 116.8399 0)
+			(at 165.1 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1673,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Motor_pad_peri"
-			(at 166.37 115.57 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 115.57 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1691,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 115.57 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1700,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 166.37 115.57 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +1878,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 142.24 96.52 90)
+		(at 179.07 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2065,7 +1886,7 @@
 		(dnp no)
 		(uuid "f089e17d-47a4-4d2d-935d-fd3d3255dc35")
 		(property "Reference" "J104"
-			(at 139.7 90.805 90)
+			(at 176.53 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +1895,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 139.065 93.345 90)
+			(at 175.895 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +1904,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Motor_pad_shield"
-			(at 142.24 96.52 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +1913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 96.52 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +1922,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 96.52 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +1931,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 142.24 96.52 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

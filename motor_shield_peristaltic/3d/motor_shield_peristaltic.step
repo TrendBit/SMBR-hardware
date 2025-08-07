@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('motor_shield_peristaltic.step','2025-08-07T19:39:44',(
+FILE_NAME('motor_shield_peristaltic.step','2025-08-07T21:35:51',(
     'Pcbnew'),('Kicad'),'Open CASCADE STEP processor 7.6',
   'KiCad to STEP converter','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
@@ -7858,7 +7858,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #7672 = PRODUCT_DEFINITION_SHAPE('','',#7673);
 #7673 = PRODUCT_DEFINITION('design','',#7674,#7677);
 #7674 = PRODUCT_DEFINITION_FORMATION('','',#7675);
-#7675 = PRODUCT('kibot_4koct5po_PCB','kibot_4koct5po_PCB','',(#7676));
+#7675 = PRODUCT('kibot_r3pkazyo_PCB','kibot_r3pkazyo_PCB','',(#7676));
 #7676 = PRODUCT_CONTEXT('',#2,'mechanical');
 #7677 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #7678 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#7679),#10169);

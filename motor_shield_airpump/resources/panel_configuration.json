@@ -3,7 +3,7 @@
         "hspace": "3mm",
         "vspace": "3mm",
         "rows": "3",
-        "cols": "3",
+        "cols": "4",
         "renamenet": "{orig}-{n}",
         "renameref": "{orig}-{n}"
     },

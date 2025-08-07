@@ -2,8 +2,8 @@
     "layout": {
         "hspace": "3mm",
         "vspace": "3mm",
-        "rows": "3",
-        "cols": "3",
+        "rows": "4",
+        "cols": "5",
         "renamenet": "{orig}-{n}",
         "renameref": "{orig}-{n}"
     },
@@ -20,6 +20,7 @@
         "type": "railstb",
         "vspace": "3mm",
         "mintotalheight": "70mm",
+        "mintotalwidth": "70mm",
         "fillet": "2mm"
     },
     "tooling": {
