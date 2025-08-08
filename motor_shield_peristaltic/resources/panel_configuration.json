@@ -14,7 +14,8 @@
         "hcount": "0"
     },
     "cuts": {
-        "type": "vcuts"
+        "type": "vcuts",
+        "layer": "User.1"
     },
     "framing": {
         "type": "railstb",
