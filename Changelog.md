@@ -1,6 +1,14 @@
 # Changelog
 
-## [Unreleased] Control board v1.2
+## Fluorometer LED v1.2
+#### Added
+- Alignment tab was added so board can be easily indexed to correct position on part
+
+#### Changed
+- Swap connectors for solder pads
+    - Connector placement was not consistent and could result in short to Slug
+
+## Control board v1.2
 #### Changed
 - Update LED driver input filter values in order to work in both modes:
     - Analog mode, limited to range 25-100% with input frequency of 1 MHz
@@ -14,8 +22,30 @@
 - Reduce value of motor filtering capacitors to 10nF (from 1uf)
     - Because sometimes triggered over-current protection of driver 
 
-## Control board v1.1
+## Fluorometer LED v1.1
+#### Changed
+- LED connection was changed from 4S1P to 2S2P
+    - This reduces total voltage across LED and enables buck LED driver at 12V
 
+## Sensor board v1.1
+#### Fixed
+- Incorrect polarity of thermopile amplifier
+- Ringing on Emissive spectrophotometer when saturated (new analog filter)
+- LED pins are now unified between all modules
+
+## Interface board v1.1
+#### Added
+- Thermal sensor on I2C bus readable from RPi
+- New low-pass filter for current sense
+
+#### Changed
+- Use rectifiers for PoE to produce less heat
+
+#### Fixed  
+- CAN transceiver mode of operation set as High speed
+- CAN transceiver is set to run mode by default
+
+## Control board v1.1
 #### Added
 - Bulk capacitance to motor drivers
 - Additional decoupling capacitor to motor drivers
