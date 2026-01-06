@@ -9014,7 +9014,7 @@
 				)
 			)
 		)
-		(property "Value" "DC-044A-A250"
+		(property "Value" "DC-044A-A200"
 			(at 43.18 41.91 0)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720576"
+		(property "LCSC" "C720575"
 			(at 43.18 48.26 0)
 			(effects
 				(font
